@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m3429a9cd-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_TERRITORY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="3109.0" lastUpdated="2013-06-24 13:52:22" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[PGI_D_TERRITORY]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m3429a9ce-0c2c-1000-ae5d-0ac2424e0000" name="terr_key" dataType="INT" precision="10" rowCount="2746.0" lastUpdated="2012-05-30 14:21:13" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9cf-0c2c-1000-ae5d-0ac2424e0000" name="terr_id" dataType="VARCHAR" precision="8" rowCount="2746.0" lastUpdated="2012-05-30 14:21:13" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d0-0c2c-1000-ae5d-0ac2424e0000" name="terr_cd" dataType="VARCHAR" precision="16" rowCount="2746.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d1-0c2c-1000-ae5d-0ac2424e0000" name="terr_sd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d2-0c2c-1000-ae5d-0ac2424e0000" name="terr_ld" dataType="VARCHAR" precision="80" rowCount="0.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d3-0c2c-1000-ae5d-0ac2424e0000" name="terr_sales_rep_name" dataType="VARCHAR" precision="80" rowCount="2581.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d4-0c2c-1000-ae5d-0ac2424e0000" name="terr_sales_rep_email" dataType="VARCHAR" precision="255" nullable="true" rowCount="809.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d5-0c2c-1000-ae5d-0ac2424e0000" name="terr_sales_rep_phone_num" dataType="VARCHAR" precision="80" nullable="true" rowCount="356.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d6-0c2c-1000-ae5d-0ac2424e0000" name="terr_dir_name" dataType="VARCHAR" precision="80" nullable="true" rowCount="241.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d7-0c2c-1000-ae5d-0ac2424e0000" name="terr_dir_email" dataType="VARCHAR" precision="255" nullable="true" rowCount="154.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d8-0c2c-1000-ae5d-0ac2424e0000" name="terr_dir_phone_num" dataType="VARCHAR" precision="80" nullable="true" rowCount="60.0" lastUpdated="2012-05-30 14:21:14" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9d9-0c2c-1000-ae5d-0ac2424e0000" name="terr_vp_name" dataType="VARCHAR" precision="80" nullable="true" rowCount="78.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9da-0c2c-1000-ae5d-0ac2424e0000" name="terr_vp_email" dataType="VARCHAR" precision="255" nullable="true" rowCount="64.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9db-0c2c-1000-ae5d-0ac2424e0000" name="terr_vp_phone_num" dataType="VARCHAR" precision="80" nullable="true" rowCount="26.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9dc-0c2c-1000-ae5d-0ac2424e0000" name="terr_channel_num" dataType="VARCHAR" precision="80" rowCount="33.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9dd-0c2c-1000-ae5d-0ac2424e0000" name="terr_channel_nam" dataType="VARCHAR" precision="80" rowCount="0.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9de-0c2c-1000-ae5d-0ac2424e0000" name="terr_channel_desc" dataType="VARCHAR" precision="255" rowCount="36.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9df-0c2c-1000-ae5d-0ac2424e0000" name="eff_start_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="1.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e0-0c2c-1000-ae5d-0ac2424e0000" name="eff_end_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="1.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e1-0c2c-1000-ae5d-0ac2424e0000" name="curr_rec_fl" dataType="CHAR" precision="1" rowCount="1.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e2-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="113.0" lastUpdated="2012-05-30 14:21:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e3-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e4-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="113.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e5-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e6-0c2c-1000-ae5d-0ac2424e0000" name="terr_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e7-0c2c-1000-ae5d-0ac2424e0000" name="terr_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e8-0c2c-1000-ae5d-0ac2424e0000" name="terr_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="5.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3429a9e9-0c2c-1000-ae5d-0ac2424e0000" name="terr_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:16" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m3429a9ea-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_TERRITORY">
+<RefColumns>
+<RefColumn refId="m3429a9ea-0c2c-1000-ae5d-0ac2424e0000-m3429a9ce-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/3429a9cd-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ce-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

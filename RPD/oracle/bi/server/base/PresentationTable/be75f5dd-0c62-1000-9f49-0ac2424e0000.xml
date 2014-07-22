@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mbe75f5dd-0c62-1000-9f49-0ac2424e0000" name="Project Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="mbe75f5da-0c62-1000-9f49-0ac2424e0000" name="Cat Gen01 Cd" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb35c6d63-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mbe75f5d9-0c62-1000-9f49-0ac2424e0000" name="Category Cd" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb35170e0-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mbe75f5dd-0c62-1000-9f49-0ac2424e0000-mbe75f5de-0c62-1000-9f49-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/be75f5de-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5de-0c62-1000-9f49-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

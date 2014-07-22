@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m25ac57e0-0c62-1000-a784-0ac2424e0000" name="Dim - Project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m812d2324-0c61-1000-8e45-0ac2424e0000" name="Local Cur" isWriteable="false">
+<AttrDefn mdsid="m812d2326-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646531361294527">
+<Expr mdsid="m00000001-01f4-0000-db22-b73600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."local_cur"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-db22-b73600000000-m961d58cf-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58cf-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m25c006f0-0c62-1000-a784-0ac2424e0000" name="Project Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m25c006f0-0c62-1000-a784-0ac2424e0000-m812d2324-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/25ac57e0-0c62-1000-a784-0ac2424e0000.xml#m812d2324-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m25ac57e0-0c62-1000-a784-0ac2424e0000-m25b00160-0c62-1000-a784-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/25b00160-0c62-1000-a784-0ac2424e0000.xml#m25b00160-0c62-1000-a784-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

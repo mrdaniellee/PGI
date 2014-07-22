@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="md903c131-0c57-1000-ba5a-0ac2424e0000" name="Revenue Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<RefContentFolders>
+<RefPresentationTable refId="md903c131-0c57-1000-ba5a-0ac2424e0000-m99825a40-0c6f-1000-886d-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/99825a40-0c6f-1000-886d-0ac2424e0000.xml#m99825a40-0c6f-1000-886d-0ac2424e0000"/>
+<RefPresentationTable refId="md903c131-0c57-1000-ba5a-0ac2424e0000-m99716a50-0c6f-1000-886d-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/99716a50-0c6f-1000-886d-0ac2424e0000.xml#m99716a50-0c6f-1000-886d-0ac2424e0000"/>
+<RefPresentationTable refId="md903c131-0c57-1000-ba5a-0ac2424e0000-m919324d0-0c70-1000-8029-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/919324d0-0c70-1000-8029-0ac2424e0000.xml#m919324d0-0c70-1000-8029-0ac2424e0000"/>
+<RefPresentationTable refId="md903c131-0c57-1000-ba5a-0ac2424e0000-ma430b940-0c7a-1000-8029-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/a430b940-0c7a-1000-8029-0ac2424e0000.xml#ma430b940-0c7a-1000-8029-0ac2424e0000"/>
+<RefPresentationTable refId="md903c131-0c57-1000-ba5a-0ac2424e0000-mbdf6b3e1-0c87-1000-a6e9-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/bdf6b3e1-0c87-1000-a6e9-0ac2424e0000.xml#mbdf6b3e1-0c87-1000-a6e9-0ac2424e0000"/>
+</RefContentFolders>
+</PresentationTable>

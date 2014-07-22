@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me656d098-0c61-1000-8029-0ac2424e0000" name="GL Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="me656d09b-0c61-1000-8029-0ac2424e0000" name="Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#md55697b2-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d09c-0c61-1000-8029-0ac2424e0000" name="Quarter" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#md55beee2-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d09d-0c61-1000-8029-0ac2424e0000" name="Month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#md55d4e72-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d0a3-0c61-1000-8029-0ac2424e0000" name="Month Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#mb6d54f32-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="md4c85811-0c70-1000-8029-0ac2424e0000" name="Month Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m4679c202-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf10c34b1-0c61-1000-8029-0ac2424e0000" name="Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#md55203d2-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="me656d098-0c61-1000-8029-0ac2424e0000-me656d0a4-0c61-1000-8029-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e656d0a4-0c61-1000-8029-0ac2424e0000.xml#me656d0a4-0c61-1000-8029-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

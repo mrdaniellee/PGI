@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalDisplayFolder mdsid="m25910150-0c5a-1000-891c-0ac2424e0000" name="Facts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" databaseRef="/oracle/bi/server/base/Database/3428bf60-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf60-0c2c-1000-ae5d-0ac2424e0000">
+<RefTables>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-m34345820-0c2c-1000-ae5d-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/34345820-0c2c-1000-ae5d-0ac2424e0000.xml#m34345820-0c2c-1000-ae5d-0ac2424e0000"/>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-m26bd7360-0c5a-1000-891c-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/26bd7360-0c5a-1000-891c-0ac2424e0000.xml#m26bd7360-0c5a-1000-891c-0ac2424e0000"/>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-ma2b71290-0c6f-1000-886d-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/a2b71290-0c6f-1000-886d-0ac2424e0000.xml#ma2b71290-0c6f-1000-886d-0ac2424e0000"/>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-m26e51fa0-0c5a-1000-891c-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/26e51fa0-0c5a-1000-891c-0ac2424e0000.xml#m26e51fa0-0c5a-1000-891c-0ac2424e0000"/>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-m26d78b10-0c5a-1000-891c-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b10-0c5a-1000-891c-0ac2424e0000"/>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-m961d58c0-0c2c-1000-ae5d-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58c0-0c2c-1000-ae5d-0ac2424e0000"/>
+<RefPhysicalTable refId="m25910150-0c5a-1000-891c-0ac2424e0000-m23737180-0ca7-1000-8029-0ac2424e0000" tableRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737180-0ca7-1000-8029-0ac2424e0000"/>
+</RefTables>
+</PhysicalDisplayFolder>

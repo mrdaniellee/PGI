@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m177fb220-0c58-1000-ba5a-0ac2424e0000" name="Access Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m17846d14-0c58-1000-ba5a-0ac2424e0000" name="Transport Type Key" isWriteable="false">
+<AttrDefn mdsid="m17846d16-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:621351357249854">
+<Expr mdsid="m00000001-01f4-0000-1bd7-f71600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D18 Access Type"."trnsprt_type_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-1bd7-f71600000000-m34875a21-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34875a20-0c2c-1000-ae5d-0ac2424e0000.xml#m34875a21-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m178caa74-0c58-1000-ba5a-0ac2424e0000" name="Access Type" isWriteable="false">
+<AttrDefn mdsid="m178caa76-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:621431357249854">
+<Expr mdsid="m00000002-01f4-0000-c5de-dd1600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D18 Access Type"."trnsprt_type_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-c5de-dd1600000000-m34875a23-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34875a20-0c2c-1000-ae5d-0ac2424e0000.xml#m34875a23-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m178caa75-0c58-1000-ba5a-0ac2424e0000" name="Access Type Group" isWriteable="false">
+<AttrDefn mdsid="m178caa77-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:621441357249854">
+<Expr mdsid="m00000003-01f4-0000-5c02-324400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D18 Access Type"."trnsprt_type_std_gen01_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-5c02-324400000000-mf33660b4-0cae-1000-bd59-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34875a20-0c2c-1000-ae5d-0ac2424e0000.xml#mf33660b4-0cae-1000-bd59-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m17846d15-0c58-1000-ba5a-0ac2424e0000" name="D18 Access Type_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m17846d15-0c58-1000-ba5a-0ac2424e0000-m17846d14-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m17846d14-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m177fb220-0c58-1000-ba5a-0ac2424e0000-m17846d17-0c58-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/17846d17-0c58-1000-ba5a-0ac2424e0000.xml#m17846d17-0c58-1000-ba5a-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

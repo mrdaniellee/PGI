@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="ma746ec31-0c75-1000-8029-0ac2424e0000" name="Scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="ma74bf540-0c75-1000-8029-0ac2424e0000" name="Scenario Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae66f-0c61-1000-8e45-0ac2424e0000">
+<Alias name="Scenario Gen01 Cd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="ma74bf542-0c75-1000-8029-0ac2424e0000" name="Scenario ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb97825e2-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

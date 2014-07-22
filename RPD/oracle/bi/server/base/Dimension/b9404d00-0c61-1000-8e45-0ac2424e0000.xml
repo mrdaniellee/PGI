@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mb9404d00-0c61-1000-8e45-0ac2424e0000" name="Scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb942be00-0c61-1000-8e45-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="mb942be00-0c61-1000-8e45-0ac2424e0000" name="All Scenarios" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Scenarios&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="mb942be00-0c61-1000-8e45-0ac2424e0000_mb97f9ff0-0c61-1000-8e45-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb97f9ff0-0c61-1000-8e45-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="mb97f9ff0-0c61-1000-8e45-0ac2424e0000" name="Scenario Gen01 Code" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Scenario Gen01 Code&apos;">
+<LogicalKey mdsid="mb98d82a0-0c61-1000-8e45-0ac2424e0000" name="Scenario Gen01 Code" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mb98d82a0-0c61-1000-8e45-0ac2424e0000-mb4aae66f-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae66f-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="mb97f9ff0-0c61-1000-8e45-0ac2424e0000_mb982fb50-0c61-1000-8e45-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb982fb50-0c61-1000-8e45-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mb97f9ff0-0c61-1000-8e45-0ac2424e0000-mb4aae66f-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae66f-0c61-1000-8e45-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="mb982fb50-0c61-1000-8e45-0ac2424e0000" name="Scenario" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Scenario&apos;">
+<LogicalKey mdsid="mb98b38b0-0c61-1000-8e45-0ac2424e0000" name="Scenario" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mb98b38b0-0c61-1000-8e45-0ac2424e0000-mb4aae673-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae673-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="mb98c4a20-0c61-1000-8e45-0ac2424e0000" name="Scenario ID">
+<RefColumns>
+<RefLogicalColumn refId="mb98c4a20-0c61-1000-8e45-0ac2424e0000-mb97825e2-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb97825e2-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mb982fb50-0c61-1000-8e45-0ac2424e0000-mb4aae673-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae673-0c61-1000-8e45-0ac2424e0000"/>
+<RefLogicalColumn refId="mb982fb50-0c61-1000-8e45-0ac2424e0000-mb97825e2-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb97825e2-0c61-1000-8e45-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

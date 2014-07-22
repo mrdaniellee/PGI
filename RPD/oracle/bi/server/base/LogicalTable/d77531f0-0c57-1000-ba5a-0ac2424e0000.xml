@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="md77531f0-0c57-1000-ba5a-0ac2424e0000" name="Fact-Revenue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="me17be055-0c57-1000-ba5a-0ac2424e0000" name="Quantity" isWriteable="false">
+<MeasureDefn mdsid="me1c4d020-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="me1c4d021-0c57-1000-ba5a-0ac2424e0000" name="AggRule_2050:619011357159547" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-ac9e-e3da00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Quantity")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-ac9e-e3da00000000-me17be055-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17be055-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="me17be056-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:618031357159547">
+<Expr mdsid="m00000002-01f4-0000-8f2c-32f300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-8f2c-32f300000000-m23737193-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737193-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me17577b5-0c57-1000-ba5a-0ac2424e0000" name="Billed Quantity" isWriteable="false">
+<MeasureDefn mdsid="me1be4070-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="me1be4071-0c57-1000-ba5a-0ac2424e0000" name="AggRule_2050:618971357159547" isDefault="true">
+<Expr mdsid="m00000003-01f4-0000-e6ec-432d00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Billed Quantity")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-e6ec-432d00000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="me17577b6-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:617571357159547">
+<Expr mdsid="m00000004-01f4-0000-b66c-83fe00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."billed_qty"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-b66c-83fe00000000-m237371aa-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371aa-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me178fa11-0c57-1000-ba5a-0ac2424e0000" name="Unbilled Quantity" isWriteable="false">
+<MeasureDefn mdsid="me1c0b170-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="me1c0b171-0c57-1000-ba5a-0ac2424e0000" name="AggRule_2050:618991357159547" isDefault="true">
+<Expr mdsid="m00000005-01f4-0000-eef1-58fe00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Unbilled Quantity")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-eef1-58fe00000000-me178fa11-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me178fa11-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="me178fa12-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:617801357159547">
+<Expr mdsid="m00000006-01f4-0000-b89f-e78b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."unbilled_qty"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-b89f-e78b00000000-m237371ab-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371ab-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me17f1491-0c57-1000-ba5a-0ac2424e0000" name="Discount Quantity" isWriteable="false">
+<MeasureDefn mdsid="me1cfa590-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="me1cfa591-0c57-1000-ba5a-0ac2424e0000" name="AggRule_2050:619031357159547" isDefault="true">
+<Expr mdsid="m00000007-01f4-0000-1e54-7d0700000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Discount Quantity")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-1e54-7d0700000000-me17f1491-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17f1491-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="me17f1492-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:618261357159547">
+<Expr mdsid="m00000008-01f4-0000-db30-c49000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."discount_qty"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-db30-c49000000000-m237371ac-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371ac-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me183f69d-0c57-1000-ba5a-0ac2424e0000" name="Avg Rate (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000009-01f4-0000-2841-3b9500000000" name="Expr">
+<ExprText><![CDATA["%1" / "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" / "PGI-DW"."Fact-Revenue"."Billed Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-2841-3b9500000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000009-01f4-0000-2841-3b9500000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="me183f69e-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:618491357159547">
+<Expr mdsid="m0000000a-01f4-0000-99b3-a1b300000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m474416e4-0c58-1000-ba5a-0ac2424e0000" name="Avg Rate (Local)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000000b-01f4-0000-5446-b97b00000000" name="Expr">
+<ExprText><![CDATA["%1" / "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (Local)" / "PGI-DW"."Fact-Revenue"."Billed Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-5446-b97b00000000-me205f7d0-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me205f7d0-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m0000000b-01f4-0000-5446-b97b00000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m474416e7-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:625841357329281">
+<Expr mdsid="m0000000c-01f4-0000-192c-ea9e00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me1875205-0c57-1000-ba5a-0ac2424e0000" name="Revenue (Local)" isWriteable="false">
+<MeasureDefn mdsid="me1d41260-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m6f3a9260-0c70-1000-8029-0ac2424e0000" name="AggRule_2050:701071367704263" isDefault="true">
+<Expr mdsid="m0000000d-01f4-0000-85bc-567200000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Revenue (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-85bc-567200000000-me1875205-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me1875205-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="me1875206-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:618721357159547">
+<Expr mdsid="m0000000e-01f4-0000-d4a8-9cac00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."sls_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-d4a8-9cac00000000-m23737195-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737195-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me18c0cf5-0c57-1000-ba5a-0ac2424e0000" name="Revenue Share (Local)" isWriteable="false">
+<MeasureDefn mdsid="me1daa210-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="me1daa211-0c57-1000-ba5a-0ac2424e0000" name="AggRule_2050:619091357159547" isDefault="true">
+<Expr mdsid="m0000000f-01f4-0000-0237-cc4200000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Revenue Share (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-0237-cc4200000000-me18c0cf5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me18c0cf5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="me18c0cf6-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:618951357159547">
+<Expr mdsid="m00000010-01f4-0000-34be-cf9400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."rev_shr_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-34be-cf9400000000-m237371b3-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371b3-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me205f7d0-0c57-1000-ba5a-0ac2424e0000" name="Net Revenue (Local)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000011-01f4-0000-235c-b69500000000" name="Expr">
+<ExprText><![CDATA["%1" - "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue (Local)" - "PGI-DW"."Fact-Revenue"."Revenue Share (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-235c-b69500000000-me1875205-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me1875205-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000011-01f4-0000-235c-b69500000000-me18c0cf5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me18c0cf5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="me205f7d1-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:619251357159547">
+<Expr mdsid="m00000012-01f4-0000-3423-d1fe00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="md7805599-0c57-1000-ba5a-0ac2424e0000" name="Revenue (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="md7847430-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m6f389690-0c70-1000-8029-0ac2424e0000" name="AggRule_2050:701061367704263" isDefault="true">
+<Expr mdsid="m00000013-01f4-0000-577f-671b00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Revenue (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-577f-671b00000000-md7805599-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="md780559b-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:615331357142704">
+<Expr mdsid="m00000014-01f4-0000-9f1f-e1c500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."sls_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-9f1f-e1c500000000-m237371a2-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a2-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="md7805598-0c57-1000-ba5a-0ac2424e0000" name="Revenue Share (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="md7825150-0c57-1000-ba5a-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="md7825151-0c57-1000-ba5a-0ac2424e0000" name="AggRule_2050:615361357142704" isDefault="true">
+<Expr mdsid="m00000015-01f4-0000-0b0b-f01300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Revenue Share (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-0b0b-f01300000000-md7805598-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805598-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="md780559a-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:615321357142704">
+<Expr mdsid="m00000016-01f4-0000-7e9b-72cd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."rev_shr_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-7e9b-72cd00000000-m237371b5-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371b5-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="md787cf90-0c57-1000-ba5a-0ac2424e0000" name="Net Revenue (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000017-01f4-0000-18f8-9bf100000000" name="Expr">
+<ExprText><![CDATA[IfNull("%1",0) - IfNull("%2",0)]]></ExprText>
+<ExprTextDesc><![CDATA[IfNull("PGI-DW"."Fact-Revenue"."Revenue (MAAP)",0) - IfNull("PGI-DW"."Fact-Revenue"."Revenue Share (MAAP)",0)]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-18f8-9bf100000000-md7805599-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000017-01f4-0000-18f8-9bf100000000-md7805598-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805598-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="md787cf91-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:615401357142704">
+<Expr mdsid="m00000018-01f4-0000-79de-6eb500000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb2216414-0c5b-1000-92db-0ac2424e0000" name="YTD Revenue (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000019-01f4-0000-1f1a-75bf00000000" name="Expr">
+<ExprText><![CDATA[ TODATE("%1", "%2")]]></ExprText>
+<ExprTextDesc><![CDATA[ TODATE("PGI-DW"."Fact-Revenue"."Revenue (MAAP)", "PGI-DW"."GL Date"."Year")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-1f1a-75bf00000000-md7805599-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000019-01f4-0000-1f1a-75bf00000000-md83c7990-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/d82d5e60-0c57-1000-ba5a-0ac2424e0000.xml#md83c7990-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mb2216417-0c5b-1000-92db-0ac2424e0000" name="AD_3900:644841358797124">
+<Expr mdsid="m0000001a-01f4-0000-d61f-2a2500000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m51501b76-0c63-1000-9f49-0ac2424e0000" name="Participant Cnt" isWriteable="false">
+<MeasureDefn mdsid="m5168fa90-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa91-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679661362070879" isDefault="true">
+<Expr mdsid="m0000001b-01f4-0000-59b1-f33100000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Participant Cnt")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-59b1-f33100000000-m51501b76-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m51501b76-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m51501b77-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678041362070879">
+<Expr mdsid="m0000001c-01f4-0000-e357-373e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."participant_cnt"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-e357-373e00000000-m237371b9-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371b9-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515831ba-0c63-1000-9f49-0ac2424e0000" name="Disc Amt (Local)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa92-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa93-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679681362070879" isDefault="true">
+<Expr mdsid="m0000001d-01f4-0000-23b4-223d00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Disc Amt (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-23b4-223d00000000-m515831ba-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831ba-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515831bd-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678341362070879">
+<Expr mdsid="m0000001e-01f4-0000-41b3-2c4b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."disc_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001e-01f4-0000-41b3-2c4b00000000-m23737196-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737196-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515831bb-0c63-1000-9f49-0ac2424e0000" name="Disc Amt (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa94-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa95-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679701362070879" isDefault="true">
+<Expr mdsid="m0000001f-01f4-0000-824e-41ec00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Disc Amt (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-824e-41ec00000000-m515831bb-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831bb-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515831be-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678351362070879">
+<Expr mdsid="m00000020-01f4-0000-18ea-53a000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."disc_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-18ea-53a000000000-m237371a3-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a3-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515831bc-0c63-1000-9f49-0ac2424e0000" name="Disc Amt (USD)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa96-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa97-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679721362070879" isDefault="true">
+<Expr mdsid="m00000021-01f4-0000-4838-f7fe00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Disc Amt (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000021-01f4-0000-4838-f7fe00000000-m515831bc-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831bc-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515831bf-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678361362070879">
+<Expr mdsid="m00000022-01f4-0000-2d01-88c300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."disc_amt_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000022-01f4-0000-2d01-88c300000000-m2373719d-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m2373719d-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515a2d9a-0c63-1000-9f49-0ac2424e0000" name="Fed Tax (Local)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa98-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa99-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679741362070879" isDefault="true">
+<Expr mdsid="m00000023-01f4-0000-f9dc-9d2100000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Fed Tax (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000023-01f4-0000-f9dc-9d2100000000-m515a2d9a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515a2d9d-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678661362070879">
+<Expr mdsid="m00000024-01f4-0000-a48f-da5100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."fed_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000024-01f4-0000-a48f-da5100000000-m23737197-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737197-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515a2d9b-0c63-1000-9f49-0ac2424e0000" name="Fed Tax (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa9a-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa9b-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679761362070879" isDefault="true">
+<Expr mdsid="m00000025-01f4-0000-f5a7-b09c00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Fed Tax (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000025-01f4-0000-f5a7-b09c00000000-m515a2d9b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515a2d9e-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678671362070879">
+<Expr mdsid="m00000026-01f4-0000-a883-ad0e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."fed_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000026-01f4-0000-a883-ad0e00000000-m237371a4-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a4-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515a2d9c-0c63-1000-9f49-0ac2424e0000" name="Fed Tax (USD)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa9c-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa9d-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679781362070879" isDefault="true">
+<Expr mdsid="m00000027-01f4-0000-c38a-11c400000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Fed Tax (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000027-01f4-0000-c38a-11c400000000-m515a2d9c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515a2d9f-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678681362070879">
+<Expr mdsid="m00000028-01f4-0000-5f0e-74d600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."fed_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000028-01f4-0000-5f0e-74d600000000-m2373719e-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m2373719e-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515e4c4a-0c63-1000-9f49-0ac2424e0000" name="State Tax (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="m5168fa9e-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168fa9f-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679801362070879" isDefault="true">
+<Expr mdsid="m00000029-01f4-0000-3f52-698500000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."State Tax (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000029-01f4-0000-3f52-698500000000-m515e4c4a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515e4c4e-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678991362070879">
+<Expr mdsid="m0000002a-01f4-0000-3528-d06800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."state_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002a-01f4-0000-3528-d06800000000-m237371a5-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a5-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515e4c4b-0c63-1000-9f49-0ac2424e0000" name="State Tax (USD)" isWriteable="false">
+<MeasureDefn mdsid="m5168faa0-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168faa1-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679821362070879" isDefault="true">
+<Expr mdsid="m0000002b-01f4-0000-d1ed-268f00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."State Tax (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002b-01f4-0000-d1ed-268f00000000-m515e4c4b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515e4c4f-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679001362070879">
+<Expr mdsid="m0000002c-01f4-0000-1cdd-e89500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."state_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002c-01f4-0000-1cdd-e89500000000-m2373719f-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m2373719f-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m515e4c4c-0c63-1000-9f49-0ac2424e0000" name="State Tax (Local)" isWriteable="false">
+<MeasureDefn mdsid="m5168faa2-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168faa3-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679841362070879" isDefault="true">
+<Expr mdsid="m0000002d-01f4-0000-ad9b-d42800000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."State Tax (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002d-01f4-0000-ad9b-d42800000000-m515e4c4c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m515e4c4d-0c63-1000-9f49-0ac2424e0000" name="AD_3900:678981362070879">
+<Expr mdsid="m0000002e-01f4-0000-771b-0e1700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."state_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002e-01f4-0000-771b-0e1700000000-m23737198-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737198-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m5160481a-0c63-1000-9f49-0ac2424e0000" name="County Tax (USD)" isWriteable="false">
+<MeasureDefn mdsid="m5168faa4-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168faa5-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679861362070879" isDefault="true">
+<Expr mdsid="m0000002f-01f4-0000-9826-8c3600000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."County Tax (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002f-01f4-0000-9826-8c3600000000-m5160481a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m5160481e-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679311362070879">
+<Expr mdsid="m00000030-01f4-0000-0e27-a8ee00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."county_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000030-01f4-0000-0e27-a8ee00000000-m237371a0-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a0-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m5160481b-0c63-1000-9f49-0ac2424e0000" name="County Tax (Local)" isWriteable="false">
+<MeasureDefn mdsid="m5168faa6-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168faa7-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679881362070879" isDefault="true">
+<Expr mdsid="m00000031-01f4-0000-76f4-b65500000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."County Tax (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000031-01f4-0000-76f4-b65500000000-m5160481b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m5160481f-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679321362070879">
+<Expr mdsid="m00000032-01f4-0000-2db1-871a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."county_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000032-01f4-0000-2db1-871a00000000-m23737199-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737199-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m5160481c-0c63-1000-9f49-0ac2424e0000" name="County Tax (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="m5168faa8-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168faa9-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679901362070879" isDefault="true">
+<Expr mdsid="m00000033-01f4-0000-f1f9-8bf200000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."County Tax (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000033-01f4-0000-f1f9-8bf200000000-m5160481c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m5160481d-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679301362070879">
+<Expr mdsid="m00000034-01f4-0000-df1a-9a1400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."county_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000034-01f4-0000-df1a-9a1400000000-m237371a6-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a6-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m5163555a-0c63-1000-9f49-0ac2424e0000" name="Local Tax (Local)" isWriteable="false">
+<MeasureDefn mdsid="m5168faaa-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m56114cf0-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679981362079260" isDefault="true">
+<Expr mdsid="m00000035-01f4-0000-8e32-78ac00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Local Tax (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000035-01f4-0000-8e32-78ac00000000-m5163555a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m5163555e-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679631362070879">
+<Expr mdsid="m00000036-01f4-0000-cd92-ecb900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."local_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000036-01f4-0000-cd92-ecb900000000-m2373719a-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m2373719a-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m5163555b-0c63-1000-9f49-0ac2424e0000" name="Local Tax (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="m5168faac-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5168faad-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679941362070879" isDefault="true">
+<Expr mdsid="m00000037-01f4-0000-4bf0-d3b200000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Local Tax (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000037-01f4-0000-4bf0-d3b200000000-m5163555b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m5163555f-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679641362070879">
+<Expr mdsid="m00000038-01f4-0000-af05-5ad500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."local_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000038-01f4-0000-af05-5ad500000000-m237371a7-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a7-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m5163555c-0c63-1000-9f49-0ac2424e0000" name="Local Tax (USD)" isWriteable="false">
+<MeasureDefn mdsid="m5168faae-0c63-1000-9f49-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m5615b9c0-0c63-1000-9f49-0ac2424e0000" name="AggRule_2050:679991362079260" isDefault="true">
+<Expr mdsid="m00000039-01f4-0000-805b-987b00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Local Tax (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000039-01f4-0000-805b-987b00000000-m5163555c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m5163555d-0c63-1000-9f49-0ac2424e0000" name="AD_3900:679621362070879">
+<Expr mdsid="m0000003a-01f4-0000-4317-a56600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."local_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003a-01f4-0000-4317-a56600000000-m237371a1-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371a1-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc2741297-0c6f-1000-886d-0ac2424e0000" name="CCRF Amt (Local)" isWriteable="false">
+<MeasureDefn mdsid="mab9fccc0-0c7a-1000-8029-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mab9fccc1-0c7a-1000-8029-0ac2424e0000" name="AggRule_2050:704181372100519" isDefault="true">
+<Expr mdsid="m0000003b-01f4-0000-e5ec-982300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."CCRF Amt (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003b-01f4-0000-e5ec-982300000000-mc2741297-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741297-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mc27412ef-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700311367414422">
+<Expr mdsid="m0000003c-01f4-0000-1e93-218c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."ccrf_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003c-01f4-0000-1e93-218c00000000-m237371bc-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371bc-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc2741298-0c6f-1000-886d-0ac2424e0000" name="CCRF Amt (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="maba06900-0c7a-1000-8029-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="maba06901-0c7a-1000-8029-0ac2424e0000" name="AggRule_2050:704201372100519" isDefault="true">
+<Expr mdsid="m0000003d-01f4-0000-40df-b01200000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."CCRF Amt (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003d-01f4-0000-40df-b01200000000-mc2741298-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741298-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mc27412f0-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700321367414422">
+<Expr mdsid="m0000003e-01f4-0000-7d21-0ccb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."ccrf_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003e-01f4-0000-7d21-0ccb00000000-m237371c2-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371c2-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc2741299-0c6f-1000-886d-0ac2424e0000" name="CCRF Amt (USD)" isWriteable="false">
+<MeasureDefn mdsid="maba17a70-0c7a-1000-8029-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="maba17a71-0c7a-1000-8029-0ac2424e0000" name="AggRule_2050:704221372100519" isDefault="true">
+<Expr mdsid="m0000003f-01f4-0000-508e-4d3400000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."CCRF Amt (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003f-01f4-0000-508e-4d3400000000-mc2741299-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741299-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mc27412f1-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700331367414422">
+<Expr mdsid="m00000040-01f4-0000-99fc-39e800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."ccrf_amt_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000040-01f4-0000-99fc-39e800000000-m237371c1-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371c1-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc27412b9-0c6f-1000-886d-0ac2424e0000" name="Rate (Local)" isWriteable="false">
+<AttrDefn mdsid="mc27439aa-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700651367414422">
+<Expr mdsid="m00000041-01f4-0000-104d-927e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."rate"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000041-01f4-0000-104d-927e00000000-m23737194-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737194-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc27412cf-0c6f-1000-886d-0ac2424e0000" name="Unique Conf ID" isWriteable="false">
+<AttrDefn mdsid="mc27439c0-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700871367414422">
+<Expr mdsid="m00000042-01f4-0000-02b7-04ea00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."unique_conf_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000042-01f4-0000-02b7-04ea00000000-m237371b8-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371b8-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc27412d1-0c6f-1000-886d-0ac2424e0000" name="USF Amt (Local)" isWriteable="false">
+<MeasureDefn mdsid="ma4716bc0-0c7a-1000-8029-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="ma47c1a20-0c7a-1000-8029-0ac2424e0000" name="AggRule_2050:704121372088526" isDefault="true">
+<Expr mdsid="m00000043-01f4-0000-6b96-040300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."USF Amt (Local)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000043-01f4-0000-6b96-040300000000-mc27412d1-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d1-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mc27439c2-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700891367414422">
+<Expr mdsid="m00000044-01f4-0000-a5b9-2a8700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."usf_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000044-01f4-0000-a5b9-2a8700000000-m237371bb-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371bb-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc27412d2-0c6f-1000-886d-0ac2424e0000" name="USF Amt (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="ma4778640-0c7a-1000-8029-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="ma477d460-0c7a-1000-8029-0ac2424e0000" name="AggRule_2050:704041372088526" isDefault="true">
+<Expr mdsid="m00000045-01f4-0000-3a34-e37f00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."USF Amt (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000045-01f4-0000-3a34-e37f00000000-mc27412d2-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d2-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mc27439c3-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700901367414422">
+<Expr mdsid="m00000046-01f4-0000-9e35-813800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."usf_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000046-01f4-0000-9e35-813800000000-m237371c0-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371c0-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc27412d3-0c6f-1000-886d-0ac2424e0000" name="USF Amt (USD)" isWriteable="false">
+<MeasureDefn mdsid="ma478bec0-0c7a-1000-8029-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="ma478bec1-0c7a-1000-8029-0ac2424e0000" name="AggRule_2050:704061372088526" isDefault="true">
+<Expr mdsid="m00000047-01f4-0000-69a2-52c000000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."USF Amt (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000047-01f4-0000-69a2-52c000000000-mc27412d3-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d3-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mc27439c4-0c6f-1000-886d-0ac2424e0000" name="AD_3900:700911367414422">
+<Expr mdsid="m00000048-01f4-0000-c3d5-9d9200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."usf_amt_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000048-01f4-0000-c3d5-9d9200000000-m237371bf-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371bf-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6eddcc61-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR - 3" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000049-01f4-0000-e5d9-223200000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -14, -12) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -14, -12) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000049-01f4-0000-e5d9-223200000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m6eddf370-0c70-1000-8029-0ac2424e0000" name="AD_3900:700941367704263">
+<Expr mdsid="m0000004a-01f4-0000-954d-f2c900000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6f0355c0-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR - 0" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000004b-01f4-0000-7e9d-7bf000000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -2, 0) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -2, 0) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000004b-01f4-0000-7e9d-7bf000000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m6f0355c1-0c70-1000-8029-0ac2424e0000" name="AD_3900:700961367704263">
+<Expr mdsid="m0000004c-01f4-0000-beba-0db100000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6f188b70-0c70-1000-8029-0ac2424e0000" name="YoY Rev Growth (MAAP) - 3MR" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000004d-01f4-0000-819b-415800000000" name="Expr">
+<ExprText><![CDATA["%1" / "%2" -1]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP) - 3MR - 0" / "PGI-DW"."Fact-Revenue"."Net Revenue (MAAP) - 3MR - 3" -1]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000004d-01f4-0000-819b-415800000000-m6f0355c0-0c70-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6f0355c0-0c70-1000-8029-0ac2424e0000"/>
+<RefObject refId="m0000004d-01f4-0000-819b-415800000000-m6eddcc61-0c70-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6eddcc61-0c70-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m6f18b280-0c70-1000-8029-0ac2424e0000" name="AD_3900:700981367704263">
+<Expr mdsid="m0000004e-01f4-0000-3916-80af00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m193de376-0c85-1000-8029-0ac2424e0000" name="Fixed Network Cost (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="mc4397c60-0c87-1000-a6e9-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mc4397c61-0c87-1000-a6e9-0ac2424e0000" name="AggRule_2050:705341377725235" isDefault="true">
+<Expr mdsid="m0000004f-01f4-0000-39bb-4e6700000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Fixed Network Cost (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000004f-01f4-0000-39bb-4e6700000000-m193de376-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de376-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m193de379-0c85-1000-8029-0ac2424e0000" name="AD_3900:704991376596258">
+<Expr mdsid="m00000050-01f4-0000-8620-da4c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."telco_fixed_rate_cost_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000050-01f4-0000-8620-da4c00000000-m237371c9-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371c9-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m193de377-0c85-1000-8029-0ac2424e0000" name="Telco Quantity" isWriteable="false">
+<MeasureDefn mdsid="mc438e020-0c87-1000-a6e9-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mc438e021-0c87-1000-a6e9-0ac2424e0000" name="AggRule_2050:705321377725235" isDefault="true">
+<Expr mdsid="m00000051-01f4-0000-9bff-bb7b00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Telco Quantity")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000051-01f4-0000-9bff-bb7b00000000-m193de377-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de377-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m193de37a-0c85-1000-8029-0ac2424e0000" name="AD_3900:705001376596258">
+<Expr mdsid="m00000052-01f4-0000-b0a0-ef5800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."telco_quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000052-01f4-0000-b0a0-ef5800000000-m237371cc-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371cc-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m193de378-0c85-1000-8029-0ac2424e0000" name="Variable Telco Cost (MAAP)" isWriteable="false">
+<MeasureDefn mdsid="mc437ceb0-0c87-1000-a6e9-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mc437ceb1-0c87-1000-a6e9-0ac2424e0000" name="AggRule_2050:705301377725235" isDefault="true">
+<Expr mdsid="m00000053-01f4-0000-e875-09b300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Revenue"."Variable Telco Cost (MAAP)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000053-01f4-0000-e875-09b300000000-m193de378-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de378-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m193de37b-0c85-1000-8029-0ac2424e0000" name="AD_3900:705011376596258">
+<Expr mdsid="m00000054-01f4-0000-b22b-62e100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."telco_var_rate_cost_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000054-01f4-0000-b22b-62e100000000-m237371ce-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371ce-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m20d5dbb0-0c85-1000-8029-0ac2424e0000" name="Total Network Cost (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000055-01f4-0000-247d-32d800000000" name="Expr">
+<ExprText><![CDATA["%1" + "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Variable Telco Cost (MAAP)" + "PGI-DW"."Fact-Revenue"."Fixed Network Cost (MAAP)" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000055-01f4-0000-247d-32d800000000-m193de378-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de378-0c85-1000-8029-0ac2424e0000"/>
+<RefObject refId="m00000055-01f4-0000-247d-32d800000000-m193de376-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de376-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m20d5dbb1-0c85-1000-8029-0ac2424e0000" name="AD_3900:705071376596258">
+<Expr mdsid="m00000056-01f4-0000-2dbd-9fe800000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mbe9b3140-0c87-1000-a6e9-0ac2424e0000" name="Variable Rate (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000057-01f4-0000-4473-c9b100000000" name="Expr">
+<ExprText><![CDATA["%1"  / "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Variable Telco Cost (MAAP)"  / "PGI-DW"."Fact-Revenue"."Telco Quantity" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000057-01f4-0000-4473-c9b100000000-m193de378-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de378-0c85-1000-8029-0ac2424e0000"/>
+<RefObject refId="m00000057-01f4-0000-4473-c9b100000000-m193de377-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de377-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mbe9b3141-0c87-1000-a6e9-0ac2424e0000" name="AD_3900:705181377715984">
+<Expr mdsid="m00000058-01f4-0000-e124-fce000000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mbea48010-0c87-1000-a6e9-0ac2424e0000" name="Network Margin (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000059-01f4-0000-f8de-e67300000000" name="Expr">
+<ExprText><![CDATA["%1" - "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" - "PGI-DW"."Fact-Revenue"."Total Network Cost (MAAP)" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000059-01f4-0000-f8de-e67300000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000059-01f4-0000-f8de-e67300000000-m20d5dbb0-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m20d5dbb0-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mbea4a720-0c87-1000-a6e9-0ac2424e0000" name="AD_3900:705201377715984">
+<Expr mdsid="m0000005a-01f4-0000-874a-b3a400000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc1772810-0c87-1000-a6e9-0ac2424e0000" name="Network Margin %" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000005b-01f4-0000-b35b-d9d900000000" name="Expr">
+<ExprText><![CDATA["%1" /  "%2" * 100]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Network Margin (MAAP)" /  "PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" * 100]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000005b-01f4-0000-b35b-d9d900000000-mbea48010-0c87-1000-a6e9-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mbea48010-0c87-1000-a6e9-0ac2424e0000"/>
+<RefObject refId="m0000005b-01f4-0000-b35b-d9d900000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mc1772811-0c87-1000-a6e9-0ac2424e0000" name="AD_3900:705261377725235">
+<Expr mdsid="m0000005c-01f4-0000-225a-f25d00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m938acff0-0c8d-1000-8029-0ac2424e0000" name="Rate (Local) - PM" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000005d-01f4-0000-f4d1-944d00000000" name="Expr">
+<ExprText><![CDATA[Evaluate('LAG(%1,1) over (order by %2)' as double,  "%1",  "%2"  ) ]]></ExprText>
+<ExprTextDesc><![CDATA[Evaluate('LAG(%1,1) over (order by %2)' as double,  "PGI-DW"."Fact-Revenue"."Rate (Local)",  "PGI-DW"."GL Date"."Month"  ) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000005d-01f4-0000-f4d1-944d00000000-mc27412b9-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412b9-0c6f-1000-886d-0ac2424e0000"/>
+<RefObject refId="m0000005d-01f4-0000-f4d1-944d00000000-md55d4e72-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#md55d4e72-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m938acff1-0c8d-1000-8029-0ac2424e0000" name="AD_3900:708281380220705">
+<Expr mdsid="m0000005e-01f4-0000-6e47-84bd00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m23801bb4-0ca7-1000-8029-0ac2424e0000" name="Conf ID" isWriteable="false">
+<AttrDefn mdsid="m23801bc5-0ca7-1000-8029-0ac2424e0000" name="AD_3900:716761391199847">
+<Expr mdsid="m0000005f-01f4-0000-1f67-0d3900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."conf_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000005f-01f4-0000-1f67-0d3900000000-m237371c7-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371c7-0ca7-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mef5dafd0-0cad-1000-8029-0ac2424e0000" name="Conference Count" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000060-01f4-0000-8c2a-5fe400000000" name="Expr">
+<ExprText><![CDATA[CASE WHEN  "%1" = 'Minute UOM'  THEN COUNT(DISTINCT("%2" )) ELSE 0  END]]></ExprText>
+<ExprTextDesc><![CDATA[CASE WHEN  "PGI-DW"."UOM"."UOM Type" = 'Minute UOM'  THEN COUNT(DISTINCT("PGI-DW"."Fact-Revenue"."Unique Conf ID" )) ELSE 0  END]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000060-01f4-0000-8c2a-5fe400000000-me2b7e2b2-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b7e2b2-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000060-01f4-0000-8c2a-5fe400000000-mc27412cf-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412cf-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mef5dafd1-0cad-1000-8029-0ac2424e0000" name="AD_3900:717891394119141">
+<Expr mdsid="m00000061-01f4-0000-7939-d6b900000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m231bd770-0cae-1000-8029-0ac2424e0000" name="Variable Margin (MAAP)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000062-01f4-0000-d12f-49bb00000000" name="Expr">
+<ExprText><![CDATA["%1" - "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" - "PGI-DW"."Fact-Revenue"."Variable Telco Cost (MAAP)" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000062-01f4-0000-d12f-49bb00000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000062-01f4-0000-d12f-49bb00000000-m193de378-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de378-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m231bd771-0cae-1000-8029-0ac2424e0000" name="AD_3900:718271394205421">
+<Expr mdsid="m00000063-01f4-0000-21a9-e84700000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m23232a70-0cae-1000-8029-0ac2424e0000" name="Variable Margin %" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000064-01f4-0000-793f-8f2a00000000" name="Expr">
+<ExprText><![CDATA[("%1" - "%2")   /  "%1" * 100]]></ExprText>
+<ExprTextDesc><![CDATA[("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" - "PGI-DW"."Fact-Revenue"."Variable Telco Cost (MAAP)")   /  "PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" * 100]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000064-01f4-0000-793f-8f2a00000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000064-01f4-0000-793f-8f2a00000000-m193de378-0c85-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de378-0c85-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m23232a71-0cae-1000-8029-0ac2424e0000" name="AD_3900:718291394205421">
+<Expr mdsid="m00000065-01f4-0000-1f31-9f1400000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m9503bbe0-0caf-1000-bd59-0ac2424e0000" name="Variable Margin % (Rate)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000066-01f4-0000-f426-a43d00000000" name="Expr">
+<ExprText><![CDATA[( "%1"  - "%2" ) / "%1" * 100 ]]></ExprText>
+<ExprTextDesc><![CDATA[( "PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)"  - "PGI-DW"."Fact-Revenue"."Variable Rate (MAAP)" ) / "PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)" * 100 ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000066-01f4-0000-f426-a43d00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000066-01f4-0000-f426-a43d00000000-mbe9b3140-0c87-1000-a6e9-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mbe9b3140-0c87-1000-a6e9-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m9503bbe1-0caf-1000-bd59-0ac2424e0000" name="AD_3900:719051394826064">
+<Expr mdsid="m00000067-01f4-0000-2407-ab8d00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mce7041f0-0cb4-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) w CCRF" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000068-01f4-0000-86e9-624d00000000" name="Expr">
+<ExprText><![CDATA["%1" + "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" + "PGI-DW"."Fact-Revenue"."CCRF Amt (MAAP)" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000068-01f4-0000-86e9-624d00000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000068-01f4-0000-86e9-624d00000000-mc2741298-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741298-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mce7041f1-0cb4-1000-8029-0ac2424e0000" name="AD_3900:719341397069872">
+<Expr mdsid="m00000069-01f4-0000-2b81-661600000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mce7e24a0-0cb4-1000-8029-0ac2424e0000" name="Net Revenue (Local) w CCRF" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000006a-01f4-0000-4598-626700000000" name="Expr">
+<ExprText><![CDATA["%1" + "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (Local)" + "PGI-DW"."Fact-Revenue"."CCRF Amt (Local)" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000006a-01f4-0000-4598-626700000000-me205f7d0-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me205f7d0-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m0000006a-01f4-0000-4598-626700000000-mc2741297-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741297-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mce7e24a1-0cb4-1000-8029-0ac2424e0000" name="AD_3900:719381397069872">
+<Expr mdsid="m0000006b-01f4-0000-e8f2-956300000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-md780559c-0c57-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/d780559c-0c57-1000-ba5a-0ac2424e0000.xml#md780559c-0c57-1000-ba5a-0ac2424e0000"/>
+<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m284bdb91-0c5a-1000-891c-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/284bdb91-0c5a-1000-891c-0ac2424e0000.xml#m284bdb91-0c5a-1000-891c-0ac2424e0000"/>
+<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-mc27439c5-0c6f-1000-886d-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c27439c5-0c6f-1000-886d-0ac2424e0000.xml#mc27439c5-0c6f-1000-886d-0ac2424e0000"/>
+<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m284d3b21-0c5a-1000-891c-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/284d3b21-0c5a-1000-891c-0ac2424e0000.xml#m284d3b21-0c5a-1000-891c-0ac2424e0000"/>
+<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m284dfe71-0c5a-1000-891c-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/284dfe71-0c5a-1000-891c-0ac2424e0000.xml#m284dfe71-0c5a-1000-891c-0ac2424e0000"/>
+<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m23801bd2-0ca7-1000-8029-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/23801bd2-0ca7-1000-8029-0ac2424e0000.xml#m23801bd2-0ca7-1000-8029-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

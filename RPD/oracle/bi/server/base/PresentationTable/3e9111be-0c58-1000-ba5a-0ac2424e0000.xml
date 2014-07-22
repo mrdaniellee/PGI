@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m3e9111be-0c58-1000-ba5a-0ac2424e0000" name="Client" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m3e9111bc-0c58-1000-ba5a-0ac2424e0000" name="Client Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m3b90ca06-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3e9111bd-0c58-1000-ba5a-0ac2424e0000" name="Client Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m3b90ca07-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb67fb0f1-0c62-1000-9f49-0ac2424e0000" name="Client State" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m1b829ff2-0c5c-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3e9111bb-0c58-1000-ba5a-0ac2424e0000" name="Client ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m3b90ca08-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0ca4611-0c62-1000-9f49-0ac2424e0000" name="Client Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#mc09d69b0-0c62-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0e7f1ed1-0c7c-1000-8029-0ac2424e0000" name="Client Bill-To Address 1" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m0b3c01c4-0c7c-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0e7f1ed3-0c7c-1000-8029-0ac2424e0000" name="Client Bill-To Address 2" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m0b3c01c5-0c7c-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma3870bc1-0c7a-1000-8029-0ac2424e0000" name="Client Bill-To City" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#ma37ad6c4-0c7a-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma3870bc5-0c7a-1000-8029-0ac2424e0000" name="Client Bill-To State" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#ma37ad6c6-0c7a-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma38732d0-0c7a-1000-8029-0ac2424e0000" name="Client Bill-To Zip" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#ma37ad6c7-0c7a-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma3870bc3-0c7a-1000-8029-0ac2424e0000" name="Client Bill-To Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#ma37ad6c5-0c7a-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m3e9111be-0c58-1000-ba5a-0ac2424e0000-mb68185b6-0c62-1000-9f49-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/b68185b6-0c62-1000-9f49-0ac2424e0000.xml#mb68185b6-0c62-1000-9f49-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

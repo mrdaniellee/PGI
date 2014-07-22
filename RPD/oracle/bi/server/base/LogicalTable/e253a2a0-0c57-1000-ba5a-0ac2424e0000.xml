@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="me253a2a0-0c57-1000-ba5a-0ac2424e0000" name="Source System" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="me2572514-0c57-1000-ba5a-0ac2424e0000" name="System Key" isWriteable="false">
+<AttrDefn mdsid="me2572516-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:619361357160235">
+<Expr mdsid="m00000001-01f4-0000-b9bc-229700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D16 Source System"."sys_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-b9bc-229700000000-m34822a01-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34822a00-0c2c-1000-ae5d-0ac2424e0000.xml#m34822a01-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me25ace94-0c57-1000-ba5a-0ac2424e0000" name="System Id" isWriteable="false">
+<AttrDefn mdsid="me25ace97-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:619451357160235">
+<Expr mdsid="m00000002-01f4-0000-f165-236900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D16 Source System"."sys_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-f165-236900000000-m34822a02-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34822a00-0c2c-1000-ae5d-0ac2424e0000.xml#m34822a02-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me25ace95-0c57-1000-ba5a-0ac2424e0000" name="System Desc" isWriteable="false">
+<AttrDefn mdsid="me25ace96-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:619441357160235">
+<Expr mdsid="m00000003-01f4-0000-ca0a-ba9b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D16 Source System"."sys_ld"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-ca0a-ba9b00000000-m34822a04-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34822a00-0c2c-1000-ae5d-0ac2424e0000.xml#m34822a04-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8214c830-0c5a-1000-891c-0ac2424e0000" name="Source System" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000004-01f4-0000-8de2-ee3300000000" name="Expr">
+<ExprText><![CDATA["%1" || '-' || "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Source System"."System Desc" || '-' || "PGI-DW"."Source System"."System Id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-8de2-ee3300000000-me25ace95-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/e253a2a0-0c57-1000-ba5a-0ac2424e0000.xml#me25ace95-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000004-01f4-0000-8de2-ee3300000000-me25ace94-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/e253a2a0-0c57-1000-ba5a-0ac2424e0000.xml#me25ace94-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m8214c831-0c5a-1000-891c-0ac2424e0000" name="AD_3900:639211358287189">
+<Expr mdsid="m00000005-01f4-0000-a00a-c90d00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="me2572515-0c57-1000-ba5a-0ac2424e0000" name="D16 Source System_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="me2572515-0c57-1000-ba5a-0ac2424e0000-me2572514-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e253a2a0-0c57-1000-ba5a-0ac2424e0000.xml#me2572514-0c57-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="me253a2a0-0c57-1000-ba5a-0ac2424e0000-me2572517-0c57-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/e2572517-0c57-1000-ba5a-0ac2424e0000.xml#me2572517-0c57-1000-ba5a-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

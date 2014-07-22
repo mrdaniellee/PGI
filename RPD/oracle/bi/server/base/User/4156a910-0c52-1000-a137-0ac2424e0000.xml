@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<User mdsid="m4156a910-0c52-1000-a137-0ac2424e0000" name="sbryson" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" guid="798089613D6E11E2AF50C3BA40B7877B" loggingLevel="2">
+<Description><![CDATA[Stewart Bryson]]></Description>
+<RefGroups>
+<RefGroup refId="m4156a910-0c52-1000-a137-0ac2424e0000-m00000000-0000-0000-0000-000000000101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000000000101.xml#m00000000-0000-0000-0000-000000000101"/>
+<RefGroup refId="m4156a910-0c52-1000-a137-0ac2424e0000-m00000000-0000-0000-0000-000000010101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000000010101.xml#m00000000-0000-0000-0000-000000010101"/>
+<RefGroup refId="m4156a910-0c52-1000-a137-0ac2424e0000-m00000000-0000-0000-0000-000001010101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000001010101.xml#m00000000-0000-0000-0000-000001010101"/>
+<RefGroup refId="m4156a910-0c52-1000-a137-0ac2424e0000-m0ab7cfb1-0c52-1000-a137-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/0ab7cfb1-0c52-1000-a137-0ac2424e0000.xml#m0ab7cfb1-0c52-1000-a137-0ac2424e0000"/>
+</RefGroups>
+</User>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="med6b1220-0cae-1000-bd59-0ac2424e0000" name="Call Coiuntry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="med6aeb12-0cae-1000-bd59-0ac2424e0000" name="Call Country Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d1007170-0cae-1000-bd59-0ac2424e0000.xml#md10a3570-0cae-1000-bd59-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

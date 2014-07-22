@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mecfd1510-0c61-1000-8029-0ac2424e0000" name="GL Dept" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/ecfd1510-0c61-1000-8029-0ac2424e0000.xml#mecff37f0-0c61-1000-8029-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="mecff37f0-0c61-1000-8029-0ac2424e0000" name="All Departments" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Departments&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="mecff37f0-0c61-1000-8029-0ac2424e0000_med026c40-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/ecfd1510-0c61-1000-8029-0ac2424e0000.xml#med026c40-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="med026c40-0c61-1000-8029-0ac2424e0000" name="GL Dept Gen02 Desc" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;GL Dept Gen02 Desc&apos;">
+<LogicalKey mdsid="med0eef60-0c61-1000-8029-0ac2424e0000" name="GL Dept Gen02 Desc" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="med0eef60-0c61-1000-8029-0ac2424e0000-mecee6f10-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f10-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="med026c40-0c61-1000-8029-0ac2424e0000_med052b60-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/ecfd1510-0c61-1000-8029-0ac2424e0000.xml#med052b60-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="med026c40-0c61-1000-8029-0ac2424e0000-mecee6f10-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f10-0c61-1000-8029-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="med052b60-0c61-1000-8029-0ac2424e0000" name="GL Dept Gen03 Desc" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;GL Dept Gen03 Desc&apos;">
+<LogicalKey mdsid="med0fd9c0-0c61-1000-8029-0ac2424e0000" name="GL Dept Gen03 Desc" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="med0fd9c0-0c61-1000-8029-0ac2424e0000-mecee6f11-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f11-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="med052b60-0c61-1000-8029-0ac2424e0000_med081190-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/ecfd1510-0c61-1000-8029-0ac2424e0000.xml#med081190-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="med052b60-0c61-1000-8029-0ac2424e0000-mecee6f11-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f11-0c61-1000-8029-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="med081190-0c61-1000-8029-0ac2424e0000" name="GL Dept" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;GL Dept&apos;">
+<LogicalKey mdsid="med10eb30-0c61-1000-8029-0ac2424e0000" name="GL Dept sd" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="med10eb30-0c61-1000-8029-0ac2424e0000-mecee6f12-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f12-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="med11d590-0c61-1000-8029-0ac2424e0000" name="GL Dept Cd">
+<RefColumns>
+<RefLogicalColumn refId="med11d590-0c61-1000-8029-0ac2424e0000-mecf4b0a3-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecf4b0a3-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="med081190-0c61-1000-8029-0ac2424e0000-mecee6f12-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f12-0c61-1000-8029-0ac2424e0000"/>
+<RefLogicalColumn refId="med081190-0c61-1000-8029-0ac2424e0000-mecf4b0a3-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecf4b0a3-0c61-1000-8029-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

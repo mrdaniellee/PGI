@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="maa21d07b-0c5b-1000-92db-0ac2424e0000" name="Call Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="maa21d073-0c5b-1000-92db-0ac2424e0000" name="Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/7e399460-0c5b-1000-92db-0ac2424e0000.xml#m7e399464-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="maa21d074-0c5b-1000-92db-0ac2424e0000" name="Quarter" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/7e399460-0c5b-1000-92db-0ac2424e0000.xml#m7e399465-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="maa21d075-0c5b-1000-92db-0ac2424e0000" name="Month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/7e399460-0c5b-1000-92db-0ac2424e0000.xml#m7e399466-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="maa21d072-0c5b-1000-92db-0ac2424e0000" name="Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/7e399460-0c5b-1000-92db-0ac2424e0000.xml#m7e399463-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="maa21d07b-0c5b-1000-92db-0ac2424e0000-maa21d07c-0c5b-1000-92db-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/aa21d07c-0c5b-1000-92db-0ac2424e0000.xml#maa21d07c-0c5b-1000-92db-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

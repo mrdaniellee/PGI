@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me656d089-0c61-1000-8029-0ac2424e0000" name="Fact-Project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="me656d08a-0c61-1000-8029-0ac2424e0000" name="Capex hrs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8121ff93-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d092-0c61-1000-8029-0ac2424e0000" name="Opex Hrs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8132ef82-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d093-0c61-1000-8029-0ac2424e0000" name="Total Hrs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81375c52-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d08b-0c61-1000-8029-0ac2424e0000" name="CIP-163000" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81238632-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d08c-0c61-1000-8029-0ac2424e0000" name="CIP-163100" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81264554-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d08d-0c61-1000-8029-0ac2424e0000" name="CIP-163200" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81264555-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d08e-0c61-1000-8029-0ac2424e0000" name="CIP Other" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8127cbf2-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d097-0c61-1000-8029-0ac2424e0000" name="Total CIP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m829872f0-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d094-0c61-1000-8029-0ac2424e0000" name="Capex Cost (USD)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m813f2486-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d095-0c61-1000-8029-0ac2424e0000" name="Opex Cost (USD)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m813f2487-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d08f-0c61-1000-8029-0ac2424e0000" name="Conv Rate" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m812a3cf1-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d091-0c61-1000-8029-0ac2424e0000" name="Local Rate" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m812d2325-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="me656d096-0c61-1000-8029-0ac2424e0000" name="Rate (USD)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m813f2488-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="md37cec51-0c70-1000-8029-0ac2424e0000" name="CapEx Hours %" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#md36f57c0-0c70-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="md4c1a151-0c70-1000-8029-0ac2424e0000" name="CapEx Hours % Year Ago" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#md4b12690-0c70-1000-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

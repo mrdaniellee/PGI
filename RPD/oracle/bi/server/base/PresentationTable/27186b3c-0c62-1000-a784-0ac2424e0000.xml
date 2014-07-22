@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m27186b3c-0c62-1000-a784-0ac2424e0000" name="Measures" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/27186b38-0c62-1000-a784-0ac2424e0000.xml#m27186b38-0c62-1000-a784-0ac2424e0000">
+<PresentationColumn mdsid="m27186b0f-0c62-1000-a784-0ac2424e0000" name="Avg Compile Time In Secs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b906-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b10-0c62-1000-a784-0ac2424e0000" name="Avg Num dB Queries" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b908-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b11-0c62-1000-a784-0ac2424e0000" name="Avg Row Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b903-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b12-0c62-1000-a784-0ac2424e0000" name="Avg Time Spent in dB" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b90b-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b13-0c62-1000-a784-0ac2424e0000" name="Avg Total Time In Secs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b905-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b14-0c62-1000-a784-0ac2424e0000" name="Max Compile Time in Secs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b912-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b15-0c62-1000-a784-0ac2424e0000" name="Max Row Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b910-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b16-0c62-1000-a784-0ac2424e0000" name="Max Time Spent in dB" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b913-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b17-0c62-1000-a784-0ac2424e0000" name="Max Total Time in Secs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b911-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b18-0c62-1000-a784-0ac2424e0000" name="Number of cache entries inserted" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b966-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b19-0c62-1000-a784-0ac2424e0000" name="Number of cache hits" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b967-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b1a-0c62-1000-a784-0ac2424e0000" name="Query Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b909-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b1b-0c62-1000-a784-0ac2424e0000" name="Total Num dB Queries" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b907-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b1c-0c62-1000-a784-0ac2424e0000" name="Total Time in Secs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b904-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b1d-0c62-1000-a784-0ac2424e0000" name="Total Time Spent in dB" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2517b900-0c62-1000-a784-0ac2424e0000.xml#m2517b90a-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

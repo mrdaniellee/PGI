@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mef3d6820-0c61-1000-8029-0ac2424e0000" name="Employee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="mef409c74-0c61-1000-8029-0ac2424e0000" name="Vendor Name" isWriteable="false">
+<AttrDefn mdsid="mef409c75-0c61-1000-8029-0ac2424e0000" name="AD_3900:657261361476936">
+<Expr mdsid="m00000001-01f4-0000-7f2a-267800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D23 Employee"."vendor_nam"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-7f2a-267800000000-m96793482-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/96793460-0c2c-1000-ae5d-0ac2424e0000.xml#m96793482-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mef429843-0c61-1000-8029-0ac2424e0000" name="Employee Name" isWriteable="false">
+<AttrDefn mdsid="mef429844-0c61-1000-8029-0ac2424e0000" name="AD_3900:657321361476936">
+<Expr mdsid="m00000002-01f4-0000-d7bb-0f8200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D23 Employee"."empl_nam"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-d7bb-0f8200000000-m96793463-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/96793460-0c2c-1000-ae5d-0ac2424e0000.xml#m96793463-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mef472c23-0c61-1000-8029-0ac2424e0000" name="Employee Key" isWriteable="false">
+<AttrDefn mdsid="mef472c25-0c61-1000-8029-0ac2424e0000" name="AD_3900:657381361476936">
+<Expr mdsid="m00000003-01f4-0000-5ec0-2cf200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D23 Employee"."empl_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-5ec0-2cf200000000-m96793461-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/96793460-0c2c-1000-ae5d-0ac2424e0000.xml#m96793461-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mef472c24-0c61-1000-8029-0ac2424e0000" name="D23 Employee_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mef472c24-0c61-1000-8029-0ac2424e0000-mef472c23-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef472c23-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mef3d6820-0c61-1000-8029-0ac2424e0000-mef409c76-0c61-1000-8029-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/ef409c76-0c61-1000-8029-0ac2424e0000.xml#mef409c76-0c61-1000-8029-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me4012b92-0c57-1000-ba5a-0ac2424e0000" name="Trans Cur" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="me4012b91-0c57-1000-ba5a-0ac2424e0000" name="Currency" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e31bfbb0-0c57-1000-ba5a-0ac2424e0000.xml#me31ff350-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

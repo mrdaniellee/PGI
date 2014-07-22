@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m26874e9a-0c62-1000-a784-0ac2424e0000" name="EndClock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e90-0c62-1000-a784-0ac2424e0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-8fe5-e55e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Usage Tracking"."End Clock"."Hour"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-8fe5-e55e00000000-m26874e92-0c62-1000-a784-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e92-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-58f9-174c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."End Time of Day Role"."HOURS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-58f9-174c00000000-m26416bf2-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf2-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-360b-01e600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Usage Tracking"."End Clock"."Minute"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-360b-01e600000000-m26874e93-0c62-1000-a784-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e93-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-3bd6-356800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."End Time of Day Role"."MINUTES"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-3bd6-356800000000-m26416bf3-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf3-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-4958-67b200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Usage Tracking"."End Clock"."Time"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-4958-67b200000000-m26874e94-0c62-1000-a784-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e94-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-15af-337c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."End Time of Day Role"."HOUR_MIN"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-15af-337c00000000-m26416bf6-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf6-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf0-0c62-1000-a784-0ac2424e0000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-d719-14a100000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-e797-428600000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-6693-1dc400000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

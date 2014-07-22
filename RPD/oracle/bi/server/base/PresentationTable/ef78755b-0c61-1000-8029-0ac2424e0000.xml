@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mef78755b-0c61-1000-8029-0ac2424e0000" name="Employee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="mef787558-0c61-1000-8029-0ac2424e0000" name="Vendor Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef409c74-0c61-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mef787559-0c61-1000-8029-0ac2424e0000" name="Employee Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef429843-0c61-1000-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

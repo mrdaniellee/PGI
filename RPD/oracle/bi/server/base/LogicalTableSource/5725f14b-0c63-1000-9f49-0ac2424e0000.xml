@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m5725f14b-0c63-1000-9f49-0ac2424e0000" name="D17 Territory" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/5721f9a0-0c63-1000-9f49-0ac2424e0000.xml#m5721f9a0-0c63-1000-9f49-0ac2424e0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-eb3f-3e4f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Territory"."Territory Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-eb3f-3e4f00000000-m5725f146-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/5721f9a0-0c63-1000-9f49-0ac2424e0000.xml#m5725f146-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-fc48-0c5200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D17 Territory"."terr_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-fc48-0c5200000000-m3485ac71-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3485ac70-0c2c-1000-ae5d-0ac2424e0000.xml#m3485ac71-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-b50d-781500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Territory"."Territory ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-b50d-781500000000-m5725f147-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/5721f9a0-0c63-1000-9f49-0ac2424e0000.xml#m5725f147-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-024e-236c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D17 Territory"."terr_ld"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-024e-236c00000000-m3485ac75-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3485ac70-0c2c-1000-ae5d-0ac2424e0000.xml#m3485ac75-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/3485ac70-0c2c-1000-ae5d-0ac2424e0000.xml#m3485ac70-0c2c-1000-ae5d-0ac2424e0000">
+</Link>
+<WhereClause mdsid="m00000005-01f4-0000-3d72-6c7600000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000006-01f4-0000-8f55-3aca00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000007-01f4-0000-443d-623200000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

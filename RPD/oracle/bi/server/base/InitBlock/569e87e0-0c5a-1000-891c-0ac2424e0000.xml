@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m569e87e0-0c5a-1000-891c-0ac2424e0000" name="pop_date_variables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="3600" baseTime="2013-01-14 21:00:01" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/5695ae40-0c5a-1000-891c-0ac2424e0000.xml#m5695ae40-0c5a-1000-891c-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select 
+obi_sls_date,
+obi_sls_mth_num,
+obi_sls_qtr_num,
+obi_sls_yr_num,
+DATENAME(m, obi_sls_date),
+DateAdd(MM, -11, obi_sls_date),
+CONVERT(VARCHAR, obi_sls_date, 101),
+CAST (datename(m, obi_sls_date) AS VARCHAR (3)) + '-' + CAST (datepart(yyyy, obi_sls_date) AS VARCHAR (4)),
+DateAdd(MM, -1, obi_sls_date),
+obi_sls_yr_num - 1,
+ DATEADD(YEAR, DATEDIFF(YEAR, 0, DATEADD(YEAR, -1, obi_sls_date)), 0)
+from pgi_control;]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m572d5a60-0c5a-1000-891c-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/572d5a60-0c5a-1000-891c-0ac2424e0000.xml#m572d5a60-0c5a-1000-891c-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m57304090-0c5a-1000-891c-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/57304090-0c5a-1000-891c-0ac2424e0000.xml#m57304090-0c5a-1000-891c-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m57321550-0c5a-1000-891c-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/57321550-0c5a-1000-891c-0ac2424e0000.xml#m57321550-0c5a-1000-891c-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m5733c300-0c5a-1000-891c-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/5733c300-0c5a-1000-891c-0ac2424e0000.xml#m5733c300-0c5a-1000-891c-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m34cbb780-0c6b-1000-9af1-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/34cbb780-0c6b-1000-9af1-0ac2424e0000.xml#m34cbb780-0c6b-1000-9af1-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m94a37210-0c70-1000-8029-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/94a37210-0c70-1000-8029-0ac2424e0000.xml#m94a37210-0c70-1000-8029-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m0bbe35d0-0c97-1000-83e1-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/0bbe35d0-0c97-1000-83e1-0ac2424e0000.xml#m0bbe35d0-0c97-1000-83e1-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m0c6c7730-0c97-1000-83e1-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/0c6c7730-0c97-1000-83e1-0ac2424e0000.xml#m0c6c7730-0c97-1000-83e1-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-ma8271031-0cbb-1000-8d06-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/a8271031-0cbb-1000-8d06-0ac2424e0000.xml#ma8271031-0cbb-1000-8d06-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m80000000-91c3-14df-8029-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/80000000-91c3-14df-8029-0ac2424e0000.xml#m80000000-91c3-14df-8029-0ac2424e0000"/>
+<RefVariable refId="m569e87e0-0c5a-1000-891c-0ac2424e0000-m00000000-9344-14df-8029-0ac2424e0000" variableRef="/oracle/bi/server/base/Variable/00000000-9344-14df-8029-0ac2424e0000.xml#m00000000-9344-14df-8029-0ac2424e0000"/>
+</RefVariables>
+<InitString><![CDATA[select 
+obi_sls_date,
+obi_sls_mth_num,
+obi_sls_qtr_num,
+obi_sls_yr_num,
+DATENAME(m, obi_sls_date),
+DateAdd(MM, -11, obi_sls_date),
+CONVERT(VARCHAR, obi_sls_date, 101),
+CAST (datename(m, obi_sls_date) AS VARCHAR (3)) + '-' + CAST (datepart(yyyy, obi_sls_date) AS VARCHAR (4)),
+DateAdd(MM, -1, obi_sls_date),
+obi_sls_yr_num - 1,
+ DATEADD(YEAR, DATEDIFF(YEAR, 0, DATEADD(YEAR, -1, obi_sls_date)), 0)
+from pgi_control;]]></InitString>
+</InitBlock>

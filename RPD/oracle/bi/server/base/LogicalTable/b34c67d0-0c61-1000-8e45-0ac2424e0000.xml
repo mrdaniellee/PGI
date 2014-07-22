@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mb34c67d0-0c61-1000-8e45-0ac2424e0000" name="Project Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="mb35170e0-0c61-1000-8e45-0ac2424e0000" name="Category Cd" isWriteable="false">
+<AttrDefn mdsid="mb35170e1-0c61-1000-8e45-0ac2424e0000" name="AD_3900:647711361376680">
+<Expr mdsid="m00000001-01f4-0000-b23f-4c1a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D21 Project Category"."cat_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-b23f-4c1a00000000-m964f8c53-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/964f8c50-0c2c-1000-ae5d-0ac2424e0000.xml#m964f8c53-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb35c6d63-0c61-1000-8e45-0ac2424e0000" name="Cat Gen01 Cd" isWriteable="false">
+<AttrDefn mdsid="mb35c6d64-0c61-1000-8e45-0ac2424e0000" name="AD_3900:647771361376680">
+<Expr mdsid="m00000002-01f4-0000-a2dd-4afa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D21 Project Category"."cat_gen01_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-a2dd-4afa00000000-m964f8c56-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/964f8c50-0c2c-1000-ae5d-0ac2424e0000.xml#m964f8c56-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb36260d3-0c61-1000-8e45-0ac2424e0000" name="Category Key" isWriteable="false">
+<AttrDefn mdsid="mb36260d5-0c61-1000-8e45-0ac2424e0000" name="AD_3900:647931361376680">
+<Expr mdsid="m00000003-01f4-0000-1d41-817800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D21 Project Category"."cat_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-1d41-817800000000-m964f8c51-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/964f8c50-0c2c-1000-ae5d-0ac2424e0000.xml#m964f8c51-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mbe60e732-0c62-1000-9f49-0ac2424e0000" name="Category ID" isWriteable="false">
+<AttrDefn mdsid="mbe60e733-0c62-1000-9f49-0ac2424e0000" name="AD_3900:676041361824284">
+<Expr mdsid="m00000004-01f4-0000-e353-322e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D21 Project Category"."cat_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-e353-322e00000000-m964f8c52-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/964f8c50-0c2c-1000-ae5d-0ac2424e0000.xml#m964f8c52-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mb36260d4-0c61-1000-8e45-0ac2424e0000" name="D21 Project Category_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mb36260d4-0c61-1000-8e45-0ac2424e0000-mb36260d3-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb36260d3-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mb34c67d0-0c61-1000-8e45-0ac2424e0000-mb35170e2-0c61-1000-8e45-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/b35170e2-0c61-1000-8e45-0ac2424e0000.xml#mb35170e2-0c61-1000-8e45-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

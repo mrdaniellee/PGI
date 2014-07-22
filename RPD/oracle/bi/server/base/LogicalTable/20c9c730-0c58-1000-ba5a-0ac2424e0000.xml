@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m20c9c730-0c58-1000-ba5a-0ac2424e0000" name="Channel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m20cc1124-0c58-1000-ba5a-0ac2424e0000" name="Customer Key" isWriteable="false">
+<AttrDefn mdsid="m20cc1126-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:622481357265253">
+<Expr mdsid="m00000001-01f4-0000-e03c-4e2500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D01 Customer"."cust_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-e03c-4e2500000000-m34373e51-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34373e50-0c2c-1000-ae5d-0ac2424e0000.xml#m34373e51-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m20cf9392-0c58-1000-ba5a-0ac2424e0000" name="Company ID" isWriteable="false">
+<AttrDefn mdsid="m20cf9393-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:622531357265253">
+<Expr mdsid="m00000002-01f4-0000-0f76-d18d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D01 Customer"."cust_ld"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-0f76-d18d00000000-m34373e56-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34373e50-0c2c-1000-ae5d-0ac2424e0000.xml#m34373e56-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m20d2eef2-0c58-1000-ba5a-0ac2424e0000" name="Channel" isWriteable="false">
+<AttrDefn mdsid="m20d2eef3-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:622571357265253">
+<Expr mdsid="m00000003-01f4-0000-d489-9b3900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D01 Customer"."cust_channel_desc_orig"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d489-9b3900000000-m34376579-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34373e50-0c2c-1000-ae5d-0ac2424e0000.xml#m34376579-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m20d7f802-0c58-1000-ba5a-0ac2424e0000" name="Sales Rep" isWriteable="false">
+<AttrDefn mdsid="m20d7f803-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:622611357265253">
+<Expr mdsid="m00000004-01f4-0000-6133-1c2f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D01 Customer"."cust_terr_desc_orig"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-6133-1c2f00000000-m34376578-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34373e50-0c2c-1000-ae5d-0ac2424e0000.xml#m34376578-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m20da41f2-0c58-1000-ba5a-0ac2424e0000" name="Territory ID" isWriteable="false">
+<AttrDefn mdsid="m20da41f3-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:622651357265253">
+<Expr mdsid="m00000005-01f4-0000-eb3c-009600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D01 Customer"."cust_terr_id_orig"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-eb3c-009600000000-m34376577-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34373e50-0c2c-1000-ae5d-0ac2424e0000.xml#m34376577-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mbb075592-0c5a-1000-891c-0ac2424e0000" name="Channel Desc" isWriteable="false">
+<AttrDefn mdsid="mbb075593-0c5a-1000-891c-0ac2424e0000" name="AD_3900:639491358382495">
+<Expr mdsid="m00000006-01f4-0000-fe49-0dd400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D01 Customer"."cust_channel_desc"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-fe49-0dd400000000-m34376569-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34373e50-0c2c-1000-ae5d-0ac2424e0000.xml#m34376569-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m20cc1125-0c58-1000-ba5a-0ac2424e0000" name="D01 Customer_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m20cc1125-0c58-1000-ba5a-0ac2424e0000-m20cc1124-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/20c9c730-0c58-1000-ba5a-0ac2424e0000.xml#m20cc1124-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m20c9c730-0c58-1000-ba5a-0ac2424e0000-m20cc1127-0c58-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/20cc1127-0c58-1000-ba5a-0ac2424e0000.xml#m20cc1127-0c58-1000-ba5a-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

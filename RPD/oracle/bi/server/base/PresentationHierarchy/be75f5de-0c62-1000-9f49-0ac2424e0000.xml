@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="mbe75f5de-0c62-1000-9f49-0ac2424e0000" name="Project Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/be75f5dd-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5dd-0c62-1000-9f49-0ac2424e0000" logicalDimensionRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mb38997e0-0c61-1000-8e45-0ac2424e0000">
+<PresentationLevel mdsid="mbe75f5e1-0c62-1000-9f49-0ac2424e0000" name="All Project Categories" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/be75f5de-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5de-0c62-1000-9f49-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mb38d6870-0c61-1000-8e45-0ac2424e0000">
+</PresentationLevel>
+<PresentationLevel mdsid="mbe75f5df-0c62-1000-9f49-0ac2424e0000" name="Cat Gen01 Code" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/be75f5de-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5de-0c62-1000-9f49-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mb39111f0-0c61-1000-8e45-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mbe75f5df-0c62-1000-9f49-0ac2424e0000-mbe75f5da-0c62-1000-9f49-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/be75f5dd-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5da-0c62-1000-9f49-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mbe75f5e0-0c62-1000-9f49-0ac2424e0000" name="Category Code" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/be75f5de-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5de-0c62-1000-9f49-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mbe6a5d10-0c62-1000-9f49-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mbe75f5e0-0c62-1000-9f49-0ac2424e0000-mbe75f5d9-0c62-1000-9f49-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/be75f5dd-0c62-1000-9f49-0ac2424e0000.xml#mbe75f5d9-0c62-1000-9f49-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

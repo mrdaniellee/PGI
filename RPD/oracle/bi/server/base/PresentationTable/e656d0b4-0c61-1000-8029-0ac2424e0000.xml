@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me656d0b4-0c61-1000-8029-0ac2424e0000" name="Project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="me656d0bc-0c61-1000-8029-0ac2424e0000" name="Project Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b841452-0c61-1000-8e45-0ac2424e0000">
+<Alias name="Project Cd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="me656d0bd-0c61-1000-8029-0ac2424e0000" name="Project Activity Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#mbcbbdf33-0c61-1000-8029-0ac2424e0000">
+<Alias name="Project Activity Cd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="md33de781-0c70-1000-8029-0ac2424e0000" name="Project ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8accf952-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="md3407f91-0c70-1000-8029-0ac2424e0000" name="Project Manager" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b3c5cf2-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-4483-14df-8029-0ac2424e0000" name="Project Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b45abc2-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000003-4483-14df-8029-0ac2424e0000" name="Project Owner" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b4a66b2-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000005-4483-14df-8029-0ac2424e0000" name="Project Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b564d92-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000007-4483-14df-8029-0ac2424e0000" name="Project Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b6bf870-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000009-4483-14df-8029-0ac2424e0000" name="Project Sub Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m40000002-447d-14df-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

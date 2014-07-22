@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m746b0d12-0c5b-1000-92db-0ac2424e0000" name="D24 Reseller" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d10-0c5b-1000-92db-0ac2424e0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-add2-47d000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Reseller"."Region"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-add2-47d000000000-m746b0d17-0c5b-1000-92db-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d17-0c5b-1000-92db-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-074b-bb4400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."region"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-074b-bb4400000000-mdb7fb652-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb652-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-d6cb-d27d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Reseller"."Reseller Type"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d6cb-d27d00000000-m746b0d19-0c5b-1000-92db-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d19-0c5b-1000-92db-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-1db4-212c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."rsllr_gen01_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-1db4-212c00000000-mdb7fb657-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb657-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-1724-4e2000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Reseller"."Reseller Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-1724-4e2000000000-m746b0d1f-0c5b-1000-92db-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d1f-0c5b-1000-92db-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-5b48-6dcb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."rsllr_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-5b48-6dcb00000000-mdb7fb653-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb653-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-3b8b-b5f800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Reseller"."Reseller Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-3b8b-b5f800000000-m746b0d20-0c5b-1000-92db-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d20-0c5b-1000-92db-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-6236-5df700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."rsllr_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-6236-5df700000000-mdb7fb651-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb651-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb650-0c5a-1000-891c-0ac2424e0000">
+</Link>
+<WhereClause mdsid="m00000009-01f4-0000-a6db-022300000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000a-01f4-0000-37e9-fa1d00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000b-01f4-0000-eb6f-0ed400000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

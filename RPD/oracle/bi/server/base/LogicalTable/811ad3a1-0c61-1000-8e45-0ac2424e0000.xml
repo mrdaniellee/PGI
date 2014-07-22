@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m811ad3a1-0c61-1000-8e45-0ac2424e0000" name="Fact-Project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m8121ff93-0c61-1000-8e45-0ac2424e0000" name="Capex hrs" isWriteable="false">
+<MeasureDefn mdsid="m821b0590-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m821b0591-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646781361294527" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-0dfb-479e00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."Capex hrs")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0dfb-479e00000000-m8121ff93-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8121ff93-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m8121ff94-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646251361294527">
+<Expr mdsid="m00000002-01f4-0000-0e87-bd6600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."capex_hrs"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-0e87-bd6600000000-m961d58cc-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58cc-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m81238632-0c61-1000-8e45-0ac2424e0000" name="CIP-163000" isWriteable="false">
+<MeasureDefn mdsid="m821dc4b0-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m821dc4b1-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646801361294527" isDefault="true">
+<Expr mdsid="m00000003-01f4-0000-0e5c-a9e100000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."CIP-163000")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-0e5c-a9e100000000-m81238632-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81238632-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m81238633-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646301361294527">
+<Expr mdsid="m00000004-01f4-0000-693e-a30b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."cip_163000"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-693e-a30b00000000-m961d58d8-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58d8-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m81264554-0c61-1000-8e45-0ac2424e0000" name="CIP-163100" isWriteable="false">
+<MeasureDefn mdsid="m821efd30-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m821efd31-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646821361294527" isDefault="true">
+<Expr mdsid="m00000005-01f4-0000-6715-a61200000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."CIP-163100")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-6715-a61200000000-m81264554-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81264554-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m81264556-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646371361294527">
+<Expr mdsid="m00000006-01f4-0000-55d8-3dc000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."cip_163100"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-55d8-3dc000000000-m961d58d9-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58d9-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m81264555-0c61-1000-8e45-0ac2424e0000" name="CIP-163200" isWriteable="false">
+<MeasureDefn mdsid="m822035b0-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m822035b1-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646841361294527" isDefault="true">
+<Expr mdsid="m00000007-01f4-0000-d2e2-f66700000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."CIP-163200")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-d2e2-f66700000000-m81264555-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81264555-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m81264557-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646381361294527">
+<Expr mdsid="m00000008-01f4-0000-9503-96aa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."cip_163200"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-9503-96aa00000000-m961d58da-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58da-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8127cbf2-0c61-1000-8e45-0ac2424e0000" name="CIP Other" isWriteable="false">
+<MeasureDefn mdsid="m82423ca0-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m82423ca1-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646861361294527" isDefault="true">
+<Expr mdsid="m00000009-01f4-0000-ea15-ff0b00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."CIP Other")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-ea15-ff0b00000000-m8127cbf2-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8127cbf2-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m8127cbf3-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646421361294527">
+<Expr mdsid="m0000000a-01f4-0000-0d4c-5f2e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."cip_other"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-0d4c-5f2e00000000-m961d58db-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58db-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m812a3cf1-0c61-1000-8e45-0ac2424e0000" name="Conv Rate" isWriteable="false">
+<MeasureDefn mdsid="m25b5a6b0-0c62-1000-a784-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m25b5a6b1-0c62-1000-a784-0ac2424e0000" name="AggRule_2050:665291361568023" isDefault="true">
+<Expr mdsid="m0000000b-01f4-0000-1df7-699600000000" name="Expr">
+<ExprText><![CDATA[ AVG("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ AVG("PGI-DW"."Fact-Project"."Conv Rate")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-1df7-699600000000-m812a3cf1-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m812a3cf1-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m812a3cf2-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646461361294527">
+<Expr mdsid="m0000000c-01f4-0000-be31-185600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."conv_rate"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-be31-185600000000-m961d58d0-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58d0-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m812d2325-0c61-1000-8e45-0ac2424e0000" name="Local Rate" isWriteable="false">
+<MeasureDefn mdsid="m25b5a6b2-0c62-1000-a784-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m25b5a6b3-0c62-1000-a784-0ac2424e0000" name="AggRule_2050:665311361568023" isDefault="true">
+<Expr mdsid="m0000000d-01f4-0000-260e-d63400000000" name="Expr">
+<ExprText><![CDATA[ AVG("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ AVG("PGI-DW"."Fact-Project"."Local Rate")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-260e-d63400000000-m812d2325-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m812d2325-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m812d2327-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646541361294527">
+<Expr mdsid="m0000000e-01f4-0000-7b7a-c23d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."local_rate"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-7b7a-c23d00000000-m961d58ce-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58ce-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8132ef82-0c61-1000-8e45-0ac2424e0000" name="Opex Hrs" isWriteable="false">
+<MeasureDefn mdsid="m8245e620-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m8245e621-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646881361294527" isDefault="true">
+<Expr mdsid="m0000000f-01f4-0000-b526-843000000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."Opex Hrs")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-b526-843000000000-m8132ef82-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8132ef82-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m8132ef83-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646581361294527">
+<Expr mdsid="m00000010-01f4-0000-0f29-750300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."opex_hrs"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-0f29-750300000000-m961d58cb-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58cb-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m81375c52-0c61-1000-8e45-0ac2424e0000" name="Total Hrs" isWriteable="false">
+<MeasureDefn mdsid="m82471ea0-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m82471ea1-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646901361294527" isDefault="true">
+<Expr mdsid="m00000011-01f4-0000-79fd-fbf700000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."Total Hrs")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-79fd-fbf700000000-m81375c52-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81375c52-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m81375c53-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646621361294527">
+<Expr mdsid="m00000012-01f4-0000-be23-0ff200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."total_hrs"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-be23-0ff200000000-m961d58cd-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58cd-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m813f2486-0c61-1000-8e45-0ac2424e0000" name="Capex Cost (USD)" isWriteable="false">
+<MeasureDefn mdsid="m824aa110-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m824aa111-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646921361294527" isDefault="true">
+<Expr mdsid="m00000013-01f4-0000-bb01-b8f000000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."Capex Cost (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-bb01-b8f000000000-m813f2486-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m813f2486-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m813f2489-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646721361294527">
+<Expr mdsid="m00000014-01f4-0000-6fc4-0ae600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."usd_capex_cost"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-6fc4-0ae600000000-m961d58d2-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58d2-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m813f2487-0c61-1000-8e45-0ac2424e0000" name="Opex Cost (USD)" isWriteable="false">
+<MeasureDefn mdsid="m824c4ec0-0c61-1000-8e45-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m824c4ec1-0c61-1000-8e45-0ac2424e0000" name="AggRule_2050:646941361294527" isDefault="true">
+<Expr mdsid="m00000015-01f4-0000-fdea-d05000000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("PGI-DW"."Fact-Project"."Opex Cost (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-fdea-d05000000000-m813f2487-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m813f2487-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m813f248a-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646731361294527">
+<Expr mdsid="m00000016-01f4-0000-563e-95bf00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."usd_opex_cost"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-563e-95bf00000000-m961d58d3-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58d3-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m813f2488-0c61-1000-8e45-0ac2424e0000" name="Rate (USD)" isWriteable="false">
+<MeasureDefn mdsid="m25b5a6b4-0c62-1000-a784-0ac2424e0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m25b5a6b5-0c62-1000-a784-0ac2424e0000" name="AggRule_2050:665331361568023" isDefault="true">
+<Expr mdsid="m00000017-01f4-0000-00d5-100700000000" name="Expr">
+<ExprText><![CDATA[ AVG("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ AVG("PGI-DW"."Fact-Project"."Rate (USD)")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-00d5-100700000000-m813f2488-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m813f2488-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m813f248b-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646741361294527">
+<Expr mdsid="m00000018-01f4-0000-d8d0-93fc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F02 Project"."usd_rate"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-d8d0-93fc00000000-m961d58d1-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/961d58c0-0c2c-1000-ae5d-0ac2424e0000.xml#m961d58d1-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m829872f0-0c61-1000-8e45-0ac2424e0000" name="Total CIP" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000019-01f4-0000-881d-3fc700000000" name="Expr">
+<ExprText><![CDATA["%1" + "%2" + "%3" + "%4" ]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Project"."CIP-163000" + "PGI-DW"."Fact-Project"."CIP-163100" + "PGI-DW"."Fact-Project"."CIP-163200" + "PGI-DW"."Fact-Project"."CIP Other" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-881d-3fc700000000-m81238632-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81238632-0c61-1000-8e45-0ac2424e0000"/>
+<RefObject refId="m00000019-01f4-0000-881d-3fc700000000-m81264554-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81264554-0c61-1000-8e45-0ac2424e0000"/>
+<RefObject refId="m00000019-01f4-0000-881d-3fc700000000-m81264555-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81264555-0c61-1000-8e45-0ac2424e0000"/>
+<RefObject refId="m00000019-01f4-0000-881d-3fc700000000-m8127cbf2-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8127cbf2-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m829872f1-0c61-1000-8e45-0ac2424e0000" name="AD_3900:646961361294527">
+<Expr mdsid="m0000001a-01f4-0000-76dd-0dbd00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="md36f57c0-0c70-1000-8029-0ac2424e0000" name="CapEx Hours %" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000001b-01f4-0000-0a21-a7b000000000" name="Expr">
+<ExprText><![CDATA["%1" / "%2"  * 100]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Project"."Capex hrs" / "PGI-DW"."Fact-Project"."Total Hrs"  * 100]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-0a21-a7b000000000-m8121ff93-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m8121ff93-0c61-1000-8e45-0ac2424e0000"/>
+<RefObject refId="m0000001b-01f4-0000-0a21-a7b000000000-m81375c52-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#m81375c52-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="md36f57c1-0c70-1000-8029-0ac2424e0000" name="AD_3900:701831367874538">
+<Expr mdsid="m0000001c-01f4-0000-33e3-5ef600000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="md4b12690-0c70-1000-8029-0ac2424e0000" name="CapEx Hours % Year Ago" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000001d-01f4-0000-c650-c77600000000" name="Expr">
+<ExprText><![CDATA[Ago("%1" ,   "%2"  , -1) ]]></ExprText>
+<ExprTextDesc><![CDATA[Ago("PGI-DW"."Fact-Project"."CapEx Hours %" ,   "PGI-DW"."GL Date"."Year"  , -1) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-c650-c77600000000-md36f57c0-0c70-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/811ad3a1-0c61-1000-8e45-0ac2424e0000.xml#md36f57c0-0c70-1000-8029-0ac2424e0000"/>
+<RefObject refId="m0000001d-01f4-0000-c650-c77600000000-md83c7990-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/d82d5e60-0c57-1000-ba5a-0ac2424e0000.xml#md83c7990-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="md4b12691-0c70-1000-8029-0ac2424e0000" name="AD_3900:701891367874538">
+<Expr mdsid="m0000001e-01f4-0000-44d5-045d00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m811ad3a1-0c61-1000-8e45-0ac2424e0000-m8121ff95-0c61-1000-8e45-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8121ff95-0c61-1000-8e45-0ac2424e0000.xml#m8121ff95-0c61-1000-8e45-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

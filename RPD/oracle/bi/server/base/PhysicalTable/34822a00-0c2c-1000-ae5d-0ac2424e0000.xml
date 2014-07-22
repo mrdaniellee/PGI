@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m34822a00-0c2c-1000-ae5d-0ac2424e0000" name="D16 Source System" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="21.0" lastUpdated="2013-06-24 13:52:22" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c0-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m34822a01-0c2c-1000-ae5d-0ac2424e0000" name="sys_key" dataType="INT" precision="10" rowCount="17.0" lastUpdated="2012-05-30 14:21:12" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c1-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a02-0c2c-1000-ae5d-0ac2424e0000" name="sys_cd" dataType="VARCHAR" precision="8" rowCount="17.0" lastUpdated="2012-05-30 14:21:12" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c2-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a03-0c2c-1000-ae5d-0ac2424e0000" name="sys_sd" dataType="VARCHAR" precision="50" nullable="true" rowCount="17.0" lastUpdated="2012-05-30 14:21:12" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c3-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a04-0c2c-1000-ae5d-0ac2424e0000" name="sys_ld" dataType="VARCHAR" precision="50" nullable="true" rowCount="10.0" lastUpdated="2012-05-30 14:21:12" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c4-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a05-0c2c-1000-ae5d-0ac2424e0000" name="sys_owner" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c5-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a06-0c2c-1000-ae5d-0ac2424e0000" name="sys_owner_phone" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c6-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a07-0c2c-1000-ae5d-0ac2424e0000" name="sys_type" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c7-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a08-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="8.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c8-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a09-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9c9-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a0a-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="8.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ca-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34822a0b-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:21:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9cb-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m3b219170-0c2c-1000-ae5d-0ac2424e0000" name="D16 Source System_Key">
+<RefColumns>
+<RefColumn refId="m3b219170-0c2c-1000-ae5d-0ac2424e0000-m34822a01-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/34822a00-0c2c-1000-ae5d-0ac2424e0000.xml#m34822a01-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

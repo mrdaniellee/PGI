@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m250e4320-0c62-1000-a784-0ac2424e0000" name="Start Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" x="499" y="58" subjectAreaRef="/oracle/bi/server/base/BusinessModel/24e78141-0c62-1000-a784-0ac2424e0000.xml#m24e78141-0c62-1000-a784-0ac2424e0000">
+<LogicalColumn mdsid="m250e4324-0c62-1000-a784-0ac2424e0000" name="Date" isWriteable="false">
+<AttrDefn mdsid="m250e4334-0c62-1000-a784-0ac2424e0000" name="AD_3900:657941361567153">
+<Expr mdsid="m00000001-01f4-0000-6830-14ed00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."DAY_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-6830-14ed00000000-m261c7ed1-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed1-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e4325-0c62-1000-a784-0ac2424e0000" name="Year" isWriteable="false">
+<AttrDefn mdsid="m250e4335-0c62-1000-a784-0ac2424e0000" name="AD_3900:657951361567153">
+<Expr mdsid="m00000002-01f4-0000-d550-f3ca00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."CAL_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-d550-f3ca00000000-m261c7ed9-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed9-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e4326-0c62-1000-a784-0ac2424e0000" name="Year Quarter" isWriteable="false">
+<AttrDefn mdsid="m250e4336-0c62-1000-a784-0ac2424e0000" name="AD_3900:657961361567153">
+<Expr mdsid="m00000003-01f4-0000-efe9-c8ec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."PER_NAME_QTR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-efe9-c8ec00000000-m261c7edb-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7edb-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e4327-0c62-1000-a784-0ac2424e0000" name="Year Month" isWriteable="false">
+<AttrDefn mdsid="m250e4337-0c62-1000-a784-0ac2424e0000" name="AD_3900:657971361567153">
+<Expr mdsid="m00000004-01f4-0000-ba99-9c0b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."PER_NAME_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-ba99-9c0b00000000-m261c7eda-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7eda-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e4328-0c62-1000-a784-0ac2424e0000" name="Month" isWriteable="false">
+<AttrDefn mdsid="m250e4338-0c62-1000-a784-0ac2424e0000" name="AD_3900:657981361567153">
+<Expr mdsid="m00000005-01f4-0000-a0ca-819d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."MONTH_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-a0ca-819d00000000-m261c7ed8-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed8-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e4329-0c62-1000-a784-0ac2424e0000" name="Month Number" isWriteable="false">
+<AttrDefn mdsid="m250e4339-0c62-1000-a784-0ac2424e0000" name="AD_3900:657991361567153">
+<Expr mdsid="m00000006-01f4-0000-1f87-cb2500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."CAL_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-1f87-cb2500000000-m261c7ed2-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed2-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e432a-0c62-1000-a784-0ac2424e0000" name="Day Name" isWriteable="false">
+<AttrDefn mdsid="m250e433a-0c62-1000-a784-0ac2424e0000" name="AD_3900:658001361567153">
+<Expr mdsid="m00000007-01f4-0000-e766-4d6200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."DAY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-e766-4d6200000000-m261c7ed4-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed4-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e432b-0c62-1000-a784-0ac2424e0000" name="Week Number" isWriteable="false">
+<AttrDefn mdsid="m250e433b-0c62-1000-a784-0ac2424e0000" name="AD_3900:658011361567153">
+<Expr mdsid="m00000008-01f4-0000-e95a-035600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."CAL_WEEK"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-e95a-035600000000-m261c7ed7-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed7-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e432c-0c62-1000-a784-0ac2424e0000" name="Day Number" isWriteable="false">
+<AttrDefn mdsid="m250e433c-0c62-1000-a784-0ac2424e0000" name="AD_3900:658021361567153">
+<Expr mdsid="m00000009-01f4-0000-f7ef-a2a400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."DAY_OF_WEEK"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-f7ef-a2a400000000-m261c7ed6-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed6-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m250e432d-0c62-1000-a784-0ac2424e0000" name="Day in Month" isWriteable="false">
+<AttrDefn mdsid="m250e433d-0c62-1000-a784-0ac2424e0000" name="AD_3900:658031361567153">
+<Expr mdsid="m0000000a-01f4-0000-2097-ba1c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."Start Date Role"."DAY_OF_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-2097-ba1c00000000-m261c7ed3-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed3-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m250e4331-0c62-1000-a784-0ac2424e0000" name="Calendar_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m250e4331-0c62-1000-a784-0ac2424e0000-m250e4324-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4324-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m250e4320-0c62-1000-a784-0ac2424e0000-m250e4341-0c62-1000-a784-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/250e4341-0c62-1000-a784-0ac2424e0000.xml#m250e4341-0c62-1000-a784-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

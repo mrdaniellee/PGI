@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m284dfe71-0c5a-1000-891c-0ac2424e0000" name="F01 Sales 2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" canCombine="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md77531f0-0c57-1000-ba5a-0ac2424e0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-4d35-b16300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-4d35-b16300000000-me17be055-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17be055-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-ab88-b3ae00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-ab88-b3ae00000000-m26d78b23-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b23-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-a846-3e7100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Billed Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-a846-3e7100000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-b00b-c23b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."billed_qty"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-b00b-c23b00000000-m26d7b222-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b222-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-31b3-d55500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Unbilled Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-31b3-d55500000000-me178fa11-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me178fa11-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-3b4a-16f800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."unbilled_qty"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-3b4a-16f800000000-m26d7b223-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b223-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-216f-486700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Discount Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-216f-486700000000-me17f1491-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17f1491-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-b760-6e8100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."discount_qty"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-b760-6e8100000000-m26d7b224-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b224-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-2b2f-2b8b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-2b2f-2b8b00000000-me1875205-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me1875205-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-99c0-fd0000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."sls_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-99c0-fd0000000000-m26d78b25-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b25-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-82ce-f4d300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue Share (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-82ce-f4d300000000-me18c0cf5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me18c0cf5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-6876-000000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."rev_shr_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-6876-000000000000-m26d7b22b-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b22b-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-6ffa-9d6500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-6ffa-9d6500000000-md7805599-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-22cf-a90c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."sls_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-22cf-a90c00000000-m26d78b32-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b32-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-1c3a-714600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue Share (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-1c3a-714600000000-md7805598-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805598-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-50c5-e8b200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."rev_shr_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-50c5-e8b200000000-m26d7b22d-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b22d-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-1602-561000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Participant Cnt"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-1602-561000000000-m51501b76-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m51501b76-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-3135-443200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."participant_cnt"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-3135-443200000000-m26d7b231-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b231-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-a2d5-4b8c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Disc Amt (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-a2d5-4b8c00000000-m515831ba-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831ba-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-4d78-c4a400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."disc_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-4d78-c4a400000000-m26d78b26-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b26-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-f604-4f6500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Disc Amt (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-f604-4f6500000000-m515831bb-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831bb-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-cfec-ac1400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."disc_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-cfec-ac1400000000-m26d78b33-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b33-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000017-01f4-0000-6f71-525100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Disc Amt (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-6f71-525100000000-m515831bc-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831bc-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000018-01f4-0000-b497-019300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."disc_amt_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-b497-019300000000-m26d78b2d-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b2d-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000019-01f4-0000-cc07-96e200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Fed Tax (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-cc07-96e200000000-m515a2d9a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001a-01f4-0000-7337-cc4300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."fed_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-7337-cc4300000000-m26d78b27-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b27-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001b-01f4-0000-d6c8-07cc00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Fed Tax (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-d6c8-07cc00000000-m515a2d9b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001c-01f4-0000-3d21-61dd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."fed_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-3d21-61dd00000000-m26d78b34-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b34-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001d-01f4-0000-d89f-158600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Fed Tax (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-d89f-158600000000-m515a2d9c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001e-01f4-0000-9611-689100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."fed_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001e-01f4-0000-9611-689100000000-m26d78b2e-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b2e-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001f-01f4-0000-8423-a66c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."State Tax (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-8423-a66c00000000-m515e4c4a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000020-01f4-0000-59ee-213800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."state_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-59ee-213800000000-m26d78b35-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b35-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000021-01f4-0000-fc91-872c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."State Tax (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000021-01f4-0000-fc91-872c00000000-m515e4c4b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000022-01f4-0000-783f-7baa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."state_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000022-01f4-0000-783f-7baa00000000-m26d78b2f-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b2f-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000023-01f4-0000-ae6a-b0d200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."State Tax (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000023-01f4-0000-ae6a-b0d200000000-m515e4c4c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000024-01f4-0000-fddb-270200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."state_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000024-01f4-0000-fddb-270200000000-m26d78b28-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b28-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000025-01f4-0000-4b24-8ce700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."County Tax (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000025-01f4-0000-4b24-8ce700000000-m5160481a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000026-01f4-0000-13b7-c34d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."county_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000026-01f4-0000-13b7-c34d00000000-m26d78b30-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b30-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000027-01f4-0000-abfe-b09800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."County Tax (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000027-01f4-0000-abfe-b09800000000-m5160481b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000028-01f4-0000-ca9a-cd6000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."county_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000028-01f4-0000-ca9a-cd6000000000-m26d78b29-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b29-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000029-01f4-0000-acda-885200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."County Tax (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000029-01f4-0000-acda-885200000000-m5160481c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002a-01f4-0000-d8a8-039900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."county_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002a-01f4-0000-d8a8-039900000000-m26d78b36-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b36-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002b-01f4-0000-2f0e-744f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Local Tax (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002b-01f4-0000-2f0e-744f00000000-m5163555a-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555a-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002c-01f4-0000-6688-3c8700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."local_tax_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002c-01f4-0000-6688-3c8700000000-m26d78b2a-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b2a-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002d-01f4-0000-f55c-a38100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Local Tax (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002d-01f4-0000-f55c-a38100000000-m5163555b-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555b-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002e-01f4-0000-13c3-cbda00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."local_tax_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002e-01f4-0000-13c3-cbda00000000-m26d78b37-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b37-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002f-01f4-0000-b543-b70400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Local Tax (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002f-01f4-0000-b543-b70400000000-m5163555c-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555c-0c63-1000-9f49-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000030-01f4-0000-80d3-5ca300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."local_tax_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000030-01f4-0000-80d3-5ca300000000-m26d78b31-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b31-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000031-01f4-0000-278c-11f800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."CCRF Amt (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000031-01f4-0000-278c-11f800000000-mc2741297-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741297-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000032-01f4-0000-facc-a75700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."ccrf_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000032-01f4-0000-facc-a75700000000-m26d7b234-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b234-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000033-01f4-0000-c750-698d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."CCRF Amt (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000033-01f4-0000-c750-698d00000000-mc2741298-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741298-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000034-01f4-0000-e4df-964b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."ccrf_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000034-01f4-0000-e4df-964b00000000-m26d7b23a-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b23a-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000035-01f4-0000-a46c-2c3900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."CCRF Amt (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000035-01f4-0000-a46c-2c3900000000-mc2741299-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741299-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000036-01f4-0000-f9a1-d28f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."ccrf_amt_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000036-01f4-0000-f9a1-d28f00000000-m26d7b239-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b239-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000037-01f4-0000-b2c4-99ca00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Rate (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000037-01f4-0000-b2c4-99ca00000000-mc27412b9-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412b9-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000038-01f4-0000-fb4f-b89200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."rate"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000038-01f4-0000-fb4f-b89200000000-m26d78b24-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b24-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000039-01f4-0000-1a91-873500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Unique Conf ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000039-01f4-0000-1a91-873500000000-mc27412cf-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412cf-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000003a-01f4-0000-b55d-6f7d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."unique_conf_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003a-01f4-0000-b55d-6f7d00000000-m26d7b230-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b230-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000003b-01f4-0000-5ff8-3f6900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."USF Amt (Local)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003b-01f4-0000-5ff8-3f6900000000-mc27412d1-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d1-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000003c-01f4-0000-22bd-71e800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."usf_amt_local"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003c-01f4-0000-22bd-71e800000000-m26d7b233-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b233-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000003d-01f4-0000-3b47-8f2800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."USF Amt (MAAP)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003d-01f4-0000-3b47-8f2800000000-mc27412d2-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d2-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000003e-01f4-0000-e1f7-67ac00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."usf_amt_maap"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003e-01f4-0000-e1f7-67ac00000000-m26d7b238-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b238-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000003f-01f4-0000-6315-5b3800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."USF Amt (USD)"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003f-01f4-0000-6315-5b3800000000-mc27412d3-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d3-0c6f-1000-886d-0ac2424e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000040-01f4-0000-e4c8-bb8000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2010"."usf_amt_usd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000040-01f4-0000-e4c8-bb8000000000-m26d7b237-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d7b237-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/26d78b10-0c5a-1000-891c-0ac2424e0000.xml#m26d78b10-0c5a-1000-891c-0ac2424e0000">
+</Link>
+<WhereClause mdsid="m00000041-01f4-0000-3acf-aea500000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000042-01f4-0000-8f70-c79e00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000043-01f4-0000-7409-75ae00000000" name="FragmentContent">
+<ExprText><![CDATA["%1" <= 2010]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."GL Date"."Year Number" <= 2010]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000043-01f4-0000-7409-75ae00000000-m46918fc2-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m46918fc2-0c58-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</FragmentContent>
+</LogicalTableSource>

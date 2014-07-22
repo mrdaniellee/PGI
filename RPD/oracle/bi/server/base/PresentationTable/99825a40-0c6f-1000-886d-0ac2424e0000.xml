@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m99825a40-0c6f-1000-886d-0ac2424e0000" name="Quantity Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m9991eaa0-0c6f-1000-886d-0ac2424e0000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17be055-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9991eaa1-0c6f-1000-886d-0ac2424e0000" name="Unbilled Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me178fa11-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9991eaa2-0c6f-1000-886d-0ac2424e0000" name="Billed Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m999211b0-0c6f-1000-886d-0ac2424e0000" name="Discount Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17f1491-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m999211b1-0c6f-1000-886d-0ac2424e0000" name="Participant Cnt" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m51501b76-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mefc0de71-0cad-1000-8029-0ac2424e0000" name="Conference Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="ma430b940-0c7a-1000-8029-0ac2424e0000" name="Local Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="ma43b1981-0c7a-1000-8029-0ac2424e0000" name="Net Revenue (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me205f7d0-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mce855091-0cb4-1000-8029-0ac2424e0000" name="Net Revenue (Local) w CCRF" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mce7e24a0-0cb4-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma43c7911-0c7a-1000-8029-0ac2424e0000" name="Revenue (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me1875205-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma43d1551-0c7a-1000-8029-0ac2424e0000" name="Revenue Share (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me18c0cf5-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma44097c1-0c7a-1000-8029-0ac2424e0000" name="Avg Rate (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m474416e4-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma4424571-0c7a-1000-8029-0ac2424e0000" name="Disc Amt (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831ba-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma4448f61-0c7a-1000-8029-0ac2424e0000" name="Fed Tax (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9a-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma4448f63-0c7a-1000-8029-0ac2424e0000" name="State Tax (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4c-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma4448f65-0c7a-1000-8029-0ac2424e0000" name="County Tax (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481b-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma4448f67-0c7a-1000-8029-0ac2424e0000" name="Local Tax (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555a-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma47b2fc1-0c7a-1000-8029-0ac2424e0000" name="USF Amt (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d1-0c6f-1000-886d-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="maba264d1-0c7a-1000-8029-0ac2424e0000" name="CCRF Amt (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741297-0c6f-1000-886d-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m93a07ad1-0c8d-1000-8029-0ac2424e0000" name="Rate (Local)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412b9-0c6f-1000-886d-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m93a20171-0c8d-1000-8029-0ac2424e0000" name="Rate (Local) - PM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m938acff0-0c8d-1000-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

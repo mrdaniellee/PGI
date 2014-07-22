@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m6fe41901-0c95-1000-9cfd-0ac2424e0000" name="Call Termination" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m6fe41904-0c95-1000-9cfd-0ac2424e0000" name="Call Termination" isWriteable="false">
+<AttrDefn mdsid="m6fe41915-0c95-1000-9cfd-0ac2424e0000" name="AD_3900:708531383596869">
+<Expr mdsid="m00000001-01f4-0000-9392-e97800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D06 Call Termination"."cntry_cd_display"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-9392-e97800000000-mf33660b3-0cae-1000-bd59-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34468090-0c2c-1000-ae5d-0ac2424e0000.xml#mf33660b3-0cae-1000-bd59-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6fe41905-0c95-1000-9cfd-0ac2424e0000" name="Level 1 Key" isWriteable="false">
+<AttrDefn mdsid="m6fe41916-0c95-1000-9cfd-0ac2424e0000" name="AD_3900:708541383596869">
+<Expr mdsid="m00000002-01f4-0000-89ba-c62900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D06 Call Termination"."cntry_gen01_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-89ba-c62900000000-m3446a7a5-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34468090-0c2c-1000-ae5d-0ac2424e0000.xml#m3446a7a5-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6fe41907-0c95-1000-9cfd-0ac2424e0000" name="Region" isWriteable="false">
+<AttrDefn mdsid="m6fe41918-0c95-1000-9cfd-0ac2424e0000" name="AD_3900:708561383596869">
+<Expr mdsid="m00000003-01f4-0000-e752-cff300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D06 Call Termination"."cntry_gen02_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-e752-cff300000000-m3446a7a7-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34468090-0c2c-1000-ae5d-0ac2424e0000.xml#m3446a7a7-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6fe41909-0c95-1000-9cfd-0ac2424e0000" name="Continent" isWriteable="false">
+<AttrDefn mdsid="m6fe4191a-0c95-1000-9cfd-0ac2424e0000" name="AD_3900:708581383596869">
+<Expr mdsid="m00000004-01f4-0000-a81b-342400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D06 Call Termination"."cntry_gen03_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-a81b-342400000000-m3446a7a9-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34468090-0c2c-1000-ae5d-0ac2424e0000.xml#m3446a7a9-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m6fe4190c-0c95-1000-9cfd-0ac2424e0000" name="Call Termination Key" isWriteable="false">
+<AttrDefn mdsid="m6fe4191d-0c95-1000-9cfd-0ac2424e0000" name="AD_3900:708611383596869">
+<Expr mdsid="m00000005-01f4-0000-6b1e-33da00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D06 Call Termination"."cntry_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-6b1e-33da00000000-m3446a7a0-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34468090-0c2c-1000-ae5d-0ac2424e0000.xml#m3446a7a0-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m6fe41914-0c95-1000-9cfd-0ac2424e0000" name="D06 Call Termination_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m6fe41914-0c95-1000-9cfd-0ac2424e0000-m6fe4190c-0c95-1000-9cfd-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/6fe41901-0c95-1000-9cfd-0ac2424e0000.xml#m6fe4190c-0c95-1000-9cfd-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m6fe41901-0c95-1000-9cfd-0ac2424e0000-m6fe41903-0c95-1000-9cfd-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/6fe41903-0c95-1000-9cfd-0ac2424e0000.xml#m6fe41903-0c95-1000-9cfd-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

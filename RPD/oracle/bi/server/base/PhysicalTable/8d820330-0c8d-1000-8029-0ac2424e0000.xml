@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m8d820330-0c8d-1000-8029-0ac2424e0000" name="D26 Bridge Name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea240-0c8d-1000-8029-0ac2424e0000">
+<PhysicalColumn mdsid="m8d820331-0c8d-1000-8029-0ac2424e0000" name="bridge_name_key" dataType="INT" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea241-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820332-0c8d-1000-8029-0ac2424e0000" name="bridge_name_id" dataType="VARCHAR" precision="50" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea242-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820333-0c8d-1000-8029-0ac2424e0000" name="bridge_name_cd" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea243-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820334-0c8d-1000-8029-0ac2424e0000" name="bridge_name_sd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea244-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820335-0c8d-1000-8029-0ac2424e0000" name="bridge_name_ld" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea245-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820336-0c8d-1000-8029-0ac2424e0000" name="bridge_name_type" dataType="VARCHAR" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea246-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820337-0c8d-1000-8029-0ac2424e0000" name="bridge_name_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea247-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820338-0c8d-1000-8029-0ac2424e0000" name="bridge_name_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea248-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820339-0c8d-1000-8029-0ac2424e0000" name="bridge_name_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea249-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d82033a-0c8d-1000-8029-0ac2424e0000" name="bridge_name_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea24a-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d82033b-0c8d-1000-8029-0ac2424e0000" name="eff_start_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea24b-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d82033c-0c8d-1000-8029-0ac2424e0000" name="eff_end_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea24c-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d82033d-0c8d-1000-8029-0ac2424e0000" name="curr_rec_fl" dataType="CHAR" precision="1" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea24d-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d82033e-0c8d-1000-8029-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea24e-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d82033f-0c8d-1000-8029-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea24f-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820340-0c8d-1000-8029-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea250-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820341-0c8d-1000-8029-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea251-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820342-0c8d-1000-8029-0ac2424e0000" name="bridge_loc_country" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea252-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820343-0c8d-1000-8029-0ac2424e0000" name="bridge_loc_city" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea253-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8d820344-0c8d-1000-8029-0ac2424e0000" name="bridge_type" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea254-0c8d-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf064f890-0cab-1000-8029-0ac2424e0000" name="bridge_region" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#mf04eb171-0cab-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m8dbb89c0-0c8d-1000-8029-0ac2424e0000" name="D26 Bridge Name_Key">
+<RefColumns>
+<RefColumn refId="m8dbb89c0-0c8d-1000-8029-0ac2424e0000-m8d820331-0c8d-1000-8029-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820331-0c8d-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

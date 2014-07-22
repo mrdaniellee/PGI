@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m34290d80-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_CUSTOMER" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="209501.0" lastUpdated="2013-06-24 13:52:19" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[PGI_D_CUSTOMER]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m34290d81-0c2c-1000-ae5d-0ac2424e0000" name="cust_key" dataType="INT" precision="10" rowCount="185360.0" lastUpdated="2012-05-30 14:52:40" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d82-0c2c-1000-ae5d-0ac2424e0000" name="sys_cd" dataType="VARCHAR" precision="8" rowCount="1.0" lastUpdated="2012-05-30 14:52:40" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d83-0c2c-1000-ae5d-0ac2424e0000" name="cust_id" dataType="VARCHAR" precision="40" rowCount="185360.0" lastUpdated="2012-05-30 14:52:40" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d84-0c2c-1000-ae5d-0ac2424e0000" name="cust_cd" dataType="VARCHAR" precision="49" rowCount="185360.0" lastUpdated="2012-05-30 14:52:43" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d85-0c2c-1000-ae5d-0ac2424e0000" name="cust_sd" dataType="VARCHAR" precision="100" nullable="true" rowCount="184432.0" lastUpdated="2012-05-30 14:52:43" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d86-0c2c-1000-ae5d-0ac2424e0000" name="cust_ld" dataType="VARCHAR" precision="255" nullable="true" rowCount="184432.0" lastUpdated="2012-05-30 14:52:44" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d87-0c2c-1000-ae5d-0ac2424e0000" name="cust_gen01_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:44" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d88-0c2c-1000-ae5d-0ac2424e0000" name="cust_gen01_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:44" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d89-0c2c-1000-ae5d-0ac2424e0000" name="cust_gen02_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:44" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d8a-0c2c-1000-ae5d-0ac2424e0000" name="cust_gen02_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:45" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d8b-0c2c-1000-ae5d-0ac2424e0000" name="cust_std_gen01_cd" dataType="VARCHAR" precision="16" rowCount="98820.0" lastUpdated="2012-05-30 14:52:45" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d8c-0c2c-1000-ae5d-0ac2424e0000" name="cust_std_gen01_desc" dataType="VARCHAR" precision="80" rowCount="98818.0" lastUpdated="2012-05-30 14:52:45" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d8d-0c2c-1000-ae5d-0ac2424e0000" name="cust_std_gen02_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="2281.0" lastUpdated="2012-05-30 14:52:45" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d8e-0c2c-1000-ae5d-0ac2424e0000" name="cust_std_gen02_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="2208.0" lastUpdated="2012-05-30 14:52:45" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d8f-0c2c-1000-ae5d-0ac2424e0000" name="cust_std_gen03_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:46" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d90-0c2c-1000-ae5d-0ac2424e0000" name="cust_std_gen03_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:46" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d91-0c2c-1000-ae5d-0ac2424e0000" name="cust_alt_std_gen01_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:46" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d92-0c2c-1000-ae5d-0ac2424e0000" name="cust_alt_std_gen01_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:46" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d93-0c2c-1000-ae5d-0ac2424e0000" name="cust_alt_std_gen02_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:47" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d94-0c2c-1000-ae5d-0ac2424e0000" name="cust_alt_std_gen02_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:47" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d95-0c2c-1000-ae5d-0ac2424e0000" name="cust_alt_std_gen03_cd" dataType="VARCHAR" precision="16" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:47" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d96-0c2c-1000-ae5d-0ac2424e0000" name="cust_alt_std_gen03_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:47" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d97-0c2c-1000-ae5d-0ac2424e0000" name="cust_salesrep" dataType="VARCHAR" precision="100" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:47" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d98-0c2c-1000-ae5d-0ac2424e0000" name="cust_industry" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:48" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d99-0c2c-1000-ae5d-0ac2424e0000" name="cust_acct_type" dataType="VARCHAR" precision="8" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:48" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d9a-0c2c-1000-ae5d-0ac2424e0000" name="cust_pri_cntc_nam" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:48" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d9b-0c2c-1000-ae5d-0ac2424e0000" name="cust_pri_cntc_title" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:48" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d9c-0c2c-1000-ae5d-0ac2424e0000" name="cust_pri_cntc_email" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:48" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d9d-0c2c-1000-ae5d-0ac2424e0000" name="cust_pri_cntc_phone_num" dataType="VARCHAR" precision="15" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:49" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d9e-0c2c-1000-ae5d-0ac2424e0000" name="cust_pri_cntc_phone_ext" dataType="VARCHAR" precision="6" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:49" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290d9f-0c2c-1000-ae5d-0ac2424e0000" name="cust_secnd_cntc_nam" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:49" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da0-0c2c-1000-ae5d-0ac2424e0000" name="cust_secnd_cntc_title" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:49" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da1-0c2c-1000-ae5d-0ac2424e0000" name="cust_secnd_cntc_email" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:49" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da2-0c2c-1000-ae5d-0ac2424e0000" name="cust_secnd_cntc_phone_num" dataType="VARCHAR" precision="15" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da3-0c2c-1000-ae5d-0ac2424e0000" name="cust_secnd_cntc_phone_ext" dataType="VARCHAR" precision="6" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da4-0c2c-1000-ae5d-0ac2424e0000" name="cust_parent_acct_num" dataType="VARCHAR" precision="48" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da5-0c2c-1000-ae5d-0ac2424e0000" name="cust_str_addr_1" dataType="VARCHAR" precision="255" nullable="true" rowCount="133159.0" lastUpdated="2012-05-30 14:52:50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da6-0c2c-1000-ae5d-0ac2424e0000" name="cust_str_addr_2" dataType="VARCHAR" precision="255" nullable="true" rowCount="23832.0" lastUpdated="2012-05-30 14:52:51" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da7-0c2c-1000-ae5d-0ac2424e0000" name="cust_str_city" dataType="VARCHAR" precision="80" nullable="true" rowCount="15799.0" lastUpdated="2012-05-30 14:52:51" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da8-0c2c-1000-ae5d-0ac2424e0000" name="cust_str_state" dataType="VARCHAR" precision="50" nullable="true" rowCount="702.0" lastUpdated="2012-05-30 14:52:51" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290da9-0c2c-1000-ae5d-0ac2424e0000" name="cust_str_zip" dataType="CHAR" precision="5" nullable="true" rowCount="27836.0" lastUpdated="2012-05-30 14:52:52" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290daa-0c2c-1000-ae5d-0ac2424e0000" name="cust_str_zip4" dataType="CHAR" precision="4" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:52" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dab-0c2c-1000-ae5d-0ac2424e0000" name="cust_main_phone_num" dataType="VARCHAR" precision="15" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:52" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dac-0c2c-1000-ae5d-0ac2424e0000" name="cust_main_fax_num" dataType="VARCHAR" precision="15" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:52" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dad-0c2c-1000-ae5d-0ac2424e0000" name="cust_bill_addr_1" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:53" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dae-0c2c-1000-ae5d-0ac2424e0000" name="cust_bill_addr_2" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:53" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290daf-0c2c-1000-ae5d-0ac2424e0000" name="cust_bill_city" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:53" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db0-0c2c-1000-ae5d-0ac2424e0000" name="cust_bill_st" dataType="CHAR" precision="2" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:53" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db1-0c2c-1000-ae5d-0ac2424e0000" name="cust_bill_zip" dataType="CHAR" precision="5" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:53" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db2-0c2c-1000-ae5d-0ac2424e0000" name="cust_bill_zip4" dataType="CHAR" precision="4" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:54" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db3-0c2c-1000-ae5d-0ac2424e0000" name="cust_country" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:54" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db4-0c2c-1000-ae5d-0ac2424e0000" name="cust_signup_src" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:54" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db5-0c2c-1000-ae5d-0ac2424e0000" name="cust_price_type" dataType="VARCHAR" precision="8" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:54" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db6-0c2c-1000-ae5d-0ac2424e0000" name="cust_pri_bill_type" dataType="VARCHAR" precision="8" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:54" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db7-0c2c-1000-ae5d-0ac2424e0000" name="cust_pay_terms" dataType="VARCHAR" precision="8" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:54" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db8-0c2c-1000-ae5d-0ac2424e0000" name="cust_yib" dataType="VARCHAR" precision="8" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:55" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290db9-0c2c-1000-ae5d-0ac2424e0000" name="cust_incorporation_st" dataType="CHAR" precision="2" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:55" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dba-0c2c-1000-ae5d-0ac2424e0000" name="cust_num_emp" dataType="INT" precision="10" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:55" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dbb-0c2c-1000-ae5d-0ac2424e0000" name="cust_signup_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:55" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dbc-0c2c-1000-ae5d-0ac2424e0000" name="cust_end_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:55" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dbd-0c2c-1000-ae5d-0ac2424e0000" name="cust_sic_cd" dataType="VARCHAR" precision="4" nullable="true" rowCount="983.0" lastUpdated="2012-05-30 14:52:56" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dbe-0c2c-1000-ae5d-0ac2424e0000" name="cust_sic_division_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="11.0" lastUpdated="2012-05-30 14:52:56" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dbf-0c2c-1000-ae5d-0ac2424e0000" name="cust_sic_major_grp_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="83.0" lastUpdated="2012-05-30 14:52:56" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc0-0c2c-1000-ae5d-0ac2424e0000" name="cust_fed_tax_id" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:56" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc1-0c2c-1000-ae5d-0ac2424e0000" name="cust_duns_num" dataType="INT" precision="10" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:56" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc2-0c2c-1000-ae5d-0ac2424e0000" name="cust_naics_num" dataType="INT" precision="10" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:57" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc3-0c2c-1000-ae5d-0ac2424e0000" name="cust_type" dataType="VARCHAR" precision="35" nullable="true" rowCount="5.0" lastUpdated="2012-05-30 14:52:57" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc4-0c2c-1000-ae5d-0ac2424e0000" name="cust_status" dataType="VARCHAR" precision="15" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:52:57" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc5-0c2c-1000-ae5d-0ac2424e0000" name="cust_do_not_solicit" dataType="CHAR" precision="1" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:52:57" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc6-0c2c-1000-ae5d-0ac2424e0000" name="cust_business_unit" dataType="CHAR" precision="4" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:52:57" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc7-0c2c-1000-ae5d-0ac2424e0000" name="cust_tesla_bu" dataType="CHAR" precision="4" nullable="true" rowCount="25.0" lastUpdated="2012-05-30 14:52:58" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc8-0c2c-1000-ae5d-0ac2424e0000" name="cust_acquired_name" dataType="CHAR" precision="50" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:52:58" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dc9-0c2c-1000-ae5d-0ac2424e0000" name="cust_external_id" dataType="VARCHAR" precision="50" nullable="true" rowCount="59581.0" lastUpdated="2012-05-30 14:52:58" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dca-0c2c-1000-ae5d-0ac2424e0000" name="cust_default_hub" dataType="VARCHAR" precision="50" nullable="true" rowCount="124624.0" lastUpdated="2012-05-30 14:52:59" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dcb-0c2c-1000-ae5d-0ac2424e0000" name="cust_web_addr" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:59" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dcc-0c2c-1000-ae5d-0ac2424e0000" name="cust_exchange" dataType="VARCHAR" precision="10" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:59" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dcd-0c2c-1000-ae5d-0ac2424e0000" name="cust_ticker" dataType="VARCHAR" precision="6" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:52:59" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dce-0c2c-1000-ae5d-0ac2424e0000" name="cust_region" dataType="CHAR" precision="4" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:52:59" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dcf-0c2c-1000-ae5d-0ac2424e0000" name="cust_tax_exmpt_fl" dataType="CHAR" precision="1" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:00" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd0-0c2c-1000-ae5d-0ac2424e0000" name="cust_latest_cred_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:00" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd1-0c2c-1000-ae5d-0ac2424e0000" name="co_src_descr" dataType="VARCHAR" precision="100" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:53:00" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd2-0c2c-1000-ae5d-0ac2424e0000" name="eff_start_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="1.0" lastUpdated="2012-05-30 14:53:00" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd3-0c2c-1000-ae5d-0ac2424e0000" name="eff_end_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="1.0" lastUpdated="2012-05-30 14:53:01" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd4-0c2c-1000-ae5d-0ac2424e0000" name="curr_rec_fl" dataType="CHAR" precision="1" rowCount="1.0" lastUpdated="2012-05-30 14:53:01" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd5-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="194.0" lastUpdated="2012-05-30 14:53:01" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd6-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="66.0" lastUpdated="2012-05-30 14:53:01" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd7-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="194.0" lastUpdated="2012-05-30 14:53:01" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd8-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" rowCount="66.0" lastUpdated="2012-05-30 14:53:02" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dd9-0c2c-1000-ae5d-0ac2424e0000" name="cust_conf_start_dt" dataType="CHAR" precision="11" nullable="true" rowCount="65.0" lastUpdated="2012-05-30 14:53:02" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dda-0c2c-1000-ae5d-0ac2424e0000" name="cust_conf_restart_dt" dataType="CHAR" precision="11" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:02" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290ddb-0c2c-1000-ae5d-0ac2424e0000" name="cust_conf_end_dt" dataType="CHAR" precision="11" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:02" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290ddc-0c2c-1000-ae5d-0ac2424e0000" name="cust_terr_id" dataType="VARCHAR" precision="8" nullable="true" rowCount="1718.0" lastUpdated="2012-05-30 14:53:02" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290ddd-0c2c-1000-ae5d-0ac2424e0000" name="cust_terr_desc" dataType="VARCHAR" precision="80" nullable="true" rowCount="1641.0" lastUpdated="2012-05-30 14:53:03" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dde-0c2c-1000-ae5d-0ac2424e0000" name="cust_channel_desc" dataType="VARCHAR" precision="150" nullable="true" rowCount="36.0" lastUpdated="2012-05-30 14:53:03" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290ddf-0c2c-1000-ae5d-0ac2424e0000" name="cust_unatt_seq_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:03" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de0-0c2c-1000-ae5d-0ac2424e0000" name="cust_unatt_yoy_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:03" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de1-0c2c-1000-ae5d-0ac2424e0000" name="cust_att_seq_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:04" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de2-0c2c-1000-ae5d-0ac2424e0000" name="cust_att_yoy_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:04" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de3-0c2c-1000-ae5d-0ac2424e0000" name="cust_seq_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:04" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de4-0c2c-1000-ae5d-0ac2424e0000" name="cust_yoy_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:04" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de5-0c2c-1000-ae5d-0ac2424e0000" name="cust_web_seq_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:04" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de6-0c2c-1000-ae5d-0ac2424e0000" name="cust_web_yoy_type" dataType="VARCHAR" precision="25" nullable="true" rowCount="3.0" lastUpdated="2012-05-30 14:53:05" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de7-0c2c-1000-ae5d-0ac2424e0000" name="cust_terr_id_2012" dataType="VARCHAR" precision="8" nullable="true" rowCount="860.0" lastUpdated="2012-05-30 14:53:05" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de8-0c2c-1000-ae5d-0ac2424e0000" name="cust_terr_desc_2012" dataType="VARCHAR" precision="80" nullable="true" rowCount="872.0" lastUpdated="2012-05-30 14:53:05" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290de9-0c2c-1000-ae5d-0ac2424e0000" name="cust_channel_desc_2012" dataType="VARCHAR" precision="150" nullable="true" rowCount="15.0" lastUpdated="2012-05-30 14:53:05" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dea-0c2c-1000-ae5d-0ac2424e0000" name="cust_channel_gen01_cd" dataType="VARCHAR" precision="150" nullable="true" rowCount="5.0" lastUpdated="2012-05-30 14:53:05" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290deb-0c2c-1000-ae5d-0ac2424e0000" name="cust_reseller" dataType="VARCHAR" precision="150" nullable="true" rowCount="136.0" lastUpdated="2012-05-30 14:53:05" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dec-0c2c-1000-ae5d-0ac2424e0000" name="cust_terr_id_orig" dataType="VARCHAR" precision="8" nullable="true" rowCount="1814.0" lastUpdated="2012-05-30 14:53:06" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290ded-0c2c-1000-ae5d-0ac2424e0000" name="cust_terr_desc_orig" dataType="VARCHAR" precision="80" nullable="true" rowCount="1722.0" lastUpdated="2012-05-30 14:53:06" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290dee-0c2c-1000-ae5d-0ac2424e0000" name="cust_channel_desc_orig" dataType="VARCHAR" precision="150" nullable="true" rowCount="35.0" lastUpdated="2012-05-30 14:53:06" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290def-0c2c-1000-ae5d-0ac2424e0000" name="cust_reseller_type" dataType="VARCHAR" precision="50" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:53:06" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34290df0-0c2c-1000-ae5d-0ac2424e0000" name="cust_new_logo_13m" dataType="VARCHAR" precision="11" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:53:06" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma73dd530-0c59-1000-891c-0ac2424e0000" name="cust_gl_bus_unit" dataType="VARCHAR" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma73dfc40-0c59-1000-891c-0ac2424e0000" name="cust_gl_region" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma73e2350-0c59-1000-891c-0ac2424e0000" name="cust_vol_size" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma355e9a0-0c7a-1000-8029-0ac2424e0000" name="sfdc_id" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma35aa490-0c7a-1000-8029-0ac2424e0000" name="top_cust_channel" dataType="VARCHAR" precision="150" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma35aa492-0c7a-1000-8029-0ac2424e0000" name="usf_reseller" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0534550-0cab-1000-8029-0ac2424e0000" name="partner_ae" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0534552-0cab-1000-8029-0ac2424e0000" name="partner_am_pm" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0534554-0cab-1000-8029-0ac2424e0000" name="partner_director" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0534556-0cab-1000-8029-0ac2424e0000" name="partner_name" dataType="VARCHAR" precision="100" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0536c60-0cab-1000-8029-0ac2424e0000" name="partner_svp_vp" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m67c67a60-0cb3-1000-8029-0ac2424e0000" name="partner_type" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m34290df1-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_CUSTOMER">
+<RefColumns>
+<RefColumn refId="m34290df1-0c2c-1000-ae5d-0ac2424e0000-m34290d81-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/34290d80-0c2c-1000-ae5d-0ac2424e0000.xml#m34290d81-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

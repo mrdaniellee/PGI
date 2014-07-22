@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m342982c8-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_SERVICE_TYPE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="1214.0" lastUpdated="2013-06-24 13:52:22" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[PGI_D_SERVICE_TYPE]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m342982c9-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_key" dataType="INT" precision="10" rowCount="38.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982ca-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_id" dataType="VARCHAR" precision="80" rowCount="38.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982cb-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_cd" dataType="VARCHAR" precision="80" rowCount="38.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982cc-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_sd" dataType="VARCHAR" precision="80" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982cd-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_ld" dataType="VARCHAR" precision="80" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982ce-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982cf-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982d0-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982d1-0c2c-1000-ae5d-0ac2424e0000" name="svc_type_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:12" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982d2-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="6.0" lastUpdated="2012-05-30 14:21:12" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982d3-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="6.0" lastUpdated="2012-05-30 14:21:12" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982d4-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="6.0" lastUpdated="2012-05-30 14:21:12" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982d5-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="6.0" lastUpdated="2012-05-30 14:21:12" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m342982d6-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_SERVICE_TYPE">
+<RefColumns>
+<RefColumn refId="m342982d6-0c2c-1000-ae5d-0ac2424e0000-m342982c9-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/342982c8-0c2c-1000-ae5d-0ac2424e0000.xml#m342982c9-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

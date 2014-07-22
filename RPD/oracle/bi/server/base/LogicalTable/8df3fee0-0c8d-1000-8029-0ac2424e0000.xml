@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8df3fee0-0c8d-1000-8029-0ac2424e0000" name="Bridge Name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m8df3fee3-0c8d-1000-8029-0ac2424e0000" name="Bridge City" isWriteable="false">
+<AttrDefn mdsid="m8df3fef8-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707511380212504">
+<Expr mdsid="m00000001-01f4-0000-dcba-d44800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D26 Bridge Name"."bridge_loc_city"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-dcba-d44800000000-m8d820343-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820343-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df3fee4-0c8d-1000-8029-0ac2424e0000" name="Bridge Country" isWriteable="false">
+<AttrDefn mdsid="m8df3fef9-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707521380212504">
+<Expr mdsid="m00000002-01f4-0000-b046-b2bd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D26 Bridge Name"."bridge_loc_country"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-b046-b2bd00000000-m8d820342-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820342-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df3feea-0c8d-1000-8029-0ac2424e0000" name="Bridge Name" isWriteable="false">
+<AttrDefn mdsid="m8df3feff-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707581380212504">
+<Expr mdsid="m00000003-01f4-0000-5b7d-a29f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D26 Bridge Name"."bridge_name_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-5b7d-a29f00000000-m8d820332-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820332-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df3feed-0c8d-1000-8029-0ac2424e0000" name="Bridge Name Desc" isWriteable="false">
+<AttrDefn mdsid="m8df3ff02-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707611380212504">
+<Expr mdsid="m00000004-01f4-0000-0b94-4e8f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D26 Bridge Name"."bridge_name_sd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-0b94-4e8f00000000-m8d820334-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820334-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df3feef-0c8d-1000-8029-0ac2424e0000" name="Bridge Type" isWriteable="false">
+<AttrDefn mdsid="m8df3ff04-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707631380212504">
+<Expr mdsid="m00000005-01f4-0000-9422-626800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D26 Bridge Name"."bridge_type"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-9422-626800000000-m8d820344-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820344-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8eb5c843-0c8d-1000-8029-0ac2424e0000" name="bridge_name_key" isWriteable="false">
+<AttrDefn mdsid="m8eb5c845-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707921380212504">
+<Expr mdsid="m00000006-01f4-0000-943b-e26200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D26 Bridge Name"."bridge_name_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-943b-e26200000000-m8d820331-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d820330-0c8d-1000-8029-0ac2424e0000.xml#m8d820331-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8eb5c844-0c8d-1000-8029-0ac2424e0000" name="D26 Bridge Name_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8eb5c844-0c8d-1000-8029-0ac2424e0000-m8eb5c843-0c8d-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8df3fee0-0c8d-1000-8029-0ac2424e0000.xml#m8eb5c843-0c8d-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m8df3fee0-0c8d-1000-8029-0ac2424e0000-m8df3fee2-0c8d-1000-8029-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8df3fee2-0c8d-1000-8029-0ac2424e0000.xml#m8df3fee2-0c8d-1000-8029-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

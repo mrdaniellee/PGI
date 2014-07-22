@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m27186b42-0c62-1000-a784-0ac2424e0000" name="TopicDrill" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/27186b3a-0c62-1000-a784-0ac2424e0000.xml#m27186b3a-0c62-1000-a784-0ac2424e0000" logicalDimensionRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e1662-0c62-1000-a784-0ac2424e0000">
+<PresentationLevel mdsid="m27186b4e-0c62-1000-a784-0ac2424e0000" name="TotalTopic" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b42-0c62-1000-a784-0ac2424e0000.xml#m27186b42-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166c-0c62-1000-a784-0ac2424e0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m27186b4f-0c62-1000-a784-0ac2424e0000" name="Repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b42-0c62-1000-a784-0ac2424e0000.xml#m27186b42-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166d-0c62-1000-a784-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m27186b4f-0c62-1000-a784-0ac2424e0000-m27186b03-0c62-1000-a784-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/27186b3a-0c62-1000-a784-0ac2424e0000.xml#m27186b03-0c62-1000-a784-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m27186b50-0c62-1000-a784-0ac2424e0000" name="SA" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b42-0c62-1000-a784-0ac2424e0000.xml#m27186b42-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166e-0c62-1000-a784-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m27186b50-0c62-1000-a784-0ac2424e0000-m27186b04-0c62-1000-a784-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/27186b3a-0c62-1000-a784-0ac2424e0000.xml#m27186b04-0c62-1000-a784-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m27186b51-0c62-1000-a784-0ac2424e0000" name="SQL" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b42-0c62-1000-a784-0ac2424e0000.xml#m27186b42-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166f-0c62-1000-a784-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m27186b51-0c62-1000-a784-0ac2424e0000-m27186b06-0c62-1000-a784-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/27186b3a-0c62-1000-a784-0ac2424e0000.xml#m27186b06-0c62-1000-a784-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

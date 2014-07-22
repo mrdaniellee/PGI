@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mef53af40-0c61-1000-8029-0ac2424e0000" name="Employee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/ef53af40-0c61-1000-8029-0ac2424e0000.xml#mef56bc80-0c61-1000-8029-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="mef56bc80-0c61-1000-8029-0ac2424e0000" name="All Employees" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Employees&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="mef56bc80-0c61-1000-8029-0ac2424e0000_mef59a2b0-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/ef53af40-0c61-1000-8029-0ac2424e0000.xml#mef59a2b0-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="mef59a2b0-0c61-1000-8029-0ac2424e0000" name="Vendor Name" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Vendor Name&apos;">
+<LogicalKey mdsid="mef5ed2d0-0c61-1000-8029-0ac2424e0000" name="Vendor Name" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mef5ed2d0-0c61-1000-8029-0ac2424e0000-mef409c74-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef409c74-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="mef59a2b0-0c61-1000-8029-0ac2424e0000_mef5b9e80-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/ef53af40-0c61-1000-8029-0ac2424e0000.xml#mef5b9e80-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mef59a2b0-0c61-1000-8029-0ac2424e0000-mef409c74-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef409c74-0c61-1000-8029-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="mef5b9e80-0c61-1000-8029-0ac2424e0000" name="Employee Name" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Employee Name&apos;">
+<LogicalKey mdsid="mef765270-0c61-1000-8029-0ac2424e0000" name="Employee Name" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mef765270-0c61-1000-8029-0ac2424e0000-mef429843-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef429843-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mef5b9e80-0c61-1000-8029-0ac2424e0000-mef429843-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ef3d6820-0c61-1000-8029-0ac2424e0000.xml#mef429843-0c61-1000-8029-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

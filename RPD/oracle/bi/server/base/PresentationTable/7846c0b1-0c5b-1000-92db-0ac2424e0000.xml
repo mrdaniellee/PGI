@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m7846c0b1-0c5b-1000-92db-0ac2424e0000" name="Reseller" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m7846c0ad-0c5b-1000-92db-0ac2424e0000" name="Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d17-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7846c0ae-0c5b-1000-92db-0ac2424e0000" name="Reseller Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d19-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7846c0af-0c5b-1000-92db-0ac2424e0000" name="Reseller Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d1f-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7846c0b0-0c5b-1000-92db-0ac2424e0000" name="Reseller Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d20-0c5b-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m7846c0b1-0c5b-1000-92db-0ac2424e0000-m7846c0b2-0c5b-1000-92db-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/7846c0b2-0c5b-1000-92db-0ac2424e0000.xml#m7846c0b2-0c5b-1000-92db-0ac2424e0000"/>
+<RefPresentationHierarchy refId="m7846c0b1-0c5b-1000-92db-0ac2424e0000-m7846c0b3-0c5b-1000-92db-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/7846c0b3-0c5b-1000-92db-0ac2424e0000.xml#m7846c0b3-0c5b-1000-92db-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

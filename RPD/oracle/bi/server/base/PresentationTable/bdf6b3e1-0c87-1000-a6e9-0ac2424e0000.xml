@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mbdf6b3e1-0c87-1000-a6e9-0ac2424e0000" name="Network Cost Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="mbe0b2643-0c87-1000-a6e9-0ac2424e0000" name="Telco Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de377-0c85-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mbeb018d1-0c87-1000-a6e9-0ac2424e0000" name="Variable Rate (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mbe9b3140-0c87-1000-a6e9-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mbe0b2645-0c87-1000-a6e9-0ac2424e0000" name="Variable Telco Cost (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de378-0c85-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m232acb91-0cae-1000-8029-0ac2424e0000" name="Variable Margin (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m231bd770-0cae-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m232af2a0-0cae-1000-8029-0ac2424e0000" name="Variable Margin %" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m23232a70-0cae-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m952351d1-0caf-1000-bd59-0ac2424e0000" name="Variable Margin % (Rate)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m9503bbe0-0caf-1000-bd59-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mbe0b2641-0c87-1000-a6e9-0ac2424e0000" name="Fixed Network Cost (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m193de376-0c85-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mbe0b2647-0c87-1000-a6e9-0ac2424e0000" name="Total Network Cost (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m20d5dbb0-0c85-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mbeb018d3-0c87-1000-a6e9-0ac2424e0000" name="Network Margin (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mbea48010-0c87-1000-a6e9-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc1813a31-0c87-1000-a6e9-0ac2424e0000" name="Network Margin %" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc1772810-0c87-1000-a6e9-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

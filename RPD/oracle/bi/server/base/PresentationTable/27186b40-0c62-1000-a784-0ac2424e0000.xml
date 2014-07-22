@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m27186b40-0c62-1000-a784-0ac2424e0000" name="Start Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/27186b38-0c62-1000-a784-0ac2424e0000.xml#m27186b38-0c62-1000-a784-0ac2424e0000">
+<Alias name="Query Time"/>
+<PresentationColumn mdsid="m27186b2e-0c62-1000-a784-0ac2424e0000" name="Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4324-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b2f-0c62-1000-a784-0ac2424e0000" name="Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4325-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b30-0c62-1000-a784-0ac2424e0000" name="Year Quarter" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4326-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b31-0c62-1000-a784-0ac2424e0000" name="Year Month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4327-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b32-0c62-1000-a784-0ac2424e0000" name="Month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4328-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b33-0c62-1000-a784-0ac2424e0000" name="Month Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e4329-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b34-0c62-1000-a784-0ac2424e0000" name="Day Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e432a-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b35-0c62-1000-a784-0ac2424e0000" name="Week Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e432b-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b36-0c62-1000-a784-0ac2424e0000" name="Day Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e432c-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b37-0c62-1000-a784-0ac2424e0000" name="Day in Month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4320-0c62-1000-a784-0ac2424e0000.xml#m250e432d-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m16bbf182-0c9b-1000-8029-0ac2424e0000" name="Hour" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4321-0c62-1000-a784-0ac2424e0000.xml#m250e432e-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m16bcdbe1-0c9b-1000-8029-0ac2424e0000" name="Minute" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4321-0c62-1000-a784-0ac2424e0000.xml#m250e432f-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m16bd7821-0c9b-1000-8029-0ac2424e0000" name="Time" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/250e4321-0c62-1000-a784-0ac2424e0000.xml#m250e4330-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m27186b40-0c62-1000-a784-0ac2424e0000-m27186b46-0c62-1000-a784-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/27186b46-0c62-1000-a784-0ac2424e0000.xml#m27186b46-0c62-1000-a784-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

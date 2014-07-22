@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m7002c49b-0c95-1000-9cfd-0ac2424e0000" name="Call Termination" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m7002c496-0c95-1000-9cfd-0ac2424e0000" name="Call Termination" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/6fe41901-0c95-1000-9cfd-0ac2424e0000.xml#m6fe41904-0c95-1000-9cfd-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7002c497-0c95-1000-9cfd-0ac2424e0000" name="Level 1 Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/6fe41901-0c95-1000-9cfd-0ac2424e0000.xml#m6fe41905-0c95-1000-9cfd-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7002c498-0c95-1000-9cfd-0ac2424e0000" name="Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/6fe41901-0c95-1000-9cfd-0ac2424e0000.xml#m6fe41907-0c95-1000-9cfd-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7002c499-0c95-1000-9cfd-0ac2424e0000" name="Continent" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/6fe41901-0c95-1000-9cfd-0ac2424e0000.xml#m6fe41909-0c95-1000-9cfd-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m342982b9-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_SCENARIO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="9.0" lastUpdated="2013-06-24 13:52:22" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m342982ba-0c2c-1000-ae5d-0ac2424e0000" name="scnro_key" dataType="INT" precision="10" rowCount="7.0" lastUpdated="2012-05-30 14:53:30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982bb-0c2c-1000-ae5d-0ac2424e0000" name="scnro_id" dataType="VARCHAR" precision="16" rowCount="7.0" lastUpdated="2012-05-30 14:21:09" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982bc-0c2c-1000-ae5d-0ac2424e0000" name="scnro_cd" dataType="VARCHAR" precision="16" rowCount="7.0" lastUpdated="2012-05-30 14:21:09" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982bd-0c2c-1000-ae5d-0ac2424e0000" name="scnro_sd" dataType="VARCHAR" precision="50" nullable="true" rowCount="7.0" lastUpdated="2012-05-30 14:21:09" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982be-0c2c-1000-ae5d-0ac2424e0000" name="scnro_ld" dataType="VARCHAR" precision="50" nullable="true" rowCount="7.0" lastUpdated="2012-05-30 14:21:09" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982bf-0c2c-1000-ae5d-0ac2424e0000" name="scnro_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c0-0c2c-1000-ae5d-0ac2424e0000" name="scnro_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c1-0c2c-1000-ae5d-0ac2424e0000" name="scnro_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c2-0c2c-1000-ae5d-0ac2424e0000" name="scnro_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c3-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="5.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c4-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c5-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="5.0" lastUpdated="2012-05-30 14:21:10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342982c6-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:21:11" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m342982c7-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_SCENARIO">
+<RefColumns>
+<RefColumn refId="m342982c7-0c2c-1000-ae5d-0ac2424e0000-m342982ba-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/342982b9-0c2c-1000-ae5d-0ac2424e0000.xml#m342982ba-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

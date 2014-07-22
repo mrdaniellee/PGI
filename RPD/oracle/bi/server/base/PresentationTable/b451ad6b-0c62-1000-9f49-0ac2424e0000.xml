@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mb451ad6b-0c62-1000-9f49-0ac2424e0000" name="Service Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="mb451ad6a-0c62-1000-9f49-0ac2424e0000" name="Service Type Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b4271af0-0c62-1000-9f49-0ac2424e0000.xml#mb42e6df2-0c62-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb451ad69-0c62-1000-9f49-0ac2424e0000" name="Service Type ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b4271af0-0c62-1000-9f49-0ac2424e0000.xml#mb42b60b2-0c62-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

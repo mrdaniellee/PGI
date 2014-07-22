@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m565570f0-0c5a-1000-891c-0ac2424e0000" name="PGI_CONTROL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="1.0" lastUpdated="2013-06-24 13:52:17" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m565570f1-0c5a-1000-891c-0ac2424e0000" name="curr_date" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m565570f2-0c5a-1000-891c-0ac2424e0000" name="curr_month" dataType="TINYINT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m565570f3-0c5a-1000-891c-0ac2424e0000" name="curr_year" dataType="SMALLINT" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m565570f4-0c5a-1000-891c-0ac2424e0000" name="obi_sls_mth_num" dataType="TINYINT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m565570f5-0c5a-1000-891c-0ac2424e0000" name="obi_sls_yr_num" dataType="SMALLINT" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m565570f6-0c5a-1000-891c-0ac2424e0000" name="obi_sls_qtr_num" dataType="TINYINT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m56559800-0c5a-1000-891c-0ac2424e0000" name="obi_sls_date" dataType="DATE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m99716a50-0c6f-1000-886d-0ac2424e0000" name="MAAP Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<Alias name="Fact-MAAP Amounts"/>
+<PresentationColumn mdsid="m99740261-0c6f-1000-886d-0ac2424e0000" name="Net Revenue (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000">
+<Alias name="Net Sales (MAAP)"/>
+<Alias name="Sales (MAAP)"/>
+</PresentationColumn>
+<PresentationColumn mdsid="mce768381-0cb4-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) w CCRF" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mce7041f0-0cb4-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba01d331-0cac-1000-8029-0ac2424e0000" name="Revenue Share (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805598-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba00c1c1-0cac-1000-8029-0ac2424e0000" name="Revenue (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m99740262-0c6f-1000-886d-0ac2424e0000" name="Avg Rate (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m99740264-0c6f-1000-886d-0ac2424e0000" name="Disc Amt (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515831bb-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m99740266-0c6f-1000-886d-0ac2424e0000" name="Fed Tax (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515a2d9b-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m99740267-0c6f-1000-886d-0ac2424e0000" name="State Tax (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m515e4c4a-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m99740268-0c6f-1000-886d-0ac2424e0000" name="County Tax (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5160481c-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m99740269-0c6f-1000-886d-0ac2424e0000" name="Local Tax (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m5163555b-0c63-1000-9f49-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="ma479d031-0c7a-1000-8029-0ac2424e0000" name="USF Amt (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412d2-0c6f-1000-886d-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="maba32821-0c7a-1000-8029-0ac2424e0000" name="CCRF Amt (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741298-0c6f-1000-886d-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

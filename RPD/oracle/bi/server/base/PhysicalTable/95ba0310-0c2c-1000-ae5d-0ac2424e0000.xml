@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m95ba0310-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_PRJ_CATEGORY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="42.0" lastUpdated="2013-06-24 13:52:20" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m95ba0311-0c2c-1000-ae5d-0ac2424e0000" name="cat_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0312-0c2c-1000-ae5d-0ac2424e0000" name="cat_id" dataType="VARCHAR" precision="80" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0313-0c2c-1000-ae5d-0ac2424e0000" name="cat_cd" dataType="VARCHAR" precision="80" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0314-0c2c-1000-ae5d-0ac2424e0000" name="cat_sd" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0315-0c2c-1000-ae5d-0ac2424e0000" name="cat_ld" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0316-0c2c-1000-ae5d-0ac2424e0000" name="cat_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0317-0c2c-1000-ae5d-0ac2424e0000" name="cat_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0318-0c2c-1000-ae5d-0ac2424e0000" name="cat_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba0319-0c2c-1000-ae5d-0ac2424e0000" name="cat_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba031a-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba031b-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba031c-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba031d-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m95ba031e-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_PRJ_CATEGORY">
+<RefColumns>
+<RefColumn refId="m95ba031e-0c2c-1000-ae5d-0ac2424e0000-m95ba0311-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/95ba0310-0c2c-1000-ae5d-0ac2424e0000.xml#m95ba0311-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

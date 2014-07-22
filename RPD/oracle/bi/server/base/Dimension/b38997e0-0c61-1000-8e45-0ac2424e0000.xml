@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mb38997e0-0c61-1000-8e45-0ac2424e0000" name="Project Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mb38d6870-0c61-1000-8e45-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="mb38d6870-0c61-1000-8e45-0ac2424e0000" name="All Project Categories" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Project Categories&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="mb38d6870-0c61-1000-8e45-0ac2424e0000_mb39111f0-0c61-1000-8e45-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mb39111f0-0c61-1000-8e45-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="mb39111f0-0c61-1000-8e45-0ac2424e0000" name="Cat Gen01 Code" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Cat Gen01 Code&apos;">
+<LogicalKey mdsid="mb3b589e0-0c61-1000-8e45-0ac2424e0000" name="Cat Gen01 Code" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mb3b589e0-0c61-1000-8e45-0ac2424e0000-mb35c6d63-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb35c6d63-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="mb39111f0-0c61-1000-8e45-0ac2424e0000_mbe6a5d10-0c62-1000-9f49-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/b38997e0-0c61-1000-8e45-0ac2424e0000.xml#mbe6a5d10-0c62-1000-9f49-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mb39111f0-0c61-1000-8e45-0ac2424e0000-mb35c6d63-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb35c6d63-0c61-1000-8e45-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="mbe6a5d10-0c62-1000-9f49-0ac2424e0000" name="Category Code" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Category Code&apos;">
+<LogicalKey mdsid="mbe6fb440-0c62-1000-9f49-0ac2424e0000" name="Category ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mbe6fb440-0c62-1000-9f49-0ac2424e0000-mbe60e732-0c62-1000-9f49-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mbe60e732-0c62-1000-9f49-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m19433310-0c63-1000-9f49-0ac2424e0000" name="Category Cd" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m19433310-0c63-1000-9f49-0ac2424e0000-mb35170e0-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb35170e0-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mbe6a5d10-0c62-1000-9f49-0ac2424e0000-mb35170e0-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mb35170e0-0c61-1000-8e45-0ac2424e0000"/>
+<RefLogicalColumn refId="mbe6a5d10-0c62-1000-9f49-0ac2424e0000-mbe60e732-0c62-1000-9f49-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b34c67d0-0c61-1000-8e45-0ac2424e0000.xml#mbe60e732-0c62-1000-9f49-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

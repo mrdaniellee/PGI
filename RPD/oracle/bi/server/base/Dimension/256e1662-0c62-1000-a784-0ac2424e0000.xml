@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m256e1662-0c62-1000-a784-0ac2424e0000" name="TopicDrill" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166c-0c62-1000-a784-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/24e78141-0c62-1000-a784-0ac2424e0000.xml#m24e78141-0c62-1000-a784-0ac2424e0000">
+<LogicalLevel mdsid="m256e166c-0c62-1000-a784-0ac2424e0000" name="TotalTopic" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;TotalTopic&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m256e166c-0c62-1000-a784-0ac2424e0000_m256e166d-0c62-1000-a784-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166d-0c62-1000-a784-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="m256e166d-0c62-1000-a784-0ac2424e0000" name="Repository" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Repository&apos;">
+<LogicalKey mdsid="m256e1698-0c62-1000-a784-0ac2424e0000" name="Repository Name" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m256e1698-0c62-1000-a784-0ac2424e0000-m251017e4-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/251017e0-0c62-1000-a784-0ac2424e0000.xml#m251017e4-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m256e166d-0c62-1000-a784-0ac2424e0000_m256e166e-0c62-1000-a784-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166e-0c62-1000-a784-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m256e166d-0c62-1000-a784-0ac2424e0000-m251017e4-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/251017e0-0c62-1000-a784-0ac2424e0000.xml#m251017e4-0c62-1000-a784-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m256e166e-0c62-1000-a784-0ac2424e0000" name="SA" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;SA&apos;">
+<LogicalKey mdsid="m256e1699-0c62-1000-a784-0ac2424e0000" name="Subject Area Name" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m256e1699-0c62-1000-a784-0ac2424e0000-m251017e5-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/251017e0-0c62-1000-a784-0ac2424e0000.xml#m251017e5-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m256e166e-0c62-1000-a784-0ac2424e0000_m256e166f-0c62-1000-a784-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1662-0c62-1000-a784-0ac2424e0000.xml#m256e166f-0c62-1000-a784-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m256e166e-0c62-1000-a784-0ac2424e0000-m251017e5-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/251017e0-0c62-1000-a784-0ac2424e0000.xml#m251017e5-0c62-1000-a784-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m256e166f-0c62-1000-a784-0ac2424e0000" name="SQL" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;SQL&apos;">
+<LogicalKey mdsid="m256e169a-0c62-1000-a784-0ac2424e0000" name="Logical SQL" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m256e169a-0c62-1000-a784-0ac2424e0000-m251017e7-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/251017e0-0c62-1000-a784-0ac2424e0000.xml#m251017e7-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m256e166f-0c62-1000-a784-0ac2424e0000-m251017e7-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/251017e0-0c62-1000-a784-0ac2424e0000.xml#m251017e7-0c62-1000-a784-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

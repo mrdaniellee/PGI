@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PrivilegePackage mdsid="m8d97cef0-0caa-1000-8029-0ac2424e0000" name="PrivPack_4209:716901392665952" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" roleRef="/oracle/bi/server/base/Group/75eaf121-0c6d-1000-886d-0ac2424e0000.xml#m75eaf121-0c6d-1000-886d-0ac2424e0000">
+<QueryPrivilegeMapping databaseRef="/oracle/bi/server/base/Database/80cb6df1-0bcf-0000-714b-e31d00000000.xml#m80cb6df1-0bcf-0000-714b-e31d00000000" queryPrivilegeRef="/oracle/bi/server/base/QueryPrivilege/8d97cef6-0caa-1000-8029-0ac2424e0000.xml#m8d97cef6-0caa-1000-8029-0ac2424e0000"/>
+<QueryPrivilegeMapping databaseRef="/oracle/bi/server/base/Database/3428bf60-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf60-0c2c-1000-ae5d-0ac2424e0000" queryPrivilegeRef="/oracle/bi/server/base/QueryPrivilege/8d97cef4-0caa-1000-8029-0ac2424e0000.xml#m8d97cef4-0caa-1000-8029-0ac2424e0000"/>
+<QueryPrivilegeMapping databaseRef="/oracle/bi/server/base/Database/bd848660-0c61-1000-8029-0ac2424e0000.xml#mbd848660-0c61-1000-8029-0ac2424e0000" queryPrivilegeRef="/oracle/bi/server/base/QueryPrivilege/8d97cef5-0caa-1000-8029-0ac2424e0000.xml#m8d97cef5-0caa-1000-8029-0ac2424e0000"/>
+<FilterMapping status="enable" objectTypeId="4010" objectRef="/oracle/bi/server/base/PresentationTable/7846c0b1-0c5b-1000-92db-0ac2424e0000.xml#m7846c0ae-0c5b-1000-92db-0ac2424e0000">
+<Expr mdsid="m00000001-01f4-0000-80f2-28ba00000000" name="Expr">
+<ExprText><![CDATA["%1" = 'PGi Reseller']]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Reseller"."Reseller Type" = 'PGi Reseller']]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-80f2-28ba00000000-m746b0d19-0c5b-1000-92db-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d19-0c5b-1000-92db-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</FilterMapping>
+<FilterMapping status="enable" objectTypeId="4010" objectRef="/oracle/bi/server/base/PresentationTable/a746ec31-0c75-1000-8029-0ac2424e0000.xml#ma74bf542-0c75-1000-8029-0ac2424e0000">
+<Expr mdsid="m00000002-01f4-0000-fce7-17bf00000000" name="Expr">
+<ExprText><![CDATA["%1"  IN ('ACTUAL','RECLASS')]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Scenario"."Scenario ID"  IN ('ACTUAL','RECLASS')]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-fce7-17bf00000000-mb97825e2-0c61-1000-8e45-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb97825e2-0c61-1000-8e45-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</FilterMapping>
+</PrivilegePackage>

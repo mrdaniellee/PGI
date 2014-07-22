@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mf077bd40-0cab-1000-8029-0ac2424e0000" name="Partner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m67cfc931-0cb3-1000-8029-0ac2424e0000" name="Partner Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m67cbd192-0cb3-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf082e0d7-0cab-1000-8029-0ac2424e0000" name="Partner Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#mf06d0ee2-0cab-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf082e0d9-0cab-1000-8029-0ac2424e0000" name="Partner SVP / VP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#mf06d0ee3-0cab-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf082e0d5-0cab-1000-8029-0ac2424e0000" name="Partner Director" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#mf06d0ee1-0cab-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf082e0d1-0cab-1000-8029-0ac2424e0000" name="Partner AE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#mf06ce7da-0cab-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf082e0d3-0cab-1000-8029-0ac2424e0000" name="Partner AM / PM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#mf06d0ee0-0cab-1000-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

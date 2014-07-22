@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m27186b45-0c62-1000-a784-0ac2424e0000" name="End Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/27186b3f-0c62-1000-a784-0ac2424e0000.xml#m27186b3f-0c62-1000-a784-0ac2424e0000" logicalDimensionRef="/oracle/bi/server/base/Dimension/268f3dd0-0c62-1000-a784-0ac2424e0000.xml#m268f3dd0-0c62-1000-a784-0ac2424e0000">
+<PresentationLevel mdsid="m27186b59-0c62-1000-a784-0ac2424e0000" name="Hour" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b45-0c62-1000-a784-0ac2424e0000.xml#m27186b45-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/268f3dd0-0c62-1000-a784-0ac2424e0000.xml#m268f3dd1-0c62-1000-a784-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m27186b59-0c62-1000-a784-0ac2424e0000-m27186b2b-0c62-1000-a784-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/27186b3f-0c62-1000-a784-0ac2424e0000.xml#m27186b2b-0c62-1000-a784-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m27186b5a-0c62-1000-a784-0ac2424e0000" name="Minute" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b45-0c62-1000-a784-0ac2424e0000.xml#m27186b45-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/268f3dd0-0c62-1000-a784-0ac2424e0000.xml#m268f3dd2-0c62-1000-a784-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m27186b5a-0c62-1000-a784-0ac2424e0000-m27186b2d-0c62-1000-a784-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/27186b3f-0c62-1000-a784-0ac2424e0000.xml#m27186b2d-0c62-1000-a784-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

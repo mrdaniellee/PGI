@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="ma733ea20-0c59-1000-891c-0ac2424e0000" name="PGI_D_RESELLER" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="207.0" lastUpdated="2013-06-24 13:52:21" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="ma733ea21-0c59-1000-891c-0ac2424e0000" name="rsllr_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea22-0c59-1000-891c-0ac2424e0000" name="region" dataType="VARCHAR" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea23-0c59-1000-891c-0ac2424e0000" name="rsllr_id" dataType="VARCHAR" precision="50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea24-0c59-1000-891c-0ac2424e0000" name="rsllr_cd" dataType="VARCHAR" precision="50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea25-0c59-1000-891c-0ac2424e0000" name="rsllr_sd" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea26-0c59-1000-891c-0ac2424e0000" name="rsllr_ld" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea27-0c59-1000-891c-0ac2424e0000" name="rsllr_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea28-0c59-1000-891c-0ac2424e0000" name="rsllr_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea29-0c59-1000-891c-0ac2424e0000" name="rsllr_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea2a-0c59-1000-891c-0ac2424e0000" name="rsllr_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea2b-0c59-1000-891c-0ac2424e0000" name="rsllr_gen03_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea2c-0c59-1000-891c-0ac2424e0000" name="rsllr_gen03_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea2d-0c59-1000-891c-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea2e-0c59-1000-891c-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea2f-0c59-1000-891c-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma733ea30-0c59-1000-891c-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="ma733ea31-0c59-1000-891c-0ac2424e0000" name="PK_PGI_D_RESELLER">
+<RefColumns>
+<RefColumn refId="ma733ea31-0c59-1000-891c-0ac2424e0000-ma733ea21-0c59-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea21-0c59-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

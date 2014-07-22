@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m342934b6-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_GL_COMPANY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="33.0" lastUpdated="2013-06-24 13:52:20" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[PGI_D_GL_COMPANY]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m342934b7-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_key" dataType="INT" precision="10" rowCount="32.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342934b8-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_id" dataType="VARCHAR" precision="16" rowCount="32.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342934b9-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_cd" dataType="VARCHAR" precision="8" rowCount="27.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342934ba-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_sd" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m342934bb-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_ld" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba0-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_gen01_cd" dataType="VARCHAR" precision="80" rowCount="3.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba1-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_gen01_desc" dataType="VARCHAR" precision="255" rowCount="0.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba2-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba3-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba4-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_gen00_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:21" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba5-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_gen00_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba6-0c2c-1000-ae5d-0ac2424e0000" name="tesla_bu" dataType="CHAR" precision="4" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba7-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="10.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba8-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295ba9-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="10.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295baa-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" rowCount="1.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295bab-0c2c-1000-ae5d-0ac2424e0000" name="eff_start_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295bac-0c2c-1000-ae5d-0ac2424e0000" name="eff_end_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34295bad-0c2c-1000-ae5d-0ac2424e0000" name="curr_rec_fl" dataType="CHAR" precision="1" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:53:22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m98572b40-0c70-1000-8029-0ac2424e0000" name="gl_co_std_gen01_cd" dataType="VARCHAR" precision="80" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m98572b42-0c70-1000-8029-0ac2424e0000" name="gl_co_std_gen01_desc" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m98575250-0c70-1000-8029-0ac2424e0000" name="gl_co_std_gen02_cd" dataType="VARCHAR" precision="80" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m98575252-0c70-1000-8029-0ac2424e0000" name="gl_co_std_gen02_desc" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m34295bae-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_GL_COMPANY">
+<RefColumns>
+<RefColumn refId="m34295bae-0c2c-1000-ae5d-0ac2424e0000-m342934b7-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/342934b6-0c2c-1000-ae5d-0ac2424e0000.xml#m342934b7-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

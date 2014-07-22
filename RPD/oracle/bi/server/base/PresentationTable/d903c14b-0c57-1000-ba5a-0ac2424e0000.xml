@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="md903c14b-0c57-1000-ba5a-0ac2424e0000" name="Call Origin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="md903c14e-0c57-1000-ba5a-0ac2424e0000" name="Level 1 Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d5693550-0c57-1000-ba5a-0ac2424e0000.xml#md61c7fc2-0c57-1000-ba5a-0ac2424e0000">
+<Alias name="cntry_gen01_cd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="md903c14f-0c57-1000-ba5a-0ac2424e0000" name="Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d5693550-0c57-1000-ba5a-0ac2424e0000.xml#md61ddf51-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="md903c150-0c57-1000-ba5a-0ac2424e0000" name="Continent" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d5693550-0c57-1000-ba5a-0ac2424e0000.xml#md61f3ee2-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="md903c14d-0c57-1000-ba5a-0ac2424e0000" name="Call Origin" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d5693550-0c57-1000-ba5a-0ac2424e0000.xml#md61a0ec2-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="md903c14b-0c57-1000-ba5a-0ac2424e0000-m4dbee9e6-0c59-1000-891c-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/4dbee9e6-0c59-1000-891c-0ac2424e0000.xml#m4dbee9e6-0c59-1000-891c-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

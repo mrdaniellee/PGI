@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m160c5690-0c59-1000-a443-0ac2424e0000" name="UOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/160c5690-0c59-1000-a443-0ac2424e0000.xml#m160ea080-0c59-1000-a443-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="m160ea080-0c59-1000-a443-0ac2424e0000" name="All UOM" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All UOM&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m160ea080-0c59-1000-a443-0ac2424e0000_m1611fbe0-0c59-1000-a443-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/160c5690-0c59-1000-a443-0ac2424e0000.xml#m1611fbe0-0c59-1000-a443-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="m1611fbe0-0c59-1000-a443-0ac2424e0000" name="UOM Type" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;UOM Type&apos;">
+<LogicalKey mdsid="m161b71c0-0c59-1000-a443-0ac2424e0000" name="UOM Type" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m161b71c0-0c59-1000-a443-0ac2424e0000-me2b7e2b2-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b7e2b2-0c57-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m1611fbe0-0c59-1000-a443-0ac2424e0000_m1613d0a0-0c59-1000-a443-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/160c5690-0c59-1000-a443-0ac2424e0000.xml#m1613d0a0-0c59-1000-a443-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m1611fbe0-0c59-1000-a443-0ac2424e0000-me2b7e2b2-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b7e2b2-0c57-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m1613d0a0-0c59-1000-a443-0ac2424e0000" name="UOM" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;UOM&apos;">
+<LogicalKey mdsid="m1619c410-0c59-1000-a443-0ac2424e0000" name="uom_key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m1619c410-0c59-1000-a443-0ac2424e0000-me2a08a24-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2a08a24-0c57-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m161c8330-0c59-1000-a443-0ac2424e0000" name="UOM" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m161c8330-0c59-1000-a443-0ac2424e0000-me2b17a12-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b17a12-0c57-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m1613d0a0-0c59-1000-a443-0ac2424e0000-me2a08a24-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2a08a24-0c57-1000-ba5a-0ac2424e0000"/>
+<RefLogicalColumn refId="m1613d0a0-0c59-1000-a443-0ac2424e0000-me2b17a12-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b17a12-0c57-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

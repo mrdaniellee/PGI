@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m25509cf0-0c5a-1000-891c-0ac2424e0000" name="PGI_F_MT_TRANS_2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="90344237.0" lastUpdated="2013-06-24 13:52:30" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[PGI_F_MT_TRANS_2011]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m25509cf1-0c5a-1000-891c-0ac2424e0000" name="sys_cd" dataType="VARCHAR" precision="8" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf2-0c5a-1000-891c-0ac2424e0000" name="sys_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf3-0c5a-1000-891c-0ac2424e0000" name="scnro_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf4-0c5a-1000-891c-0ac2424e0000" name="cust_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf5-0c5a-1000-891c-0ac2424e0000" name="terr_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf6-0c5a-1000-891c-0ac2424e0000" name="client_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf7-0c5a-1000-891c-0ac2424e0000" name="gl_dt_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf8-0c5a-1000-891c-0ac2424e0000" name="gl_co_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cf9-0c5a-1000-891c-0ac2424e0000" name="gl_prdct_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cfa-0c5a-1000-891c-0ac2424e0000" name="call_type_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cfb-0c5a-1000-891c-0ac2424e0000" name="svc_type_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cfc-0c5a-1000-891c-0ac2424e0000" name="prdct_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cfd-0c5a-1000-891c-0ac2424e0000" name="currency_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cfe-0c5a-1000-891c-0ac2424e0000" name="call_origin_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509cff-0c5a-1000-891c-0ac2424e0000" name="call_term_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d00-0c5a-1000-891c-0ac2424e0000" name="trnsprt_type_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d01-0c5a-1000-891c-0ac2424e0000" name="brdg_loc_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d02-0c5a-1000-891c-0ac2424e0000" name="uom_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d03-0c5a-1000-891c-0ac2424e0000" name="quantity" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d04-0c5a-1000-891c-0ac2424e0000" name="rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d05-0c5a-1000-891c-0ac2424e0000" name="sls_amt_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d06-0c5a-1000-891c-0ac2424e0000" name="disc_amt_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d07-0c5a-1000-891c-0ac2424e0000" name="fed_tax_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d08-0c5a-1000-891c-0ac2424e0000" name="state_tax_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d09-0c5a-1000-891c-0ac2424e0000" name="county_tax_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d0a-0c5a-1000-891c-0ac2424e0000" name="local_tax_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d0b-0c5a-1000-891c-0ac2424e0000" name="conv_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d0c-0c5a-1000-891c-0ac2424e0000" name="sls_amt_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d0d-0c5a-1000-891c-0ac2424e0000" name="disc_amt_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d0e-0c5a-1000-891c-0ac2424e0000" name="fed_tax_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d0f-0c5a-1000-891c-0ac2424e0000" name="state_tax_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d10-0c5a-1000-891c-0ac2424e0000" name="county_tax_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d11-0c5a-1000-891c-0ac2424e0000" name="local_tax_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d12-0c5a-1000-891c-0ac2424e0000" name="sls_amt_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d13-0c5a-1000-891c-0ac2424e0000" name="disc_amt_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d14-0c5a-1000-891c-0ac2424e0000" name="fed_tax_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d15-0c5a-1000-891c-0ac2424e0000" name="state_tax_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d16-0c5a-1000-891c-0ac2424e0000" name="county_tax_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d17-0c5a-1000-891c-0ac2424e0000" name="local_tax_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d18-0c5a-1000-891c-0ac2424e0000" name="row_cnt" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d19-0c5a-1000-891c-0ac2424e0000" name="conf_cnt" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d1a-0c5a-1000-891c-0ac2424e0000" name="billed_qty" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d1b-0c5a-1000-891c-0ac2424e0000" name="unbilled_qty" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d1c-0c5a-1000-891c-0ac2424e0000" name="discount_qty" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d1d-0c5a-1000-891c-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d1e-0c5a-1000-891c-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d1f-0c5a-1000-891c-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d20-0c5a-1000-891c-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d21-0c5a-1000-891c-0ac2424e0000" name="maap_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d22-0c5a-1000-891c-0ac2424e0000" name="gaap_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d23-0c5a-1000-891c-0ac2424e0000" name="rev_shr_amt_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d24-0c5a-1000-891c-0ac2424e0000" name="rev_shr_amt_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d25-0c5a-1000-891c-0ac2424e0000" name="rev_shr_amt_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d26-0c5a-1000-891c-0ac2424e0000" name="call_dt_key" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d27-0c5a-1000-891c-0ac2424e0000" name="inv_dt_key" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d28-0c5a-1000-891c-0ac2424e0000" name="unique_conf_id" dataType="VARCHAR" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d29-0c5a-1000-891c-0ac2424e0000" name="participant_cnt" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d2a-0c5a-1000-891c-0ac2424e0000" name="invoice_num" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d2b-0c5a-1000-891c-0ac2424e0000" name="rsllr_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d2c-0c5a-1000-891c-0ac2424e0000" name="ccrf_amt_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d2d-0c5a-1000-891c-0ac2424e0000" name="usf_amt_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d2e-0c5a-1000-891c-0ac2424e0000" name="svc_fee_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d2f-0c5a-1000-891c-0ac2424e0000" name="usf_amt_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d30-0c5a-1000-891c-0ac2424e0000" name="usf_amt_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d31-0c5a-1000-891c-0ac2424e0000" name="ccrf_amt_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d32-0c5a-1000-891c-0ac2424e0000" name="ccrf_amt_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d33-0c5a-1000-891c-0ac2424e0000" name="svc_fee_usd" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d34-0c5a-1000-891c-0ac2424e0000" name="svc_fee_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m25509d35-0c5a-1000-891c-0ac2424e0000" name="call_end_dt_key" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma3668b7a-0c7a-1000-8029-0ac2424e0000" name="bridge_name_key" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma3668b7c-0c7a-1000-8029-0ac2424e0000" name="conf_id" dataType="VARCHAR" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma3668b7e-0c7a-1000-8029-0ac2424e0000" name="dnis_key" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma3668b80-0c7a-1000-8029-0ac2424e0000" name="telco_fixed_rate_cost_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma3668b82-0c7a-1000-8029-0ac2424e0000" name="telco_fixed_rate_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma366b280-0c7a-1000-8029-0ac2424e0000" name="telco_maap_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma366b282-0c7a-1000-8029-0ac2424e0000" name="telco_quantity" dataType="DOUBLE" precision="19" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma366b284-0c7a-1000-8029-0ac2424e0000" name="telco_var_currency_key" dataType="INT" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma366b286-0c7a-1000-8029-0ac2424e0000" name="telco_var_rate_cost_maap" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="ma366b288-0c7a-1000-8029-0ac2424e0000" name="telco_var_rate_local" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m25511227-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_CALL_TYPE" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3428bf64-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf72-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25511227-0c5a-1000-891c-0ac2424e0000-m25509cfa-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cfa-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25511228-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_CLIENT" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3428bf73-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e67f-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25511228-0c5a-1000-891c-0ac2424e0000-m25509cf6-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf6-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m2551122d-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_CURRENCY" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3428e692-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e6a0-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m2551122d-0c5a-1000-891c-0ac2424e0000-m25509cfd-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cfd-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m2551122e-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_CUSTOMER" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/34290d80-0c2c-1000-ae5d-0ac2424e0000.xml#m34290df1-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m2551122e-0c5a-1000-891c-0ac2424e0000-m25509cf4-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf4-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m2551122f-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_GL_CO" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/342934b6-0c2c-1000-ae5d-0ac2424e0000.xml#m34295bae-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m2551122f-0c5a-1000-891c-0ac2424e0000-m25509cf8-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf8-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25511230-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_GL_PRODUCT" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/34295baf-0c2c-1000-ae5d-0ac2424e0000.xml#m34295bca-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25511230-0c5a-1000-891c-0ac2424e0000-m25509cf9-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf9-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513930-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_PRDCT" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/34295bcb-0c2c-1000-ae5d-0ac2424e0000.xml#m342982b8-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513930-0c5a-1000-891c-0ac2424e0000-m25509cfc-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cfc-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513931-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_RESELLER" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea31-0c59-1000-891c-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513931-0c5a-1000-891c-0ac2424e0000-m25509d2b-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509d2b-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513932-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_SCENARIO" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/342982b9-0c2c-1000-ae5d-0ac2424e0000.xml#m342982c7-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513932-0c5a-1000-891c-0ac2424e0000-m25509cf3-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf3-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513933-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_SVC_TYPE" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/342982c8-0c2c-1000-ae5d-0ac2424e0000.xml#m342982d6-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513933-0c5a-1000-891c-0ac2424e0000-m25509cfb-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cfb-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513934-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_SYSTEM" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3429a9c0-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9cc-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513934-0c5a-1000-891c-0ac2424e0000-m25509cf2-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf2-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513935-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_TERRITORY" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3429a9cd-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ea-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513935-0c5a-1000-891c-0ac2424e0000-m25509cf5-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509cf5-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513936-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_TRANSPORT_TYPE" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f9-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513936-0c5a-1000-891c-0ac2424e0000-m25509d00-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509d00-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m25513937-0c5a-1000-891c-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_UOM" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa08-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m25513937-0c5a-1000-891c-0ac2424e0000-m25509d02-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509d02-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="ma24f5010-0c6f-1000-886d-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_BRIDGE_LOC" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e691-0c2c-1000-ae5d-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="ma24f5010-0c6f-1000-886d-0ac2424e0000-m25509d01-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#m25509d01-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m8d931a30-0c8d-1000-8029-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_DNIS" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/8d602351-0c8d-1000-8029-0ac2424e0000.xml#m8d60236c-0c8d-1000-8029-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m8d931a30-0c8d-1000-8029-0ac2424e0000-ma3668b7e-0c7a-1000-8029-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#ma3668b7e-0c7a-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m8d953d10-0c8d-1000-8029-0ac2424e0000" name="FK_PGI_F_MT_TRANS_2011_PGI_D_BRIDGE_NAME" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/8d6ea240-0c8d-1000-8029-0ac2424e0000.xml#m8d6ea255-0c8d-1000-8029-0ac2424e0000">
+<RefColumns>
+<RefColumn refId="m8d953d10-0c8d-1000-8029-0ac2424e0000-ma3668b7a-0c7a-1000-8029-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/25509cf0-0c5a-1000-891c-0ac2424e0000.xml#ma3668b7a-0c7a-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

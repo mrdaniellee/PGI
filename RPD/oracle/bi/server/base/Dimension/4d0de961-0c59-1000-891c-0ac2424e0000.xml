@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m4d0de961-0c59-1000-891c-0ac2424e0000" name="Access Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/4d0de961-0c59-1000-891c-0ac2424e0000.xml#m4d108170-0c59-1000-891c-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="m4d108170-0c59-1000-891c-0ac2424e0000" name="All Access Types" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Access Types&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m4d108170-0c59-1000-891c-0ac2424e0000_m4d14a020-0c59-1000-891c-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/4d0de961-0c59-1000-891c-0ac2424e0000.xml#m4d14a020-0c59-1000-891c-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="m4d14a020-0c59-1000-891c-0ac2424e0000" name="Access Type Group" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Access Type Group&apos;">
+<LogicalKey mdsid="m4d1da0d0-0c59-1000-891c-0ac2424e0000" name="Access Type Group" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m4d1da0d0-0c59-1000-891c-0ac2424e0000-m178caa75-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m178caa75-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m4d14a020-0c59-1000-891c-0ac2424e0000_m4d17fb80-0c59-1000-891c-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/4d0de961-0c59-1000-891c-0ac2424e0000.xml#m4d17fb80-0c59-1000-891c-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m4d14a020-0c59-1000-891c-0ac2424e0000-m178caa75-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m178caa75-0c58-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m4d17fb80-0c59-1000-891c-0ac2424e0000" name="Access Type" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Access Type&apos;">
+<LogicalKey mdsid="m4d1e8b30-0c59-1000-891c-0ac2424e0000" name="Access Type" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m4d1e8b30-0c59-1000-891c-0ac2424e0000-m178caa74-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m178caa74-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m4d17fb80-0c59-1000-891c-0ac2424e0000-m178caa74-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m178caa74-0c58-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m34875a20-0c2c-1000-ae5d-0ac2424e0000" name="D18 Access Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="55.0" lastUpdated="2013-06-24 13:52:23" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9eb-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m34875a21-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_key" dataType="INT" precision="10" rowCount="44.0" lastUpdated="2012-05-30 14:21:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ec-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a22-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_id" dataType="VARCHAR" precision="25" rowCount="44.0" lastUpdated="2012-05-30 14:21:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ed-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a23-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_cd" dataType="VARCHAR" precision="25" rowCount="44.0" lastUpdated="2012-05-30 14:21:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ee-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a24-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_sd" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ef-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a25-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_ld" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f0-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a26-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="4.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f1-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a27-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f2-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a28-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f3-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a29-0c2c-1000-ae5d-0ac2424e0000" name="trnsprt_type_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f4-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a2a-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f5-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a2b-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f6-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a2c-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f7-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34875a2d-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9f8-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf33660b0-0cae-1000-bd59-0ac2424e0000" name="trnsprt_type_std_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#mf335c472-0cae-1000-bd59-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf33660b4-0cae-1000-bd59-0ac2424e0000" name="trnsprt_type_std_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9eb-0c2c-1000-ae5d-0ac2424e0000.xml#mf335c470-0cae-1000-bd59-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m3b20f530-0c2c-1000-ae5d-0ac2424e0000" name="D18 Access Type_Key">
+<RefColumns>
+<RefColumn refId="m3b20f530-0c2c-1000-ae5d-0ac2424e0000-m34875a21-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/34875a20-0c2c-1000-ae5d-0ac2424e0000.xml#m34875a21-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

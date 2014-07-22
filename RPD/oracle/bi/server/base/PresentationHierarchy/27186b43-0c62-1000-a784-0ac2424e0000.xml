@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m27186b43-0c62-1000-a784-0ac2424e0000" name="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/27186b3b-0c62-1000-a784-0ac2424e0000.xml#m27186b3b-0c62-1000-a784-0ac2424e0000" logicalDimensionRef="/oracle/bi/server/base/Dimension/256e1663-0c62-1000-a784-0ac2424e0000.xml#m256e1663-0c62-1000-a784-0ac2424e0000">
+<PresentationLevel mdsid="m27186b52-0c62-1000-a784-0ac2424e0000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b43-0c62-1000-a784-0ac2424e0000.xml#m27186b43-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1663-0c62-1000-a784-0ac2424e0000.xml#m270a1320-0c62-1000-a784-0ac2424e0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m27186b53-0c62-1000-a784-0ac2424e0000" name="User Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/27186b43-0c62-1000-a784-0ac2424e0000.xml#m27186b43-0c62-1000-a784-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/256e1663-0c62-1000-a784-0ac2424e0000.xml#m270b4ba0-0c62-1000-a784-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m27186b53-0c62-1000-a784-0ac2424e0000-m27186b0d-0c62-1000-a784-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/27186b3b-0c62-1000-a784-0ac2424e0000.xml#m27186b0d-0c62-1000-a784-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

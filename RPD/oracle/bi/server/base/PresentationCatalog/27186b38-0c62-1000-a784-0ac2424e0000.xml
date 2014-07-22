@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m27186b38-0c62-1000-a784-0ac2424e0000" name="Usage Tracking" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/24e78141-0c62-1000-a784-0ac2424e0000.xml#m24e78141-0c62-1000-a784-0ac2424e0000">
+<RefTables>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b40-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b40-0c62-1000-a784-0ac2424e0000.xml#m27186b40-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b39-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b39-0c62-1000-a784-0ac2424e0000.xml#m27186b39-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b3a-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b3a-0c62-1000-a784-0ac2424e0000.xml#m27186b3a-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b3b-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b3b-0c62-1000-a784-0ac2424e0000.xml#m27186b3b-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b3c-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b3c-0c62-1000-a784-0ac2424e0000.xml#m27186b3c-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b3d-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b3d-0c62-1000-a784-0ac2424e0000.xml#m27186b3d-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b3e-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b3e-0c62-1000-a784-0ac2424e0000.xml#m27186b3e-0c62-1000-a784-0ac2424e0000"/>
+<RefPresentationTable refId="m27186b38-0c62-1000-a784-0ac2424e0000-m27186b3f-0c62-1000-a784-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/27186b3f-0c62-1000-a784-0ac2424e0000.xml#m27186b3f-0c62-1000-a784-0ac2424e0000"/>
+</RefTables>
+</PresentationCatalog>

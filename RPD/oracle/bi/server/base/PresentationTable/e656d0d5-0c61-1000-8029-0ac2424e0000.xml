@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me656d0d5-0c61-1000-8029-0ac2424e0000" name="GL Dept" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="med1fdf50-0c61-1000-8029-0ac2424e0000" name="GL Dept Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f10-0c61-1000-8029-0ac2424e0000">
+<Alias name="GL Dept Gen02 Desc"/>
+</PresentationColumn>
+<PresentationColumn mdsid="med1fdf51-0c61-1000-8029-0ac2424e0000" name="GL Dept Function" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f11-0c61-1000-8029-0ac2424e0000">
+<Alias name="GL Dept Gen03 Desc"/>
+</PresentationColumn>
+<PresentationColumn mdsid="med1fdf52-0c61-1000-8029-0ac2424e0000" name="GL Dept Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecee6f12-0c61-1000-8029-0ac2424e0000">
+<Alias name="GL Dept sd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="med1fdf53-0c61-1000-8029-0ac2424e0000" name="GL Dept Num" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#mecf4b0a3-0c61-1000-8029-0ac2424e0000">
+<Alias name="GL Dept Cd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="md2a243c1-0c70-1000-8029-0ac2424e0000" name="GL Dept Desc" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e578a4d0-0c61-1000-8029-0ac2424e0000.xml#md29831a0-0c70-1000-8029-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

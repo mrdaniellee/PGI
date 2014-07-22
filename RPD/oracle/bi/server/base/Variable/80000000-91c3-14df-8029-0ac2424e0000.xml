@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80000000-91c3-14df-8029-0ac2424e0000" name="sls_yr_num_year_ago" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/569e87e0-0c5a-1000-891c-0ac2424e0000.xml#m569e87e0-0c5a-1000-891c-0ac2424e0000">
+<Expr mdsid="m00000001-01f4-0000-c4b6-292500000000" name="Expr">
+<ExprText><![CDATA[2013]]></ExprText>
+<ExprTextDesc><![CDATA[2013]]></ExprTextDesc>
+</Expr>
+</Variable>

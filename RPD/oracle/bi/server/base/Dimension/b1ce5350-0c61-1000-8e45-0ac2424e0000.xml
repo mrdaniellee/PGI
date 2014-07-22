@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mb1ce5350-0c61-1000-8e45-0ac2424e0000" name="Project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/b1ce5350-0c61-1000-8e45-0ac2424e0000.xml#mb1d3aa80-0c61-1000-8e45-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="mb1d3aa80-0c61-1000-8e45-0ac2424e0000" name="All Projects" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Projects&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="mb1d3aa80-0c61-1000-8e45-0ac2424e0000_me507ba90-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/b1ce5350-0c61-1000-8e45-0ac2424e0000.xml#me507ba90-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="me507ba90-0c61-1000-8029-0ac2424e0000" name="Project Code" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Project Code&apos;">
+<LogicalKey mdsid="me50f0d90-0c61-1000-8029-0ac2424e0000" name="Project Code" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="me50f0d90-0c61-1000-8029-0ac2424e0000-m8b841452-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b841452-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="me507ba90-0c61-1000-8029-0ac2424e0000_me50a0480-0c61-1000-8029-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/b1ce5350-0c61-1000-8e45-0ac2424e0000.xml#me50a0480-0c61-1000-8029-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="me507ba90-0c61-1000-8029-0ac2424e0000-m8b841452-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#m8b841452-0c61-1000-8e45-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="me50a0480-0c61-1000-8029-0ac2424e0000" name="Project Activity Code" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Project Activity Code&apos;">
+<LogicalKey mdsid="me5101f00-0c61-1000-8029-0ac2424e0000" name="Project Activity Code" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="me5101f00-0c61-1000-8029-0ac2424e0000-mbcbbdf33-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#mbcbbdf33-0c61-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="me50a0480-0c61-1000-8029-0ac2424e0000-mbcbbdf33-0c61-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8ac35c60-0c61-1000-8e45-0ac2424e0000.xml#mbcbbdf33-0c61-1000-8029-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

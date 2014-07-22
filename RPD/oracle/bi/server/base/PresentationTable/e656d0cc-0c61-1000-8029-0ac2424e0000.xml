@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me656d0cc-0c61-1000-8029-0ac2424e0000" name="Scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e656d088-0c61-1000-8029-0ac2424e0000.xml#me656d088-0c61-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="me656d0cd-0c61-1000-8029-0ac2424e0000" name="Scenario Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae66f-0c61-1000-8e45-0ac2424e0000">
+<Alias name="Scenario Gen01 Cd"/>
+</PresentationColumn>
+<PresentationColumn mdsid="me656d0cf-0c61-1000-8029-0ac2424e0000" name="Scenario" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae673-0c61-1000-8e45-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="me656d0cc-0c61-1000-8029-0ac2424e0000-me656d0d1-0c61-1000-8029-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e656d0d1-0c61-1000-8029-0ac2424e0000.xml#me656d0d1-0c61-1000-8029-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

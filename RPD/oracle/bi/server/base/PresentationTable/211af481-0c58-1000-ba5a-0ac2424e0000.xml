@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m211af481-0c58-1000-ba5a-0ac2424e0000" name="Territory" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<Alias name="Channel"/>
+<PresentationColumn mdsid="m211af47e-0c58-1000-ba5a-0ac2424e0000" name="Channel" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/20c9c730-0c58-1000-ba5a-0ac2424e0000.xml#m20d2eef2-0c58-1000-ba5a-0ac2424e0000">
+<Alias name="Channel Desc"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m211af47f-0c58-1000-ba5a-0ac2424e0000" name="Sales Rep" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/20c9c730-0c58-1000-ba5a-0ac2424e0000.xml#m20d7f802-0c58-1000-ba5a-0ac2424e0000">
+<Alias name="Territory"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m211af480-0c58-1000-ba5a-0ac2424e0000" name="Territory ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/20c9c730-0c58-1000-ba5a-0ac2424e0000.xml#m20da41f2-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m211af47d-0c58-1000-ba5a-0ac2424e0000" name="Company ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/20c9c730-0c58-1000-ba5a-0ac2424e0000.xml#m20cf9392-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m211af481-0c58-1000-ba5a-0ac2424e0000-m4dccf3a5-0c59-1000-891c-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/4dccf3a5-0c59-1000-891c-0ac2424e0000.xml#m4dccf3a5-0c59-1000-891c-0ac2424e0000"/>
+</RefHierarchies>
+</PresentationTable>

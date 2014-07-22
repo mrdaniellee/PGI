@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m3428e692-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_CURRENCY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="20.0" lastUpdated="2013-06-24 13:52:18" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[PGI_D_CURRENCY]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m3428e693-0c2c-1000-ae5d-0ac2424e0000" name="currency_key" dataType="INT" precision="10" rowCount="19.0" lastUpdated="2012-05-30 14:53:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e694-0c2c-1000-ae5d-0ac2424e0000" name="currency_id" dataType="VARCHAR" precision="8" rowCount="19.0" lastUpdated="2012-05-30 14:53:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e695-0c2c-1000-ae5d-0ac2424e0000" name="currency_cd" dataType="VARCHAR" precision="16" rowCount="19.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e696-0c2c-1000-ae5d-0ac2424e0000" name="currency_sd" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e697-0c2c-1000-ae5d-0ac2424e0000" name="currency_ld" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e698-0c2c-1000-ae5d-0ac2424e0000" name="currency_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e699-0c2c-1000-ae5d-0ac2424e0000" name="currency_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e69a-0c2c-1000-ae5d-0ac2424e0000" name="currency_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e69b-0c2c-1000-ae5d-0ac2424e0000" name="currency_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e69c-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="5.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e69d-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="2.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e69e-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="5.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3428e69f-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="2.0" lastUpdated="2012-05-30 14:53:16" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m3428e6a0-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_CURRENCY">
+<RefColumns>
+<RefColumn refId="m3428e6a0-0c2c-1000-ae5d-0ac2424e0000-m3428e693-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/3428e692-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e693-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m27186b3d-0c62-1000-a784-0ac2424e0000" name="Execution" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/27186b38-0c62-1000-a784-0ac2424e0000.xml#m27186b38-0c62-1000-a784-0ac2424e0000">
+<PresentationColumn mdsid="m27186b1e-0c62-1000-a784-0ac2424e0000" name="Success Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2547f0c0-0c62-1000-a784-0ac2424e0000.xml#m254e3253-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b1f-0c62-1000-a784-0ac2424e0000" name="StartHourMin" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2547f0c0-0c62-1000-a784-0ac2424e0000.xml#m2517b914-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m27186b20-0c62-1000-a784-0ac2424e0000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2547f0c0-0c62-1000-a784-0ac2424e0000.xml#m25f0b3e3-0c62-1000-a784-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

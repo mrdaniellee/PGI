@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m26874e90-0c62-1000-a784-0ac2424e0000" name="End Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" x="528" y="482" subjectAreaRef="/oracle/bi/server/base/BusinessModel/24e78141-0c62-1000-a784-0ac2424e0000.xml#m24e78141-0c62-1000-a784-0ac2424e0000">
+<LogicalColumn mdsid="m26874e92-0c62-1000-a784-0ac2424e0000" name="Hour" isWriteable="false">
+<AttrDefn mdsid="m26874e97-0c62-1000-a784-0ac2424e0000" name="AD_3900:668211361569420">
+<Expr mdsid="m00000001-01f4-0000-94b5-a83d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."End Time of Day Role"."HOURS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-94b5-a83d00000000-m26416bf2-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf2-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m26874e93-0c62-1000-a784-0ac2424e0000" name="Minute" isWriteable="false">
+<AttrDefn mdsid="m26874e98-0c62-1000-a784-0ac2424e0000" name="AD_3900:668221361569420">
+<Expr mdsid="m00000002-01f4-0000-77b8-582e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."End Time of Day Role"."MINUTES"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-77b8-582e00000000-m26416bf3-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf3-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m26874e94-0c62-1000-a784-0ac2424e0000" name="Time" isWriteable="false">
+<AttrDefn mdsid="m26874e99-0c62-1000-a784-0ac2424e0000" name="AD_3900:668231361569420">
+<Expr mdsid="m00000003-01f4-0000-41d3-a76900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["OBI Usage Tracking"."OBIPRD"."PRD_BIPLATFORM"."End Time of Day Role"."HOUR_MIN"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-41d3-a76900000000-m26416bf6-0c62-1000-a784-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26416bf0-0c62-1000-a784-0ac2424e0000.xml#m26416bf6-0c62-1000-a784-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m26874e95-0c62-1000-a784-0ac2424e0000" name="nq_clock_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m26874e95-0c62-1000-a784-0ac2424e0000-m26874e94-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e94-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m26874e96-0c62-1000-a784-0ac2424e0000" name="Hour">
+<RefColumns>
+<RefLogicalColumn refId="m26874e96-0c62-1000-a784-0ac2424e0000-m26874e92-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e92-0c62-1000-a784-0ac2424e0000"/>
+<RefLogicalColumn refId="m26874e96-0c62-1000-a784-0ac2424e0000-m26874e93-0c62-1000-a784-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/26874e90-0c62-1000-a784-0ac2424e0000.xml#m26874e93-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m26874e90-0c62-1000-a784-0ac2424e0000-m26874e9a-0c62-1000-a784-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/26874e9a-0c62-1000-a784-0ac2424e0000.xml#m26874e9a-0c62-1000-a784-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

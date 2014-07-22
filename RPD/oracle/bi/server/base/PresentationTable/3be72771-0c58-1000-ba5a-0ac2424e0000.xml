@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m3be72771-0c58-1000-ba5a-0ac2424e0000" name="Product" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m3be7276f-0c58-1000-ba5a-0ac2424e0000" name="Product Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e06d7d80-0c57-1000-ba5a-0ac2424e0000.xml#me07a27b6-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3be72770-0c58-1000-ba5a-0ac2424e0000" name="Product Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e06d7d80-0c57-1000-ba5a-0ac2424e0000.xml#me07a27b7-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3be7276c-0c58-1000-ba5a-0ac2424e0000" name="Product Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e06d7d80-0c57-1000-ba5a-0ac2424e0000.xml#me07a27b8-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3be7276e-0c58-1000-ba5a-0ac2424e0000" name="Product" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e06d7d80-0c57-1000-ba5a-0ac2424e0000.xml#me075bae2-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0ffc24e1-0c5b-1000-891c-0ac2424e0000" name="Product Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e06d7d80-0c57-1000-ba5a-0ac2424e0000.xml#m0ff4aad2-0c5b-1000-891c-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m478edeb1-0c5c-1000-92db-0ac2424e0000" name="Product Nm and Cd" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e06d7d80-0c57-1000-ba5a-0ac2424e0000.xml#m475d2050-0c5c-1000-92db-0ac2424e0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m3be72771-0c58-1000-ba5a-0ac2424e0000-m4a0e5da6-0c5c-1000-92db-0ac2424e0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/4a0e5da6-0c5c-1000-92db-0ac2424e0000.xml#m4a0e5da6-0c5c-1000-92db-0ac2424e0000"/>
+</RefHierarchies>
+<RefContentFolders>
+<RefPresentationTable refId="m3be72771-0c58-1000-ba5a-0ac2424e0000-mb451ad6b-0c62-1000-9f49-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b451ad6b-0c62-1000-9f49-0ac2424e0000.xml#mb451ad6b-0c62-1000-9f49-0ac2424e0000"/>
+<RefPresentationTable refId="m3be72771-0c58-1000-ba5a-0ac2424e0000-m1684b05a-0c58-1000-ba5a-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/1684b05a-0c58-1000-ba5a-0ac2424e0000.xml#m1684b05a-0c58-1000-ba5a-0ac2424e0000"/>
+</RefContentFolders>
+</PresentationTable>

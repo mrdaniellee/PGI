@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m34892ee0-0c2c-1000-ae5d-0ac2424e0000" name="D19 UOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="19.0" lastUpdated="2013-06-24 13:52:23" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9fa-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m34892ee1-0c2c-1000-ae5d-0ac2424e0000" name="uom_key" dataType="INT" precision="10" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9fb-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee2-0c2c-1000-ae5d-0ac2424e0000" name="uom_id" dataType="VARCHAR" precision="80" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9fc-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee3-0c2c-1000-ae5d-0ac2424e0000" name="uom_cd" dataType="VARCHAR" precision="80" rowCount="17.0" lastUpdated="2012-05-30 14:21:17" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9fd-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee4-0c2c-1000-ae5d-0ac2424e0000" name="uom_sd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9fe-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee5-0c2c-1000-ae5d-0ac2424e0000" name="uom_ld" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429a9ff-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee6-0c2c-1000-ae5d-0ac2424e0000" name="uom_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="1.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa00-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee7-0c2c-1000-ae5d-0ac2424e0000" name="uom_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa01-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee8-0c2c-1000-ae5d-0ac2424e0000" name="uom_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa02-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892ee9-0c2c-1000-ae5d-0ac2424e0000" name="uom_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa03-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892eea-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="8.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa04-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892eeb-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="3.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa05-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892eec-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="8.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa06-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m34892eed-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="3.0" lastUpdated="2012-05-30 14:21:18" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3429a9fa-0c2c-1000-ae5d-0ac2424e0000.xml#m3429aa07-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m3b1d99d0-0c2c-1000-ae5d-0ac2424e0000" name="D19 UOM_Key">
+<RefColumns>
+<RefColumn refId="m3b1d99d0-0c2c-1000-ae5d-0ac2424e0000-m34892ee1-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/34892ee0-0c2c-1000-ae5d-0ac2424e0000.xml#m34892ee1-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

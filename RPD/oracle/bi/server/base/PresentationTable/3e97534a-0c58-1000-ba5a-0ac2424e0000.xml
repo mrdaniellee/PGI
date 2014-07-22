@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m3e97534a-0c58-1000-ba5a-0ac2424e0000" name="Source System" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m3e975349-0c58-1000-ba5a-0ac2424e0000" name="System Desc" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e253a2a0-0c57-1000-ba5a-0ac2424e0000.xml#me25ace95-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3e975348-0c58-1000-ba5a-0ac2424e0000" name="System Id" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e253a2a0-0c57-1000-ba5a-0ac2424e0000.xml#me25ace94-0c57-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m82220ea1-0c5a-1000-891c-0ac2424e0000" name="Source System" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e253a2a0-0c57-1000-ba5a-0ac2424e0000.xml#m8214c830-0c5a-1000-891c-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

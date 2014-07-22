@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PrivilegePackage mdsid="m4e238c31-0c66-1000-8db7-0ac2424e0000" name="PrivPack_4209:680841363353716" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" roleRef="/oracle/bi/server/base/Group/09803f71-0c65-1000-87eb-0ac2424e0000.xml#m09803f71-0c65-1000-87eb-0ac2424e0000">
+<QueryPrivilegeMapping databaseRef="/oracle/bi/server/base/Database/80cb6df1-0bcf-0000-714b-e31d00000000.xml#m80cb6df1-0bcf-0000-714b-e31d00000000" queryPrivilegeRef="/oracle/bi/server/base/QueryPrivilege/4e242871-0c66-1000-8db7-0ac2424e0000.xml#m4e242871-0c66-1000-8db7-0ac2424e0000"/>
+<QueryPrivilegeMapping databaseRef="/oracle/bi/server/base/Database/3428bf60-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf60-0c2c-1000-ae5d-0ac2424e0000" queryPrivilegeRef="/oracle/bi/server/base/QueryPrivilege/4e242870-0c66-1000-8db7-0ac2424e0000.xml#m4e242870-0c66-1000-8db7-0ac2424e0000"/>
+<QueryPrivilegeMapping databaseRef="/oracle/bi/server/base/Database/bd848660-0c61-1000-8029-0ac2424e0000.xml#mbd848660-0c61-1000-8029-0ac2424e0000" queryPrivilegeRef="/oracle/bi/server/base/QueryPrivilege/4e242872-0c66-1000-8db7-0ac2424e0000.xml#m4e242872-0c66-1000-8db7-0ac2424e0000"/>
+</PrivilegePackage>

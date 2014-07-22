@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mdb7fb650-0c5a-1000-891c-0ac2424e0000" name="D24 Reseller" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="207.0" lastUpdated="2013-06-24 13:52:21" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea20-0c59-1000-891c-0ac2424e0000">
+<PhysicalColumn mdsid="mdb7fb651-0c5a-1000-891c-0ac2424e0000" name="rsllr_key" dataType="INT" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea21-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb652-0c5a-1000-891c-0ac2424e0000" name="region" dataType="VARCHAR" precision="4" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea22-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb653-0c5a-1000-891c-0ac2424e0000" name="rsllr_id" dataType="VARCHAR" precision="50" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea23-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb654-0c5a-1000-891c-0ac2424e0000" name="rsllr_cd" dataType="VARCHAR" precision="50" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea24-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb655-0c5a-1000-891c-0ac2424e0000" name="rsllr_sd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea25-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb656-0c5a-1000-891c-0ac2424e0000" name="rsllr_ld" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea26-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb657-0c5a-1000-891c-0ac2424e0000" name="rsllr_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea27-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb658-0c5a-1000-891c-0ac2424e0000" name="rsllr_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea28-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb659-0c5a-1000-891c-0ac2424e0000" name="rsllr_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea29-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb65a-0c5a-1000-891c-0ac2424e0000" name="rsllr_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea2a-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb65b-0c5a-1000-891c-0ac2424e0000" name="rsllr_gen03_cd" dataType="VARCHAR" precision="80" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea2b-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb65c-0c5a-1000-891c-0ac2424e0000" name="rsllr_gen03_desc" dataType="VARCHAR" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea2c-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb65d-0c5a-1000-891c-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea2d-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb65e-0c5a-1000-891c-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea2e-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb65f-0c5a-1000-891c-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea2f-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mdb7fb660-0c5a-1000-891c-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/a733ea20-0c59-1000-891c-0ac2424e0000.xml#ma733ea30-0c59-1000-891c-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m742acfc0-0c5b-1000-92db-0ac2424e0000" name="D24 Reseller_Key">
+<RefColumns>
+<RefColumn refId="m742acfc0-0c5b-1000-92db-0ac2424e0000-mdb7fb651-0c5a-1000-891c-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb651-0c5a-1000-891c-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

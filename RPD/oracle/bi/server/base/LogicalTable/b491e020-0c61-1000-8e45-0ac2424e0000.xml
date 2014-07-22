@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mb491e020-0c61-1000-8e45-0ac2424e0000" name="Scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="mb4aae66f-0c61-1000-8e45-0ac2424e0000" name="Scenario Group" isWriteable="false">
+<AttrDefn mdsid="mb4aae675-0c61-1000-8e45-0ac2424e0000" name="AD_3900:650331361386463">
+<Expr mdsid="m00000001-01f4-0000-407d-084000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D14 Scenario"."scnro_gen01_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-407d-084000000000-m347dbd36-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347dbd30-0c2c-1000-ae5d-0ac2424e0000.xml#m347dbd36-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb4aae671-0c61-1000-8e45-0ac2424e0000" name="Scenario Key" isWriteable="false">
+<AttrDefn mdsid="mb4aae677-0c61-1000-8e45-0ac2424e0000" name="AD_3900:650351361386463">
+<Expr mdsid="m00000002-01f4-0000-219d-89dc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D14 Scenario"."scnro_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-219d-89dc00000000-m347dbd31-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347dbd30-0c2c-1000-ae5d-0ac2424e0000.xml#m347dbd31-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb4aae673-0c61-1000-8e45-0ac2424e0000" name="Scenario" isWriteable="false">
+<AttrDefn mdsid="mb4aae679-0c61-1000-8e45-0ac2424e0000" name="AD_3900:650371361386463">
+<Expr mdsid="m00000003-01f4-0000-a02c-a9d700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D14 Scenario"."scnro_sd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-a02c-a9d700000000-m347dbd34-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347dbd30-0c2c-1000-ae5d-0ac2424e0000.xml#m347dbd34-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb97825e2-0c61-1000-8e45-0ac2424e0000" name="Scenario ID" isWriteable="false">
+<AttrDefn mdsid="mb97825e3-0c61-1000-8e45-0ac2424e0000" name="AD_3900:650531361386463">
+<Expr mdsid="m00000004-01f4-0000-217f-530000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D14 Scenario"."scnro_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-217f-530000000000-m347dbd32-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347dbd30-0c2c-1000-ae5d-0ac2424e0000.xml#m347dbd32-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mb4aae674-0c61-1000-8e45-0ac2424e0000" name="D14 Scenario_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mb4aae674-0c61-1000-8e45-0ac2424e0000-mb4aae671-0c61-1000-8e45-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b491e020-0c61-1000-8e45-0ac2424e0000.xml#mb4aae671-0c61-1000-8e45-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mb491e020-0c61-1000-8e45-0ac2424e0000-mb4aae67b-0c61-1000-8e45-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/b4aae67b-0c61-1000-8e45-0ac2424e0000.xml#mb4aae67b-0c61-1000-8e45-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m95ba2a20-0c2c-1000-ae5d-0ac2424e0000" name="PGI_F_PRJ_TRANS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="48701.0" lastUpdated="2013-06-24 13:52:35" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m95ba2a21-0c2c-1000-ae5d-0ac2424e0000" name="sys_cd" dataType="VARCHAR" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a22-0c2c-1000-ae5d-0ac2424e0000" name="empl_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a23-0c2c-1000-ae5d-0ac2424e0000" name="prj_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a24-0c2c-1000-ae5d-0ac2424e0000" name="prj_gl_co_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a25-0c2c-1000-ae5d-0ac2424e0000" name="cat_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a26-0c2c-1000-ae5d-0ac2424e0000" name="gl_co_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a27-0c2c-1000-ae5d-0ac2424e0000" name="gl_dt_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a28-0c2c-1000-ae5d-0ac2424e0000" name="gl_dept_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a29-0c2c-1000-ae5d-0ac2424e0000" name="sys_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a2a-0c2c-1000-ae5d-0ac2424e0000" name="scnro_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a2b-0c2c-1000-ae5d-0ac2424e0000" name="opex_hrs" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a2c-0c2c-1000-ae5d-0ac2424e0000" name="capex_hrs" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a2d-0c2c-1000-ae5d-0ac2424e0000" name="total_hrs" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a2e-0c2c-1000-ae5d-0ac2424e0000" name="local_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a2f-0c2c-1000-ae5d-0ac2424e0000" name="local_cur" dataType="VARCHAR" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a30-0c2c-1000-ae5d-0ac2424e0000" name="conv_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a31-0c2c-1000-ae5d-0ac2424e0000" name="usd_rate" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a32-0c2c-1000-ae5d-0ac2424e0000" name="usd_capex_cost" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a33-0c2c-1000-ae5d-0ac2424e0000" name="usd_opex_cost" dataType="FLOAT" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a34-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a35-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a36-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a37-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a38-0c2c-1000-ae5d-0ac2424e0000" name="cip_163000" dataType="DOUBLE" scale="6" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a39-0c2c-1000-ae5d-0ac2424e0000" name="cip_163100" dataType="DOUBLE" scale="6" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a3a-0c2c-1000-ae5d-0ac2424e0000" name="cip_163200" dataType="DOUBLE" scale="6" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95ba2a3b-0c2c-1000-ae5d-0ac2424e0000" name="cip_other" dataType="DOUBLE" scale="6" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

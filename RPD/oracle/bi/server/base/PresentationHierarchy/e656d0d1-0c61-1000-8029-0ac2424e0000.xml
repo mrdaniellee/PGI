@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="me656d0d1-0c61-1000-8029-0ac2424e0000" name="Scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/e656d0cc-0c61-1000-8029-0ac2424e0000.xml#me656d0cc-0c61-1000-8029-0ac2424e0000" logicalDimensionRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb9404d00-0c61-1000-8e45-0ac2424e0000">
+<PresentationLevel mdsid="me656d0d2-0c61-1000-8029-0ac2424e0000" name="All Scenarios" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e656d0d1-0c61-1000-8029-0ac2424e0000.xml#me656d0d1-0c61-1000-8029-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb942be00-0c61-1000-8e45-0ac2424e0000">
+</PresentationLevel>
+<PresentationLevel mdsid="me656d0d3-0c61-1000-8029-0ac2424e0000" name="Scenario Gen01 Code" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e656d0d1-0c61-1000-8029-0ac2424e0000.xml#me656d0d1-0c61-1000-8029-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb97f9ff0-0c61-1000-8e45-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me656d0d3-0c61-1000-8029-0ac2424e0000-me656d0cd-0c61-1000-8029-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e656d0cc-0c61-1000-8029-0ac2424e0000.xml#me656d0cd-0c61-1000-8029-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="me656d0d4-0c61-1000-8029-0ac2424e0000" name="Scenario" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e656d0d1-0c61-1000-8029-0ac2424e0000.xml#me656d0d1-0c61-1000-8029-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/b9404d00-0c61-1000-8e45-0ac2424e0000.xml#mb982fb50-0c61-1000-8e45-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me656d0d4-0c61-1000-8029-0ac2424e0000-me656d0cf-0c61-1000-8029-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e656d0cc-0c61-1000-8029-0ac2424e0000.xml#me656d0cf-0c61-1000-8029-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

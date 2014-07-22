@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8df05560-0c8d-1000-8029-0ac2424e0000" name="DNIS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m8df05563-0c8d-1000-8029-0ac2424e0000" name="DNIS Access Type" isWriteable="false">
+<AttrDefn mdsid="m8df0557e-0c8d-1000-8029-0ac2424e0000" name="AD_3900:706951380212504">
+<Expr mdsid="m00000001-01f4-0000-48da-4de500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."access_type"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-48da-4de500000000-m8d7f4429-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4429-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05564-0c8d-1000-8029-0ac2424e0000" name="DNIS Call Origin" isWriteable="false">
+<AttrDefn mdsid="m8df0557f-0c8d-1000-8029-0ac2424e0000" name="AD_3900:706961380212504">
+<Expr mdsid="m00000002-01f4-0000-79ff-2b3900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."call_origin"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-79ff-2b3900000000-m8d7f4428-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4428-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05565-0c8d-1000-8029-0ac2424e0000" name="DNIS Carrier" isWriteable="false">
+<AttrDefn mdsid="m8df05580-0c8d-1000-8029-0ac2424e0000" name="AD_3900:706971380212504">
+<Expr mdsid="m00000003-01f4-0000-fb48-7c8900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."carrier_dnis"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-fb48-7c8900000000-m8d7f4423-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4423-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df0556e-0c8d-1000-8029-0ac2424e0000" name="DNIS" isWriteable="false">
+<AttrDefn mdsid="m8df05589-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707061380212504">
+<Expr mdsid="m00000004-01f4-0000-e672-e5df00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."dnis_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-e672-e5df00000000-m8d7f4412-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4412-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05571-0c8d-1000-8029-0ac2424e0000" name="DNIS Desc" isWriteable="false">
+<AttrDefn mdsid="m8df0558c-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707091380212504">
+<Expr mdsid="m00000005-01f4-0000-7f43-deb400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."dnis_sd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-7f43-deb400000000-m8d7f4414-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4414-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05572-0c8d-1000-8029-0ac2424e0000" name="DNIS Type" isWriteable="false">
+<AttrDefn mdsid="m8df0558d-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707101380212504">
+<Expr mdsid="m00000006-01f4-0000-d608-1c7800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."dnis_type"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-d608-1c7800000000-m8d7f4416-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4416-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05577-0c8d-1000-8029-0ac2424e0000" name="DNIS Network" isWriteable="false">
+<AttrDefn mdsid="m8df05592-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707151380212504">
+<Expr mdsid="m00000007-01f4-0000-33f2-cb0600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."network"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-33f2-cb0600000000-m8d7f442a-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f442a-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05578-0c8d-1000-8029-0ac2424e0000" name="DNIS Quorum Flag" isWriteable="false">
+<AttrDefn mdsid="m8df05593-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707161380212504">
+<Expr mdsid="m00000008-01f4-0000-6b3f-5d5700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."quorum_flag"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-6b3f-5d5700000000-m8d7f4422-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4422-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df05579-0c8d-1000-8029-0ac2424e0000" name="DNIS Rate Current" isWriteable="false">
+<AttrDefn mdsid="m8df05594-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707171380212504">
+<Expr mdsid="m00000009-01f4-0000-e866-1b0100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."rate_cur"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-e866-1b0100000000-m8d7f4426-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4426-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df0557a-0c8d-1000-8029-0ac2424e0000" name="DNIS Rate Currency" isWriteable="false">
+<AttrDefn mdsid="m8df05595-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707181380212504">
+<Expr mdsid="m0000000a-01f4-0000-feb5-be9500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."rate_currency_cur"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-feb5-be9500000000-m8d7f4427-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4427-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df0557b-0c8d-1000-8029-0ac2424e0000" name="DNIS Term Country" isWriteable="false">
+<AttrDefn mdsid="m8df05596-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707191380212504">
+<Expr mdsid="m0000000b-01f4-0000-e008-bc9200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."term_country_cur"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-e008-bc9200000000-m8d7f4424-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4424-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8df0557c-0c8d-1000-8029-0ac2424e0000" name="DNIS Term Region" isWriteable="false">
+<AttrDefn mdsid="m8df05597-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707201380212504">
+<Expr mdsid="m0000000c-01f4-0000-f7f8-cd3500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."term_region_cur"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-f7f8-cd3500000000-m8d7f4425-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4425-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8eb775f3-0c8d-1000-8029-0ac2424e0000" name="dnis_key" isWriteable="false">
+<AttrDefn mdsid="m8eb775f5-0c8d-1000-8029-0ac2424e0000" name="AD_3900:707981380212504">
+<Expr mdsid="m0000000d-01f4-0000-007a-bcbf00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D25 DNIS"."dnis_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-007a-bcbf00000000-m8d7f4411-0c8d-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8d7f4410-0c8d-1000-8029-0ac2424e0000.xml#m8d7f4411-0c8d-1000-8029-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8eb775f4-0c8d-1000-8029-0ac2424e0000" name="D25 DNIS_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8eb775f4-0c8d-1000-8029-0ac2424e0000-m8eb775f3-0c8d-1000-8029-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8df05560-0c8d-1000-8029-0ac2424e0000.xml#m8eb775f3-0c8d-1000-8029-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m8df05560-0c8d-1000-8029-0ac2424e0000-m8df05562-0c8d-1000-8029-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8df05562-0c8d-1000-8029-0ac2424e0000.xml#m8df05562-0c8d-1000-8029-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

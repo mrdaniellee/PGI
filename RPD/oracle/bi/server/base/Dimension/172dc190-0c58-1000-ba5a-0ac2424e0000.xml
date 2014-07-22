@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m172dc190-0c58-1000-ba5a-0ac2424e0000" name="Business Unit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/172dc190-0c58-1000-ba5a-0ac2424e0000.xml#m17320750-0c58-1000-ba5a-0ac2424e0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalLevel mdsid="m17320750-0c58-1000-ba5a-0ac2424e0000" name="All Business Units" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;All Business Units&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m17320750-0c58-1000-ba5a-0ac2424e0000_m3bfb2490-0c58-1000-ba5a-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/172dc190-0c58-1000-ba5a-0ac2424e0000.xml#m3bfb2490-0c58-1000-ba5a-0ac2424e0000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="m3bfb2490-0c58-1000-ba5a-0ac2424e0000" name="Region" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Region&apos;">
+<LogicalKey mdsid="m3c0bc660-0c58-1000-ba5a-0ac2424e0000" name="Region" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m3c0bc660-0c58-1000-ba5a-0ac2424e0000-m16dfefb0-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/16d393a0-0c58-1000-ba5a-0ac2424e0000.xml#m16dfefb0-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m3bfb2490-0c58-1000-ba5a-0ac2424e0000_m3bfdbca0-0c58-1000-ba5a-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/172dc190-0c58-1000-ba5a-0ac2424e0000.xml#m3bfdbca0-0c58-1000-ba5a-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m3bfb2490-0c58-1000-ba5a-0ac2424e0000-m16dfefb0-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/16d393a0-0c58-1000-ba5a-0ac2424e0000.xml#m16dfefb0-0c58-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m3bfdbca0-0c58-1000-ba5a-0ac2424e0000" name="Level 2" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Level 2&apos;">
+<LogicalKey mdsid="m3c0cd7d0-0c58-1000-ba5a-0ac2424e0000" name="gl_co_gen02_cd" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m3c0cd7d0-0c58-1000-ba5a-0ac2424e0000-m16dfefb1-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/16d393a0-0c58-1000-ba5a-0ac2424e0000.xml#m16dfefb1-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m3bfdbca0-0c58-1000-ba5a-0ac2424e0000_m3c00f0f0-0c58-1000-ba5a-0ac2424e0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/172dc190-0c58-1000-ba5a-0ac2424e0000.xml#m3c00f0f0-0c58-1000-ba5a-0ac2424e0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m3bfdbca0-0c58-1000-ba5a-0ac2424e0000-m16dfefb1-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/16d393a0-0c58-1000-ba5a-0ac2424e0000.xml#m16dfefb1-0c58-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m3c00f0f0-0c58-1000-ba5a-0ac2424e0000" name="Business Unit" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Business Unit&apos;">
+<LogicalKey mdsid="m3c0de940-0c58-1000-ba5a-0ac2424e0000" name="Business Unit" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m3c0de940-0c58-1000-ba5a-0ac2424e0000-m16dfc8a6-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/16d393a0-0c58-1000-ba5a-0ac2424e0000.xml#m16dfc8a6-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m3c00f0f0-0c58-1000-ba5a-0ac2424e0000-m16dfc8a6-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/16d393a0-0c58-1000-ba5a-0ac2424e0000.xml#m16dfc8a6-0c58-1000-ba5a-0ac2424e0000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

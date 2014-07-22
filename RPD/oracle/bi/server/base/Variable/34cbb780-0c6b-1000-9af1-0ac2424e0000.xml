@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m34cbb780-0c6b-1000-9af1-0ac2424e0000" name="sls_mth_nam" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/569e87e0-0c5a-1000-891c-0ac2424e0000.xml#m569e87e0-0c5a-1000-891c-0ac2424e0000">
+<Expr mdsid="m00000001-01f4-0000-229e-d10700000000" name="Expr">
+<ExprText><![CDATA['June']]></ExprText>
+<ExprTextDesc><![CDATA['June']]></ExprTextDesc>
+</Expr>
+</Variable>

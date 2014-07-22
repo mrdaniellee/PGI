@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m165981a0-0c58-1000-ba5a-0ac2424e0000" name="Bill Code" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m165c40c4-0c58-1000-ba5a-0ac2424e0000" name="Product Key" isWriteable="false">
+<AttrDefn mdsid="m165c40c6-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:620431357247425">
+<Expr mdsid="m00000001-01f4-0000-aa62-5d3d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D13 Bill Code"."prdct_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-aa62-5d3d00000000-m347b7341-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347b7340-0c2c-1000-ae5d-0ac2424e0000.xml#m347b7341-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m165e8ab2-0c58-1000-ba5a-0ac2424e0000" name="Bill Code" isWriteable="false">
+<AttrDefn mdsid="m165e8ab3-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:620481357247425">
+<Expr mdsid="m00000002-01f4-0000-088d-cf0300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D13 Bill Code"."bill_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-088d-cf0300000000-me0526fb0-0c3c-1000-80eb-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347b7340-0c2c-1000-ae5d-0ac2424e0000.xml#me0526fb0-0c3c-1000-80eb-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m166122c0-0c58-1000-ba5a-0ac2424e0000" name="Bill Code Desc" isWriteable="false">
+<AttrDefn mdsid="m166122c1-0c58-1000-ba5a-0ac2424e0000" name="AD_3900:620521357247425">
+<Expr mdsid="m00000003-01f4-0000-0f18-a88300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D13 Bill Code"."prdct_sd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-0f18-a88300000000-m347b7345-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347b7340-0c2c-1000-ae5d-0ac2424e0000.xml#m347b7345-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mf31b2542-0c66-1000-8db7-0ac2424e0000" name="Combo Code" isWriteable="false">
+<AttrDefn mdsid="mf31b2543-0c66-1000-8db7-0ac2424e0000" name="AD_3900:690341363630529">
+<Expr mdsid="m00000004-01f4-0000-d28c-67aa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D13 Bill Code"."prdct_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-d28c-67aa00000000-m347b7343-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347b7340-0c2c-1000-ae5d-0ac2424e0000.xml#m347b7343-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mf221aa72-0cb0-1000-bd59-0ac2424e0000" name="Package Type" isWriteable="false">
+<AttrDefn mdsid="mf221aa73-0cb0-1000-bd59-0ac2424e0000" name="AD_3900:719111395411702">
+<Expr mdsid="m00000005-01f4-0000-ab92-61f900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D13 Bill Code"."prdct_pkg_type"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-ab92-61f900000000-ma7417eb1-0c59-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/347b7340-0c2c-1000-ae5d-0ac2424e0000.xml#ma7417eb1-0c59-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m165c40c5-0c58-1000-ba5a-0ac2424e0000" name="D13 Bill Code_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m165c40c5-0c58-1000-ba5a-0ac2424e0000-m165c40c4-0c58-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#m165c40c4-0c58-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m165981a0-0c58-1000-ba5a-0ac2424e0000-m165c40c7-0c58-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/165c40c7-0c58-1000-ba5a-0ac2424e0000.xml#m165c40c7-0c58-1000-ba5a-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

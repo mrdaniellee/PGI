@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m95b9dc00-0c2c-1000-ae5d-0ac2424e0000" name="PGI_D_EMPLOYEE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="735.0" lastUpdated="2013-06-24 13:52:19" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m95b9dc01-0c2c-1000-ae5d-0ac2424e0000" name="empl_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc02-0c2c-1000-ae5d-0ac2424e0000" name="empl_id" dataType="VARCHAR" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc03-0c2c-1000-ae5d-0ac2424e0000" name="empl_nam" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc04-0c2c-1000-ae5d-0ac2424e0000" name="empl_type" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc05-0c2c-1000-ae5d-0ac2424e0000" name="hire_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc06-0c2c-1000-ae5d-0ac2424e0000" name="rehire_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc07-0c2c-1000-ae5d-0ac2424e0000" name="empl_term_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc08-0c2c-1000-ae5d-0ac2424e0000" name="dept_num_curr" dataType="VARCHAR" precision="6" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc09-0c2c-1000-ae5d-0ac2424e0000" name="dept_nam_curr" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc0a-0c2c-1000-ae5d-0ac2424e0000" name="empl_status_curr" dataType="VARCHAR" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc0b-0c2c-1000-ae5d-0ac2424e0000" name="empl_security" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc0c-0c2c-1000-ae5d-0ac2424e0000" name="empl_pay_group" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc0d-0c2c-1000-ae5d-0ac2424e0000" name="wage_type" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc0e-0c2c-1000-ae5d-0ac2424e0000" name="annual_rate" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc0f-0c2c-1000-ae5d-0ac2424e0000" name="hourly_rate" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc10-0c2c-1000-ae5d-0ac2424e0000" name="std_hrs" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc11-0c2c-1000-ae5d-0ac2424e0000" name="empl_state" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc12-0c2c-1000-ae5d-0ac2424e0000" name="empl_position" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc13-0c2c-1000-ae5d-0ac2424e0000" name="empl_grade" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc14-0c2c-1000-ae5d-0ac2424e0000" name="empl_bonus_pct" dataType="DOUBLE" scale="4" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc15-0c2c-1000-ae5d-0ac2424e0000" name="empl_bonus_amt" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc16-0c2c-1000-ae5d-0ac2424e0000" name="empl_commission_amt" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc17-0c2c-1000-ae5d-0ac2424e0000" name="empl_country" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc18-0c2c-1000-ae5d-0ac2424e0000" name="empl_location" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc19-0c2c-1000-ae5d-0ac2424e0000" name="empl_rrsp_amt" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc1a-0c2c-1000-ae5d-0ac2424e0000" name="empl_benefits_amt" dataType="DOUBLE" scale="2" precision="18" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc1b-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc1c-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc1d-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_dt" dataType="TIMESTAMP" scale="3" precision="23" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc1e-0c2c-1000-ae5d-0ac2424e0000" name="last_upd_run_key" dataType="INT" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc1f-0c2c-1000-ae5d-0ac2424e0000" name="eff_start_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc20-0c2c-1000-ae5d-0ac2424e0000" name="eff_end_dt" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc21-0c2c-1000-ae5d-0ac2424e0000" name="curr_rec_fl" dataType="CHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc22-0c2c-1000-ae5d-0ac2424e0000" name="vendor_nam" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc23-0c2c-1000-ae5d-0ac2424e0000" name="mgr_empl_id" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m95b9dc24-0c2c-1000-ae5d-0ac2424e0000" name="mgr_empl_nam" dataType="VARCHAR" precision="80" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m95b9dc25-0c2c-1000-ae5d-0ac2424e0000" name="PK_PGI_D_EMPLOYEE">
+<RefColumns>
+<RefColumn refId="m95b9dc25-0c2c-1000-ae5d-0ac2424e0000-m95b9dc01-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/95b9dc00-0c2c-1000-ae5d-0ac2424e0000.xml#m95b9dc01-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m17be8fea-0c58-1000-ba5a-0ac2424e0000" name="Access Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m17be8fe9-0c58-1000-ba5a-0ac2424e0000" name="Access Type Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m178caa75-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m17be8fe8-0c58-1000-ba5a-0ac2424e0000" name="Access Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/177fb220-0c58-1000-ba5a-0ac2424e0000.xml#m178caa74-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

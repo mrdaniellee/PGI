@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m1684b05a-0c58-1000-ba5a-0ac2424e0000" name="Bill Code" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m1684b059-0c58-1000-ba5a-0ac2424e0000" name="Bill Code Desc" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#m166122c0-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m1684b058-0c58-1000-ba5a-0ac2424e0000" name="Bill Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#m165e8ab2-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf3200741-0c66-1000-8db7-0ac2424e0000" name="Combo Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#mf31b2542-0c66-1000-8db7-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf2313ad1-0cb0-1000-bd59-0ac2424e0000" name="Package Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#mf221aa72-0cb0-1000-bd59-0ac2424e0000">
+</PresentationColumn>
+</PresentationTable>

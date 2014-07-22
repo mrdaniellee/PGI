@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m20bb6f5e-0c58-1000-ba5a-0ac2424e0000" name="Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="m20bb6f5d-0c58-1000-ba5a-0ac2424e0000" name="Corp Entity ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m209c2786-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf0ea89a1-0c66-1000-8db7-0ac2424e0000" name="Corp Entity Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m209c2787-0c58-1000-ba5a-0ac2424e0000">
+<Alias name="Corp Entity Desc"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m4ec763c1-0c5a-1000-891c-0ac2424e0000" name="Corp Entity" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m4ea4e7a0-0c5a-1000-891c-0ac2424e0000">
+<Alias name="Corp Entity#1"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m20bb6f5b-0c58-1000-ba5a-0ac2424e0000" name="Company ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m209c2784-0c58-1000-ba5a-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m20bb6f5c-0c58-1000-ba5a-0ac2424e0000" name="Company Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m209c2785-0c58-1000-ba5a-0ac2424e0000">
+<Alias name="Company Desc"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m4cfc40b1-0c5a-1000-891c-0ac2424e0000" name="Company" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m4ce33a70-0c5a-1000-891c-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3be1adb1-0c9b-1000-8029-0ac2424e0000" name="Enterprise ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m3bda81c4-0c9b-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3be1adb3-0c9b-1000-8029-0ac2424e0000" name="Enterprise Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2079f980-0c58-1000-ba5a-0ac2424e0000.xml#m3bda81c5-0c9b-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<RefContentFolders>
+<RefPresentationTable refId="m20bb6f5e-0c58-1000-ba5a-0ac2424e0000-m7846c0b1-0c5b-1000-92db-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/7846c0b1-0c5b-1000-92db-0ac2424e0000.xml#m7846c0b1-0c5b-1000-92db-0ac2424e0000"/>
+<RefPresentationTable refId="m20bb6f5e-0c58-1000-ba5a-0ac2424e0000-m211af481-0c58-1000-ba5a-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/211af481-0c58-1000-ba5a-0ac2424e0000.xml#m211af481-0c58-1000-ba5a-0ac2424e0000"/>
+<RefPresentationTable refId="m20bb6f5e-0c58-1000-ba5a-0ac2424e0000-m3e9111be-0c58-1000-ba5a-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/3e9111be-0c58-1000-ba5a-0ac2424e0000.xml#m3e9111be-0c58-1000-ba5a-0ac2424e0000"/>
+<RefPresentationTable refId="m20bb6f5e-0c58-1000-ba5a-0ac2424e0000-mf077bd40-0cab-1000-8029-0ac2424e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f077bd40-0cab-1000-8029-0ac2424e0000.xml#mf077bd40-0cab-1000-8029-0ac2424e0000"/>
+</RefContentFolders>
+</PresentationTable>

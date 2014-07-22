@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m746b0d10-0c5b-1000-92db-0ac2424e0000" name="Reseller" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="m746b0d17-0c5b-1000-92db-0ac2424e0000" name="Region" isWriteable="false">
+<AttrDefn mdsid="m746b0d28-0c5b-1000-92db-0ac2424e0000" name="AD_3900:642551358693652">
+<Expr mdsid="m00000001-01f4-0000-0154-6aeb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."region"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0154-6aeb00000000-mdb7fb652-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb652-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m746b0d19-0c5b-1000-92db-0ac2424e0000" name="Reseller Type" isWriteable="false">
+<AttrDefn mdsid="m746b0d2a-0c5b-1000-92db-0ac2424e0000" name="AD_3900:642571358693652">
+<Expr mdsid="m00000002-01f4-0000-25f6-3a4b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."rsllr_gen01_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-25f6-3a4b00000000-mdb7fb657-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb657-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m746b0d1f-0c5b-1000-92db-0ac2424e0000" name="Reseller Name" isWriteable="false">
+<AttrDefn mdsid="m746b0d30-0c5b-1000-92db-0ac2424e0000" name="AD_3900:642631358693652">
+<Expr mdsid="m00000003-01f4-0000-8232-bfcb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."rsllr_id"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-8232-bfcb00000000-mdb7fb653-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb653-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m746b0d20-0c5b-1000-92db-0ac2424e0000" name="Reseller Key" isWriteable="false">
+<AttrDefn mdsid="m746b0d31-0c5b-1000-92db-0ac2424e0000" name="AD_3900:642641358693652">
+<Expr mdsid="m00000004-01f4-0000-264c-f7de00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D24 Reseller"."rsllr_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-264c-f7de00000000-mdb7fb651-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/db7fb650-0c5a-1000-891c-0ac2424e0000.xml#mdb7fb651-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m746b0d23-0c5b-1000-92db-0ac2424e0000" name="D24 Reseller_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m746b0d23-0c5b-1000-92db-0ac2424e0000-m746b0d20-0c5b-1000-92db-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/746b0d10-0c5b-1000-92db-0ac2424e0000.xml#m746b0d20-0c5b-1000-92db-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m746b0d10-0c5b-1000-92db-0ac2424e0000-m746b0d12-0c5b-1000-92db-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/746b0d12-0c5b-1000-92db-0ac2424e0000.xml#m746b0d12-0c5b-1000-92db-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

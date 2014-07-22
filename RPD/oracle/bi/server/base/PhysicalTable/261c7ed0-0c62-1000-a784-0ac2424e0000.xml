@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m261c7ed0-0c62-1000-a784-0ac2424e0000" name="Start Date Role" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="13394.0" lastUpdated="2013-02-20 16:36:20" maxConn="0" containerRef="/oracle/bi/server/base/Schema/bd983571-0c61-1000-8029-0ac2424e0000.xml#mbd983571-0c61-1000-8029-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac0-0c61-1000-8029-0ac2424e0000">
+<PhysicalColumn mdsid="m261c7ed1-0c62-1000-a784-0ac2424e0000" name="DAY_DT" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac1-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed2-0c62-1000-a784-0ac2424e0000" name="CAL_MONTH" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac2-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed3-0c62-1000-a784-0ac2424e0000" name="DAY_OF_MONTH" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac3-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed4-0c62-1000-a784-0ac2424e0000" name="DAY_NAME" dataType="CHAR" precision="12" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac4-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed5-0c62-1000-a784-0ac2424e0000" name="DAY_OF_YEAR" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac5-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed6-0c62-1000-a784-0ac2424e0000" name="DAY_OF_WEEK" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac6-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed7-0c62-1000-a784-0ac2424e0000" name="CAL_WEEK" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac7-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed8-0c62-1000-a784-0ac2424e0000" name="MONTH_NAME" dataType="CHAR" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac8-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ed9-0c62-1000-a784-0ac2424e0000" name="CAL_YEAR" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ac9-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7eda-0c62-1000-a784-0ac2424e0000" name="PER_NAME_MONTH" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8aca-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7edb-0c62-1000-a784-0ac2424e0000" name="PER_NAME_QTR" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8acb-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7edc-0c62-1000-a784-0ac2424e0000" name="FSCL_YEAR" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8acc-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7edd-0c62-1000-a784-0ac2424e0000" name="FSCL_QTR" dataType="CHAR" precision="5" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8acd-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ede-0c62-1000-a784-0ac2424e0000" name="DAY_AGO_DT" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ace-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7edf-0c62-1000-a784-0ac2424e0000" name="WEEK_AGO_DT" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8acf-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ee0-0c62-1000-a784-0ac2424e0000" name="MONTH_AGO_DT" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ad0-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ee1-0c62-1000-a784-0ac2424e0000" name="QUARTER_AGO_DT" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ad1-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ee2-0c62-1000-a784-0ac2424e0000" name="YEAR_AGO_DT" dataType="TIMESTAMP" scale="3" precision="23" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ad2-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m261c7ee3-0c62-1000-a784-0ac2424e0000" name="ROW_WID" dataType="INT" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/bf4b8ac0-0c61-1000-8029-0ac2424e0000.xml#mbf4b8ad3-0c61-1000-8029-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m26297720-0c62-1000-a784-0ac2424e0000" name="Start Date Role_Key">
+<RefColumns>
+<RefColumn refId="m26297720-0c62-1000-a784-0ac2424e0000-m261c7ed1-0c62-1000-a784-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/261c7ed0-0c62-1000-a784-0ac2424e0000.xml#m261c7ed1-0c62-1000-a784-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

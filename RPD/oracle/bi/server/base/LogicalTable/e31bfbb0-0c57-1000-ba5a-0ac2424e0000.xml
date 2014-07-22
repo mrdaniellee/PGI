@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="me31bfbb0-0c57-1000-ba5a-0ac2424e0000" name="Trans Cur" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/d4e75b21-0c57-1000-ba5a-0ac2424e0000.xml#md4e75b21-0c57-1000-ba5a-0ac2424e0000">
+<LogicalColumn mdsid="me31ee1e4-0c57-1000-ba5a-0ac2424e0000" name="Currency Key" isWriteable="false">
+<AttrDefn mdsid="me31ee1e6-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:620061357163246">
+<Expr mdsid="m00000001-01f4-0000-5bfe-71f300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D07 Currency"."currency_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-5bfe-71f300000000-m3448f191-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3448f190-0c2c-1000-ae5d-0ac2424e0000.xml#m3448f191-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me31ff350-0c57-1000-ba5a-0ac2424e0000" name="Currency" isWriteable="false">
+<AttrDefn mdsid="me31ff351-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:620111357163246">
+<Expr mdsid="m00000002-01f4-0000-248a-7d1100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D07 Currency"."currency_cd"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-248a-7d1100000000-m3448f193-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3448f190-0c2c-1000-ae5d-0ac2424e0000.xml#m3448f193-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="me31ee1e5-0c57-1000-ba5a-0ac2424e0000" name="D07 Currency_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="me31ee1e5-0c57-1000-ba5a-0ac2424e0000-me31ee1e4-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e31bfbb0-0c57-1000-ba5a-0ac2424e0000.xml#me31ee1e4-0c57-1000-ba5a-0ac2424e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="me31bfbb0-0c57-1000-ba5a-0ac2424e0000-me31ee1e7-0c57-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/e31ee1e7-0c57-1000-ba5a-0ac2424e0000.xml#me31ee1e7-0c57-1000-ba5a-0ac2424e0000"/>
+</RefTableSources>
+</LogicalTable>

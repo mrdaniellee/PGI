@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m3441ecb0-0c2c-1000-ae5d-0ac2424e0000" name="D04 Call Origin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="253.0" lastUpdated="2013-06-24 13:52:18" maxConn="0" containerRef="/oracle/bi/server/base/Schema/3428bf63-0c2c-1000-ae5d-0ac2424e0000.xml#m3428bf63-0c2c-1000-ae5d-0ac2424e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e680-0c2c-1000-ae5d-0ac2424e0000">
+<PhysicalColumn mdsid="m3441ecb1-0c2c-1000-ae5d-0ac2424e0000" name="cntry_key" dataType="INT" precision="10" rowCount="244.0" lastUpdated="2012-05-30 14:53:13" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e681-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb2-0c2c-1000-ae5d-0ac2424e0000" name="cntry_id" dataType="VARCHAR" precision="50" rowCount="244.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e682-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb3-0c2c-1000-ae5d-0ac2424e0000" name="cntry_cd" dataType="VARCHAR" precision="50" rowCount="244.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e683-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb4-0c2c-1000-ae5d-0ac2424e0000" name="cntry_sd" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e684-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb5-0c2c-1000-ae5d-0ac2424e0000" name="cntry_ld" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e685-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb6-0c2c-1000-ae5d-0ac2424e0000" name="cntry_gen01_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e686-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb7-0c2c-1000-ae5d-0ac2424e0000" name="cntry_gen01_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e687-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb8-0c2c-1000-ae5d-0ac2424e0000" name="cntry_gen02_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="2.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e688-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecb9-0c2c-1000-ae5d-0ac2424e0000" name="cntry_gen02_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e689-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecba-0c2c-1000-ae5d-0ac2424e0000" name="cntry_gen03_cd" dataType="VARCHAR" precision="80" nullable="true" rowCount="7.0" lastUpdated="2012-05-30 14:53:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e68a-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecbb-0c2c-1000-ae5d-0ac2424e0000" name="cntry_gen03_desc" dataType="VARCHAR" precision="255" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e68b-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecbc-0c2c-1000-ae5d-0ac2424e0000" name="create_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="23.0" lastUpdated="2012-05-30 14:53:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e68c-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecbd-0c2c-1000-ae5d-0ac2424e0000" name="create_run_key" dataType="INT" precision="10" rowCount="19.0" lastUpdated="2012-05-30 14:53:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e68d-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecbe-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_dt" dataType="TIMESTAMP" scale="3" precision="23" rowCount="23.0" lastUpdated="2012-05-30 14:53:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e68e-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecbf-0c2c-1000-ae5d-0ac2424e0000" name="last_updt_run_key" dataType="INT" precision="10" rowCount="19.0" lastUpdated="2012-05-30 14:53:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e68f-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m3441ecc0-0c2c-1000-ae5d-0ac2424e0000" name="var_cost_rate_cur" dataType="FLOAT" precision="7" nullable="true" rowCount="0.0" lastUpdated="2012-05-30 14:53:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#m3428e690-0c2c-1000-ae5d-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf33660b1-0cae-1000-bd59-0ac2424e0000" name="cntry_cd_display" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/3428e680-0c2c-1000-ae5d-0ac2424e0000.xml#mf333efb0-0cae-1000-bd59-0ac2424e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m3b1f2070-0c2c-1000-ae5d-0ac2424e0000" name="D04 Call Origin_Key">
+<RefColumns>
+<RefColumn refId="m3b1f2070-0c2c-1000-ae5d-0ac2424e0000-m3441ecb1-0c2c-1000-ae5d-0ac2424e0000" columnRef="/oracle/bi/server/base/PhysicalTable/3441ecb0-0c2c-1000-ae5d-0ac2424e0000.xml#m3441ecb1-0c2c-1000-ae5d-0ac2424e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

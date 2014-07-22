@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m4dbee9e6-0c59-1000-891c-0ac2424e0000" name="Call Origin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/d903c14b-0c57-1000-ba5a-0ac2424e0000.xml#md903c14b-0c57-1000-ba5a-0ac2424e0000" logicalDimensionRef="/oracle/bi/server/base/Dimension/d8618dc0-0c57-1000-ba5a-0ac2424e0000.xml#md8618dc0-0c57-1000-ba5a-0ac2424e0000">
+<PresentationLevel mdsid="m4dbee9e7-0c59-1000-891c-0ac2424e0000" name="All Call Origins" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4dbee9e6-0c59-1000-891c-0ac2424e0000.xml#m4dbee9e6-0c59-1000-891c-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/d8618dc0-0c57-1000-ba5a-0ac2424e0000.xml#md8cf1ca0-0c57-1000-ba5a-0ac2424e0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m4dbee9e8-0c59-1000-891c-0ac2424e0000" name="Level 1" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4dbee9e6-0c59-1000-891c-0ac2424e0000.xml#m4dbee9e6-0c59-1000-891c-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/d8618dc0-0c57-1000-ba5a-0ac2424e0000.xml#md86907d0-0c57-1000-ba5a-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m4dbee9e8-0c59-1000-891c-0ac2424e0000-md903c14e-0c57-1000-ba5a-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/d903c14b-0c57-1000-ba5a-0ac2424e0000.xml#md903c14e-0c57-1000-ba5a-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m4dbee9e9-0c59-1000-891c-0ac2424e0000" name="Region" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4dbee9e6-0c59-1000-891c-0ac2424e0000.xml#m4dbee9e6-0c59-1000-891c-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/d8618dc0-0c57-1000-ba5a-0ac2424e0000.xml#md87cb6e0-0c57-1000-ba5a-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m4dbee9e9-0c59-1000-891c-0ac2424e0000-md903c14f-0c57-1000-ba5a-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/d903c14b-0c57-1000-ba5a-0ac2424e0000.xml#md903c14f-0c57-1000-ba5a-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m4dbee9ea-0c59-1000-891c-0ac2424e0000" name="Continent" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4dbee9e6-0c59-1000-891c-0ac2424e0000.xml#m4dbee9e6-0c59-1000-891c-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/d8618dc0-0c57-1000-ba5a-0ac2424e0000.xml#md87f9d10-0c57-1000-ba5a-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m4dbee9ea-0c59-1000-891c-0ac2424e0000-md903c150-0c57-1000-ba5a-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/d903c14b-0c57-1000-ba5a-0ac2424e0000.xml#md903c150-0c57-1000-ba5a-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m4dbee9eb-0c59-1000-891c-0ac2424e0000" name="Call Origin" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4dbee9e6-0c59-1000-891c-0ac2424e0000.xml#m4dbee9e6-0c59-1000-891c-0ac2424e0000" logicalLevelRef="/oracle/bi/server/base/Dimension/d8618dc0-0c57-1000-ba5a-0ac2424e0000.xml#m4dbaa420-0c59-1000-891c-0ac2424e0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m4dbee9eb-0c59-1000-891c-0ac2424e0000-md903c14d-0c57-1000-ba5a-0ac2424e0000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/d903c14b-0c57-1000-ba5a-0ac2424e0000.xml#md903c14d-0c57-1000-ba5a-0ac2424e0000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>
