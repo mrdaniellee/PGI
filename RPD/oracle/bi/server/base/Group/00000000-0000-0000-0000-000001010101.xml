@@ -2,6 +2,8 @@
 <Group mdsid="m00000000-0000-0000-0000-000001010101" name="BIConsumer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" logStatisticsStatus="disable" guid="BIConsumer" displayName="BI Consumer Role">
 <RefChildGroups>
 <RefGroup refId="m00000000-0000-0000-0000-000001010101-m0ab7cfb1-0c52-1000-a137-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/0ab7cfb1-0c52-1000-a137-0ac2424e0000.xml#m0ab7cfb1-0c52-1000-a137-0ac2424e0000"/>
-<RefGroup refId="m00000000-0000-0000-0000-000001010101-m80000002-b32f-14f3-ac34-0ac242490000" groupRef="/oracle/bi/server/base/Group/80000002-b32f-14f3-ac34-0ac242490000.xml#m80000002-b32f-14f3-ac34-0ac242490000"/>
+<RefGroup refId="m00000000-0000-0000-0000-000001010101-mf4412cb1-0c7c-1000-899e-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/f4412cb1-0c7c-1000-899e-0ac2424e0000.xml#mf4412cb1-0c7c-1000-899e-0ac2424e0000"/>
+<RefGroup refId="m00000000-0000-0000-0000-000001010101-m4f8b58c1-0c96-1000-83e1-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/4f8b58c1-0c96-1000-83e1-0ac2424e0000.xml#m4f8b58c1-0c96-1000-83e1-0ac2424e0000"/>
+<RefGroup refId="m00000000-0000-0000-0000-000001010101-m3f22fb61-0cae-1000-bd59-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/3f22fb61-0cae-1000-bd59-0ac2424e0000.xml#m3f22fb61-0cae-1000-bd59-0ac2424e0000"/>
 </RefChildGroups>
 </Group>

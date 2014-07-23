@@ -1061,21 +1061,6 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
-<LogicalColumn mdsid="mc0000000-02b9-14f4-ac34-0ac242490000" name="Moderator Count" isDerived="true" isWriteable="false">
-<Expr mdsid="m0000006c-01f4-0000-3887-12ab00000000" name="Expr">
-<ExprText><![CDATA[COUNT(DISTINCT"%1" )]]></ExprText>
-<ExprTextDesc><![CDATA[COUNT(DISTINCT"PGI-DW"."Client"."Client ID" )]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m0000006c-01f4-0000-3887-12ab00000000-m3b90ca08-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m3b90ca08-0c58-1000-ba5a-0ac2424e0000"/>
-</ObjectRefList>
-</Expr>
-<AttrDefn mdsid="mc0000001-02b9-14f4-ac34-0ac242490000" name="AD_3900:723541406143255">
-<Expr mdsid="m0000006d-01f4-0000-0677-250b00000000" name="Expr">
-<ExprText></ExprText>
-<ExprTextDesc></ExprTextDesc>
-</Expr>
-</AttrDefn>
-</LogicalColumn>
 <RefTableSources>
 <RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-md780559c-0c57-1000-ba5a-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/d780559c-0c57-1000-ba5a-0ac2424e0000.xml#md780559c-0c57-1000-ba5a-0ac2424e0000"/>
 <RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m284bdb91-0c5a-1000-891c-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/284bdb91-0c5a-1000-891c-0ac2424e0000.xml#m284bdb91-0c5a-1000-891c-0ac2424e0000"/>
@@ -1083,6 +1068,5 @@
 <RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m284d3b21-0c5a-1000-891c-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/284d3b21-0c5a-1000-891c-0ac2424e0000.xml#m284d3b21-0c5a-1000-891c-0ac2424e0000"/>
 <RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m284dfe71-0c5a-1000-891c-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/284dfe71-0c5a-1000-891c-0ac2424e0000.xml#m284dfe71-0c5a-1000-891c-0ac2424e0000"/>
 <RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m23801bd2-0ca7-1000-8029-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/23801bd2-0ca7-1000-8029-0ac2424e0000.xml#m23801bd2-0ca7-1000-8029-0ac2424e0000"/>
-<RefLogicalTableSource refId="md77531f0-0c57-1000-ba5a-0ac2424e0000-m40000006-fe77-14f3-ac34-0ac242490000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000006-fe77-14f3-ac34-0ac242490000.xml#m40000006-fe77-14f3-ac34-0ac242490000"/>
 </RefTableSources>
 </LogicalTable>

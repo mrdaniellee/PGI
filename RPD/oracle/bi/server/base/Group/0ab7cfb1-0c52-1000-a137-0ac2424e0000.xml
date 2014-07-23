@@ -2,5 +2,9 @@
 <Group mdsid="m0ab7cfb1-0c52-1000-a137-0ac2424e0000" name="BIAnalyst" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" guid="BIAnalyst" displayName="BI Analyst Role">
 <RefChildGroups>
 <RefGroup refId="m0ab7cfb1-0c52-1000-a137-0ac2424e0000-m00000000-0000-0000-0000-000000010101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000000010101.xml#m00000000-0000-0000-0000-000000010101"/>
+<RefGroup refId="m0ab7cfb1-0c52-1000-a137-0ac2424e0000-m72809bd1-0c53-1000-afc7-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/72809bd1-0c53-1000-afc7-0ac2424e0000.xml#m72809bd1-0c53-1000-afc7-0ac2424e0000"/>
+<RefGroup refId="m0ab7cfb1-0c52-1000-a137-0ac2424e0000-m09803f71-0c65-1000-87eb-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/09803f71-0c65-1000-87eb-0ac2424e0000.xml#m09803f71-0c65-1000-87eb-0ac2424e0000"/>
+<RefGroup refId="m0ab7cfb1-0c52-1000-a137-0ac2424e0000-m75eaf121-0c6d-1000-886d-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/75eaf121-0c6d-1000-886d-0ac2424e0000.xml#m75eaf121-0c6d-1000-886d-0ac2424e0000"/>
+<RefGroup refId="m0ab7cfb1-0c52-1000-a137-0ac2424e0000-m40000000-96c4-14df-8029-0ac2424e0000" groupRef="/oracle/bi/server/base/Group/40000000-96c4-14df-8029-0ac2424e0000.xml#m40000000-96c4-14df-8029-0ac2424e0000"/>
 </RefChildGroups>
 </Group>

@@ -12,6 +12,4 @@
 </PresentationColumn>
 <PresentationColumn mdsid="mefc0de71-0cad-1000-8029-0ac2424e0000" name="Conference Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000">
 </PresentationColumn>
-<PresentationColumn mdsid="m00000001-02cd-14f4-ac34-0ac242490000" name="Moderator Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-02b9-14f4-ac34-0ac242490000">
-</PresentationColumn>
 </PresentationTable>
