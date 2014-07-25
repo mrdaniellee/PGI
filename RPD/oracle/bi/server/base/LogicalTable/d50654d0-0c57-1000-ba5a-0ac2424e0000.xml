@@ -44,7 +44,7 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
-<LogicalColumn mdsid="md55d4e72-0c57-1000-ba5a-0ac2424e0000" name="Month" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m7d80a4a0-0c5b-1000-92db-0ac2424e0000">
+<LogicalColumn mdsid="md55d4e72-0c57-1000-ba5a-0ac2424e0000" name="Month" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m7d80a4a0-0c5b-1000-92db-0ac2424e0000" descriptorIDRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000002-b445-14f3-983a-0ac2424e0000">
 <AttrDefn mdsid="md55d4e73-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:614121357142704">
 <Expr mdsid="m00000005-01f4-0000-f3c6-f1b000000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
@@ -127,6 +127,29 @@
 <ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D08 GL Date"."mth_nam_sd"]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m0000000d-01f4-0000-aa92-4c7f00000000-m3455e9f1-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3455e9e0-0c2c-1000-ae5d-0ac2424e0000.xml#m3455e9f1-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000002-b445-14f3-983a-0ac2424e0000" name="Year Month Number" isWriteable="false">
+<AttrDefn mdsid="mc0000003-b445-14f3-983a-0ac2424e0000" name="AD_3900:723301406063193">
+<Expr mdsid="m0000000e-01f4-0000-ca3e-af5500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D08 GL Date"."yr_mth_num"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-ca3e-af5500000000-m3455e9f5-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3455e9e0-0c2c-1000-ae5d-0ac2424e0000.xml#m3455e9f5-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000000-edcf-14f3-983a-0ac2424e0000" name="Month Year Display" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m7d80a4a0-0c5b-1000-92db-0ac2424e0000">
+<AttrDefn mdsid="m80000001-edcf-14f3-983a-0ac2424e0000" name="AD_3900:723341406122225">
+<Expr mdsid="m0000000f-01f4-0000-721b-88b000000000" name="Expr">
+<ExprText><![CDATA[case when  DayOfMonth("%1" ) = 1 then  MonthName("%1" ) ||', '||  cast("%2" as char) end]]></ExprText>
+<ExprTextDesc><![CDATA[case when  DayOfMonth("PRM_PRDHDATA"."PRDHDATA"."dbo"."D08 GL Date"."dt_sd" ) = 1 then  MonthName("PRM_PRDHDATA"."PRDHDATA"."dbo"."D08 GL Date"."dt_sd" ) ||', '||  cast("PRM_PRDHDATA"."PRDHDATA"."dbo"."D08 GL Date"."yr_num" as char) end]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-721b-88b000000000-m3455e9e2-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3455e9e0-0c2c-1000-ae5d-0ac2424e0000.xml#m3455e9e2-0c2c-1000-ae5d-0ac2424e0000"/>
+<RefObject refId="m0000000f-01f4-0000-721b-88b000000000-m3455e9e4-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3455e9e0-0c2c-1000-ae5d-0ac2424e0000.xml#m3455e9e4-0c2c-1000-ae5d-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 </AttrDefn>
