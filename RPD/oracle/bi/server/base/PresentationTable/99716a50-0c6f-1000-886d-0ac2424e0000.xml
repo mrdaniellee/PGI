@@ -27,4 +27,10 @@
 </PresentationColumn>
 <PresentationColumn mdsid="maba32821-0c7a-1000-8029-0ac2424e0000" name="CCRF Amt (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741298-0c6f-1000-886d-0ac2424e0000">
 </PresentationColumn>
+<PresentationColumn mdsid="m80000001-586f-14f4-8029-0ac242490000" name="Avg Revenue (MAAP) Per Host" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m40000000-584a-14f4-8029-0ac242490000">
+<Alias name="Avg Revenue(MAAP) per Host"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-5aff-14f4-8029-0ac242490000" name="Avg Revenue (MAAP) Per Meeting" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-5adb-14f4-8029-0ac242490000">
+<Alias name="Avg Revenue per Meeting"/>
+</PresentationColumn>
 </PresentationTable>

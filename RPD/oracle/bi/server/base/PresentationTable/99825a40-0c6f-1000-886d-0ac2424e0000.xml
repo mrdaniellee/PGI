@@ -12,4 +12,16 @@
 </PresentationColumn>
 <PresentationColumn mdsid="mefc0de71-0cad-1000-8029-0ac2424e0000" name="Conference Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000">
 </PresentationColumn>
+<PresentationColumn mdsid="m00000001-02cd-14f4-ac34-0ac242490000" name="Host Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-02b9-14f4-ac34-0ac242490000">
+<Alias name="Moderator Count"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m00000000-56e1-14f4-8029-0ac242490000" name="Avg Participants Per Conference" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-56bd-14f4-8029-0ac242490000">
+<Alias name="Participants per Conference"/>
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-57d5-14f4-8029-0ac242490000" name="Avg Meetings Per Host" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m00000000-57c1-14f4-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-5d15-14f4-8029-0ac242490000" name="Avg Meeting Duration" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-5c64-14f4-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-5d15-14f4-8029-0ac242490000" name="Avg Minutes Per Host" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-5d00-14f4-8029-0ac242490000">
+</PresentationColumn>
 </PresentationTable>

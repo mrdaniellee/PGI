@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m474a5114-0c5b-1000-8029-0ac2424e0000" name="Conference Call" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
-<PresentationColumn mdsid="m3efd7b91-0cba-1000-8029-0ac2424e0000" name="Unique Conf ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412cf-0c6f-1000-886d-0ac2424e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m3f040b41-0cba-1000-8029-0ac2424e0000" name="Conf ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m23801bb4-0ca7-1000-8029-0ac2424e0000">
-</PresentationColumn>
 <PresentationColumn mdsid="m8e8bab05-0c8d-1000-8029-0ac2424e0000" name="Bridge Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8df3fee0-0c8d-1000-8029-0ac2424e0000.xml#m8df3feea-0c8d-1000-8029-0ac2424e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m8e8bab07-0c8d-1000-8029-0ac2424e0000" name="Bridge Name Desc" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8df3fee0-0c8d-1000-8029-0ac2424e0000.xml#m8df3feed-0c8d-1000-8029-0ac2424e0000">
@@ -37,5 +33,9 @@
 <PresentationColumn mdsid="m8ebaaa48-0c8d-1000-8029-0ac2424e0000" name="DNIS Term Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8df05560-0c8d-1000-8029-0ac2424e0000.xml#m8df0557b-0c8d-1000-8029-0ac2424e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m8ebaaa4a-0c8d-1000-8029-0ac2424e0000" name="DNIS Term Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8df05560-0c8d-1000-8029-0ac2424e0000.xml#m8df0557c-0c8d-1000-8029-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3efd7b91-0cba-1000-8029-0ac2424e0000" name="Unique Conf ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412cf-0c6f-1000-886d-0ac2424e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m3f040b41-0cba-1000-8029-0ac2424e0000" name="Conf ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m23801bb4-0ca7-1000-8029-0ac2424e0000">
 </PresentationColumn>
 </PresentationTable>
