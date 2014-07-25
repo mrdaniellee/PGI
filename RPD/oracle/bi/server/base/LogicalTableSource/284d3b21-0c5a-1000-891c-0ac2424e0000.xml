@@ -512,21 +512,37 @@
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000041-01f4-0000-c80f-3f4e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."gl_dt_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000041-01f4-0000-c80f-3f4e00000000-m80000016-a81c-14f4-8029-0ac242490000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000016-a81c-14f4-8029-0ac242490000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000042-01f4-0000-5987-719100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2011"."gl_dt_key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000042-01f4-0000-5987-719100000000-m26e51fa7-0c5a-1000-891c-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/26e51fa0-0c5a-1000-891c-0ac2424e0000.xml#m26e51fa7-0c5a-1000-891c-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
 <Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/26e51fa0-0c5a-1000-891c-0ac2424e0000.xml#m26e51fa0-0c5a-1000-891c-0ac2424e0000">
 </Link>
-<WhereClause mdsid="m00000041-01f4-0000-fec4-38b600000000" name="WhereClause">
+<WhereClause mdsid="m00000043-01f4-0000-0708-5d6600000000" name="WhereClause">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </WhereClause>
-<GroupBy mdsid="m00000042-01f4-0000-cb7b-3c8600000000" name="GroupBy">
+<GroupBy mdsid="m00000044-01f4-0000-3365-412400000000" name="GroupBy">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </GroupBy>
-<FragmentContent mdsid="m00000043-01f4-0000-5eed-fbd400000000" name="FragmentContent">
+<FragmentContent mdsid="m00000045-01f4-0000-3755-2dc900000000" name="FragmentContent">
 <ExprText><![CDATA["%1" = 2011]]></ExprText>
 <ExprTextDesc><![CDATA["PGI-DW"."GL Date"."Year Number" = 2011]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000043-01f4-0000-5eed-fbd400000000-m46918fc2-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m46918fc2-0c58-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000045-01f4-0000-3755-2dc900000000-m46918fc2-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#m46918fc2-0c58-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </FragmentContent>
 </LogicalTableSource>

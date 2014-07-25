@@ -142,6 +142,17 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
+<LogicalColumn mdsid="mc0000002-a72c-14f4-8029-0ac242490000" name="wkday_fl" isWriteable="false">
+<AttrDefn mdsid="mc0000003-a72c-14f4-8029-0ac242490000" name="AD_3900:724141406311846">
+<Expr mdsid="m0000000f-01f4-0000-1099-120900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."D08 GL Date"."wkday_fl"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-1099-120900000000-m3455ea01-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/3455e9e0-0c2c-1000-ae5d-0ac2424e0000.xml#m3455ea01-0c2c-1000-ae5d-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
 <LogicalKey mdsid="md54fb9e5-0c57-1000-ba5a-0ac2424e0000" name="D08 GL Date_Key" isPrimary="true">
 <RefColumns>
 <RefLogicalColumn refId="md54fb9e5-0c57-1000-ba5a-0ac2424e0000-md54fb9e4-0c57-1000-ba5a-0ac2424e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#md54fb9e4-0c57-1000-ba5a-0ac2424e0000"/>

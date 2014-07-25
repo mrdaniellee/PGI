@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m99825a40-0c6f-1000-886d-0ac2424e0000" name="Quantity Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="mc0000001-a789-14f4-8029-0ac242490000" name="wkday_fl" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000002-a72c-14f4-8029-0ac242490000">
+</PresentationColumn>
 <PresentationColumn mdsid="m9991eaa0-0c6f-1000-886d-0ac2424e0000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17be055-0c57-1000-ba5a-0ac2424e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m9991eaa1-0c6f-1000-886d-0ac2424e0000" name="Unbilled Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me178fa11-0c57-1000-ba5a-0ac2424e0000">
@@ -23,5 +25,8 @@
 <PresentationColumn mdsid="mc0000001-5d15-14f4-8029-0ac242490000" name="Avg Meeting Duration" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-5c64-14f4-8029-0ac242490000">
 </PresentationColumn>
 <PresentationColumn mdsid="mc0000003-5d15-14f4-8029-0ac242490000" name="Avg Minutes Per Host" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-5d00-14f4-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-a764-14f4-8029-0ac242490000" name="Billed Quantity per Business Day" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-a733-14f4-8029-0ac242490000">
+<Alias name="Weekday Count"/>
 </PresentationColumn>
 </PresentationTable>
