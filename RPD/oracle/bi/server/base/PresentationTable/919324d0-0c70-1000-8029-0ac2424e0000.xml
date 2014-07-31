@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m919324d0-0c70-1000-8029-0ac2424e0000" name="MAAP Calculations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
-<PresentationColumn mdsid="m921944c1-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR - 3" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6eddcc61-0c70-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="m921944c3-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR  (Current-3)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6f0355c0-0c70-1000-8029-0ac2424e0000">
+<Alias name="Net Revenue (MAAP) - 3MR - 0"/>
+<Alias name="Net Revenue (MAAP) - 3MR - Current"/>
 </PresentationColumn>
-<PresentationColumn mdsid="m921944c3-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR - 0" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6f0355c0-0c70-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="m00000001-a3d2-14f6-8029-0ac242490000" name="Net Revenue (MAAP) - 3MR (4-7)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-a34b-14f6-8029-0ac242490000">
+<Alias name="Net Revenue (MAAP) - 3MR (-6)"/>
+<Alias name="Net Revenue (MAAP) - 3MR (3-6)"/>
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-a43e-14f6-8029-0ac242490000" name="Net Revenue (MAAP) - 3MR (5-9)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m40000000-a423-14f6-8029-0ac242490000">
+<Alias name="Net Revenue (MAAP) - 3MR (7-8)"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-a46b-14f6-8029-0ac242490000" name="Net Revenue (MAAP) - 3MR (10-12)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m00000000-a44c-14f6-8029-0ac242490000">
+<Alias name="Net Revenue (MAAP) - 3MR (9-11)"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m921944c1-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR (13-15)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6eddcc61-0c70-1000-8029-0ac2424e0000">
+<Alias name="Net Revenue (MAAP) - 3MR - 3"/>
 </PresentationColumn>
 <PresentationColumn mdsid="m921944c5-0c70-1000-8029-0ac2424e0000" name="YoY Rev Growth (MAAP) - 3MR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6f188b70-0c70-1000-8029-0ac2424e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m99740265-0c6f-1000-886d-0ac2424e0000" name="YTD Revenue (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mb2216414-0c5b-1000-92db-0ac2424e0000">
 <Alias name="YTD Sales (MAAP)"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m00000000-a973-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (Current-3)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-a922-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000002-a973-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (4-7)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m40000000-a930-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000004-a973-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (5-9)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-a936-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000006-a973-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (10-12)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m40000000-a93c-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000008-a973-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (13-15)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-a942-14f6-8029-0ac242490000">
 </PresentationColumn>
 </PresentationTable>

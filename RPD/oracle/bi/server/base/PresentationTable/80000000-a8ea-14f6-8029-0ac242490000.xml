@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000000-a8ea-14f6-8029-0ac242490000" name="Quantity Calculations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
+<PresentationColumn mdsid="mc0000001-a8fe-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (Current-3)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-a7dd-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-a8fe-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (4-7)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m40000000-a835-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-a8fe-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (5-9)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m40000000-a846-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-a8fe-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (10-12)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-a85d-14f6-8029-0ac242490000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000009-a8fe-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (13-15)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-a86d-14f6-8029-0ac242490000">
+</PresentationColumn>
+</PresentationTable>

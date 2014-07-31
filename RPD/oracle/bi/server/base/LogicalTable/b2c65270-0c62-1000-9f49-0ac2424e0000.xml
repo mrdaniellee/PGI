@@ -15,9 +15,9 @@
 <AttrDefn mdsid="mb2c986dd-0c62-1000-9f49-0ac2424e0000" name="AD_3900:674851361805460">
 <Expr mdsid="m00000002-01f4-0000-95fa-1efd00000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales Summary"."invoice_num"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["PRM_PRDHDATA"."PRDHDATA"."dbo"."F01 Sales 2013"."invoice_num"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000002-01f4-0000-95fa-1efd00000000-m3434585a-0c2c-1000-ae5d-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/34345820-0c2c-1000-ae5d-0ac2424e0000.xml#m3434585a-0c2c-1000-ae5d-0ac2424e0000"/>
+<RefObject refId="m00000002-01f4-0000-95fa-1efd00000000-m237371ba-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m237371ba-0ca7-1000-8029-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 </AttrDefn>
@@ -44,5 +44,10 @@
 </LogicalKey>
 <RefTableSources>
 <RefLogicalTableSource refId="mb2c65270-0c62-1000-9f49-0ac2424e0000-mb2c986de-0c62-1000-9f49-0ac2424e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/b2c986de-0c62-1000-9f49-0ac2424e0000.xml#mb2c986de-0c62-1000-9f49-0ac2424e0000"/>
+<RefLogicalTableSource refId="mb2c65270-0c62-1000-9f49-0ac2424e0000-mc0000016-fa4c-14f5-8029-0ac242490000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c0000016-fa4c-14f5-8029-0ac242490000.xml#mc0000016-fa4c-14f5-8029-0ac242490000"/>
+<RefLogicalTableSource refId="mb2c65270-0c62-1000-9f49-0ac2424e0000-m40000015-fa7c-14f5-8029-0ac242490000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000015-fa7c-14f5-8029-0ac242490000.xml#m40000015-fa7c-14f5-8029-0ac242490000"/>
+<RefLogicalTableSource refId="mb2c65270-0c62-1000-9f49-0ac2424e0000-m00000015-fa80-14f5-8029-0ac242490000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000015-fa80-14f5-8029-0ac242490000.xml#m00000015-fa80-14f5-8029-0ac242490000"/>
+<RefLogicalTableSource refId="mb2c65270-0c62-1000-9f49-0ac2424e0000-mc0000015-fa82-14f5-8029-0ac242490000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c0000015-fa82-14f5-8029-0ac242490000.xml#mc0000015-fa82-14f5-8029-0ac242490000"/>
+<RefLogicalTableSource refId="mb2c65270-0c62-1000-9f49-0ac2424e0000-m00000015-fa8c-14f5-8029-0ac242490000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000015-fa8c-14f5-8029-0ac242490000.xml#m00000015-fa8c-14f5-8029-0ac242490000"/>
 </RefTableSources>
 </LogicalTable>

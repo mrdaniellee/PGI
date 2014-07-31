@@ -762,12 +762,12 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
-<LogicalColumn mdsid="m6eddcc61-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR - 3" isDerived="true" isWriteable="false">
-<Expr mdsid="m00000049-01f4-0000-e5d9-223200000000" name="Expr">
+<LogicalColumn mdsid="m6eddcc61-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR (13-15)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000049-01f4-0000-4584-c15800000000" name="Expr">
 <ExprText><![CDATA[PeriodRolling("%1" , -14, -12) ]]></ExprText>
 <ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -14, -12) ]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000049-01f4-0000-e5d9-223200000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000049-01f4-0000-4584-c15800000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 <AttrDefn mdsid="m6eddf370-0c70-1000-8029-0ac2424e0000" name="AD_3900:700941367704263">
@@ -777,12 +777,12 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
-<LogicalColumn mdsid="m6f0355c0-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR - 0" isDerived="true" isWriteable="false">
-<Expr mdsid="m0000004b-01f4-0000-7e9d-7bf000000000" name="Expr">
+<LogicalColumn mdsid="m6f0355c0-0c70-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) - 3MR  (Current-3)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000004b-01f4-0000-8616-835600000000" name="Expr">
 <ExprText><![CDATA[PeriodRolling("%1" , -2, 0) ]]></ExprText>
 <ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -2, 0) ]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000004b-01f4-0000-7e9d-7bf000000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m0000004b-01f4-0000-8616-835600000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 <AttrDefn mdsid="m6f0355c1-0c70-1000-8029-0ac2424e0000" name="AD_3900:700961367704263">
@@ -795,7 +795,7 @@
 <LogicalColumn mdsid="m6f188b70-0c70-1000-8029-0ac2424e0000" name="YoY Rev Growth (MAAP) - 3MR" isDerived="true" isWriteable="false">
 <Expr mdsid="m0000004d-01f4-0000-819b-415800000000" name="Expr">
 <ExprText><![CDATA["%1" / "%2" -1]]></ExprText>
-<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP) - 3MR - 0" / "PGI-DW"."Fact-Revenue"."Net Revenue (MAAP) - 3MR - 3" -1]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Net Revenue (MAAP) - 3MR  (Current-3)" / "PGI-DW"."Fact-Revenue"."Net Revenue (MAAP) - 3MR (13-15)" -1]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m0000004d-01f4-0000-819b-415800000000-m6f0355c0-0c70-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6f0355c0-0c70-1000-8029-0ac2424e0000"/>
 <RefObject refId="m0000004d-01f4-0000-819b-415800000000-m6eddcc61-0c70-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m6eddcc61-0c70-1000-8029-0ac2424e0000"/>
@@ -1197,6 +1197,209 @@
 <ObjectRefList>
 <RefObject refId="m0000007c-01f4-0000-7955-51d900000000-m23737187-0ca7-1000-8029-0ac2424e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/23737180-0ca7-1000-8029-0ac2424e0000.xml#m23737187-0ca7-1000-8029-0ac2424e0000"/>
 </ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000000-a34b-14f6-8029-0ac242490000" name="Net Revenue (MAAP) - 3MR (4-7)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000007d-01f4-0000-4916-f02700000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -5, -3) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -5, -3) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000007d-01f4-0000-4916-f02700000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m80000001-a34b-14f6-8029-0ac242490000" name="AD_3900:726621406834460">
+<Expr mdsid="m0000007e-01f4-0000-9cc9-041300000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000000-a423-14f6-8029-0ac242490000" name="Net Revenue (MAAP) - 3MR (5-9)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000007f-01f4-0000-2895-9dbb00000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -8, -6) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -8, -6) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000007f-01f4-0000-2895-9dbb00000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m40000001-a423-14f6-8029-0ac242490000" name="AD_3900:726661406834460">
+<Expr mdsid="m00000080-01f4-0000-9be0-c91900000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000000-a44c-14f6-8029-0ac242490000" name="Net Revenue (MAAP) - 3MR (10-12)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000081-01f4-0000-cf3f-071700000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -11, -9) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Net Revenue (MAAP)" , -11, -9) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000081-01f4-0000-cf3f-071700000000-md787cf90-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m00000001-a44c-14f6-8029-0ac242490000" name="AD_3900:726701406834460">
+<Expr mdsid="m00000082-01f4-0000-59da-bbb800000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000000-a7dd-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (Current-3)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000083-01f4-0000-e5cc-c36800000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -2, 0) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Billed Quantity" , -2, 0) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000083-01f4-0000-e5cc-c36800000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m80000001-a7dd-14f6-8029-0ac242490000" name="AD_3900:726741406837786">
+<Expr mdsid="m00000084-01f4-0000-9155-08a700000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000000-a835-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (4-7)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000085-01f4-0000-7883-f42600000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -5, -3) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Billed Quantity" , -5, -3) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000085-01f4-0000-7883-f42600000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m40000001-a835-14f6-8029-0ac242490000" name="AD_3900:726761406837786">
+<Expr mdsid="m00000086-01f4-0000-6b80-4b6800000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000000-a846-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (5-9)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000087-01f4-0000-2b4a-e72300000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -8, -6) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Billed Quantity" , -8, -6) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000087-01f4-0000-2b4a-e72300000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m40000001-a846-14f6-8029-0ac242490000" name="AD_3900:726781406837786">
+<Expr mdsid="m00000088-01f4-0000-3c9f-b31b00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000000-a85d-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (10-12)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000089-01f4-0000-262b-bd4500000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -11, -9) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Billed Quantity" , -11, -9) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000089-01f4-0000-262b-bd4500000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mc0000001-a85d-14f6-8029-0ac242490000" name="AD_3900:726801406837786">
+<Expr mdsid="m0000008a-01f4-0000-7b92-60e400000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000000-a86d-14f6-8029-0ac242490000" name="Billed Quantity - 3MR (13-15)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000008b-01f4-0000-a12a-fedc00000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -14, -12) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Billed Quantity" , -14, -12) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000008b-01f4-0000-a12a-fedc00000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mc0000001-a86d-14f6-8029-0ac242490000" name="AD_3900:726821406837786">
+<Expr mdsid="m0000008c-01f4-0000-fff1-cbac00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000000-a922-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (Current-3)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000008d-01f4-0000-f5eb-2d5b00000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -2, 0) ]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)" , -2, 0) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000008d-01f4-0000-f5eb-2d5b00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mc0000001-a922-14f6-8029-0ac242490000" name="AD_3900:726951406837930">
+<Expr mdsid="m0000008e-01f4-0000-0a18-753200000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000000-a930-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (4-7)" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000008f-01f4-0000-657b-530d00000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -5, -3) 
+]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)" , -5, -3) 
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000008f-01f4-0000-657b-530d00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m80000000-a930-14f6-8029-0ac242490000" name="AD_3900:726971406837968">
+<Expr mdsid="m00000090-01f4-0000-4395-885900000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000000-a936-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (5-9)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000091-01f4-0000-e236-596400000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -8, -6) 
+]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)" , -8, -6) 
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000091-01f4-0000-e236-596400000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m80000001-a936-14f6-8029-0ac242490000" name="AD_3900:726991406837992">
+<Expr mdsid="m00000092-01f4-0000-88ca-99d600000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000000-a93c-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (10-12)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000093-01f4-0000-dfe3-32fb00000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -11, -9) 
+]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)" , -11, -9) 
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000093-01f4-0000-dfe3-32fb00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m40000001-a93c-14f6-8029-0ac242490000" name="AD_3900:727011406838012">
+<Expr mdsid="m00000094-01f4-0000-2e5d-8dc600000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000000-a942-14f6-8029-0ac242490000" name="Avg Rate (MAAP) - 3MR (13-15)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000095-01f4-0000-7ef8-2a8a00000000" name="Expr">
+<ExprText><![CDATA[PeriodRolling("%1" , -14, -12) 
+]]></ExprText>
+<ExprTextDesc><![CDATA[PeriodRolling("PGI-DW"."Fact-Revenue"."Avg Rate (MAAP)" , -14, -12) 
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000095-01f4-0000-7ef8-2a8a00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mc0000001-a942-14f6-8029-0ac242490000" name="AD_3900:727031406838042">
+<Expr mdsid="m00000096-01f4-0000-5853-729d00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
 </Expr>
 </AttrDefn>
 </LogicalColumn>
