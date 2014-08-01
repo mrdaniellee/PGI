@@ -226,11 +226,14 @@
 </LogicalColumn>
 <LogicalColumn mdsid="md787cf90-0c57-1000-ba5a-0ac2424e0000" name="Net Revenue (MAAP)" isDerived="true" isWriteable="false">
 <Expr mdsid="m00000017-01f4-0000-18f8-9bf100000000" name="Expr">
-<ExprText><![CDATA[IfNull("%1",0) - IfNull("%2",0)]]></ExprText>
-<ExprTextDesc><![CDATA[IfNull("PGI-DW"."Fact-Revenue"."Revenue (MAAP)",0) - IfNull("PGI-DW"."Fact-Revenue"."Revenue Share (MAAP)",0)]]></ExprTextDesc>
+<ExprText><![CDATA[IfNull("%1",0) - IfNull("%2",0) + "%3" 
+]]></ExprText>
+<ExprTextDesc><![CDATA[IfNull("PGI-DW"."Fact-Revenue"."Revenue (MAAP)",0) - IfNull("PGI-DW"."Fact-Revenue"."Revenue Share (MAAP)",0) + "PGI-DW"."Fact-Revenue"."CCRF Amt (MAAP)" 
+]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000017-01f4-0000-18f8-9bf100000000-md7805599-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000"/>
 <RefObject refId="m00000017-01f4-0000-18f8-9bf100000000-md7805598-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805598-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000017-01f4-0000-18f8-9bf100000000-mc2741298-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc2741298-0c6f-1000-886d-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 <AttrDefn mdsid="md787cf91-0c57-1000-ba5a-0ac2424e0000" name="AD_3900:615401357142704">
@@ -965,14 +968,14 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
-<LogicalColumn mdsid="mef5dafd0-0cad-1000-8029-0ac2424e0000" name="Conference Count" isDerived="true" isWriteable="false">
-<Expr mdsid="m00000060-01f4-0000-8c2a-5fe400000000" name="Expr">
-<ExprText><![CDATA[CASE WHEN  "%1" = 'Minute UOM' AND  "%2"<> 'SB-BASIC'    THEN COUNT(DISTINCT("%3" )) ELSE 0  END]]></ExprText>
-<ExprTextDesc><![CDATA[CASE WHEN  "PGI-DW"."UOM"."UOM Type" = 'Minute UOM' AND  "PGI-DW"."Bill Code"."Bill Code"<> 'SB-BASIC'    THEN COUNT(DISTINCT("PGI-DW"."Fact-Revenue"."Unique Conf ID" )) ELSE 0  END]]></ExprTextDesc>
+<LogicalColumn mdsid="mef5dafd0-0cad-1000-8029-0ac2424e0000" name="Meeting Count" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000060-01f4-0000-c33e-fe8d00000000" name="Expr">
+<ExprText><![CDATA[CASE WHEN  "%1" = 'Minute UOM' AND  "%2" NOT LIKE 'SB%'    THEN COUNT(DISTINCT("%3" )) ELSE 0  END]]></ExprText>
+<ExprTextDesc><![CDATA[CASE WHEN  "PGI-DW"."UOM"."UOM Type" = 'Minute UOM' AND  "PGI-DW"."Bill Code"."Bill Code" NOT LIKE 'SB%'    THEN COUNT(DISTINCT("PGI-DW"."Fact-Revenue"."Unique Conf ID" )) ELSE 0  END]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000060-01f4-0000-8c2a-5fe400000000-me2b7e2b2-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b7e2b2-0c57-1000-ba5a-0ac2424e0000"/>
-<RefObject refId="m00000060-01f4-0000-8c2a-5fe400000000-m165e8ab2-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#m165e8ab2-0c58-1000-ba5a-0ac2424e0000"/>
-<RefObject refId="m00000060-01f4-0000-8c2a-5fe400000000-mc27412cf-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412cf-0c6f-1000-886d-0ac2424e0000"/>
+<RefObject refId="m00000060-01f4-0000-c33e-fe8d00000000-me2b7e2b2-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b7e2b2-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000060-01f4-0000-c33e-fe8d00000000-m165e8ab2-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#m165e8ab2-0c58-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m00000060-01f4-0000-c33e-fe8d00000000-mc27412cf-0c6f-1000-886d-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc27412cf-0c6f-1000-886d-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 <AttrDefn mdsid="mef5dafd1-0cad-1000-8029-0ac2424e0000" name="AD_3900:717891394119141">
@@ -1064,9 +1067,11 @@
 </LogicalColumn>
 <LogicalColumn mdsid="mc0000000-02b9-14f4-ac34-0ac242490000" name="Host Count" isDerived="true" isWriteable="false">
 <Expr mdsid="m0000006c-01f4-0000-d3f8-3bdb00000000" name="Expr">
-<ExprText><![CDATA[COUNT(DISTINCT"%1" )]]></ExprText>
-<ExprTextDesc><![CDATA[COUNT(DISTINCT"PGI-DW"."Client"."Client ID" )]]></ExprTextDesc>
+<ExprText><![CDATA[CASE WHEN  "%1" = 'Minute UOM' AND  "%2" NOT LIKE 'SB%'    THEN COUNT(DISTINCT("%3" )) ELSE 0 END]]></ExprText>
+<ExprTextDesc><![CDATA[CASE WHEN  "PGI-DW"."UOM"."UOM Type" = 'Minute UOM' AND  "PGI-DW"."Bill Code"."Bill Code" NOT LIKE 'SB%'    THEN COUNT(DISTINCT("PGI-DW"."Client"."Client ID" )) ELSE 0 END]]></ExprTextDesc>
 <ObjectRefList>
+<RefObject refId="m0000006c-01f4-0000-d3f8-3bdb00000000-me2b7e2b2-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/e299d360-0c57-1000-ba5a-0ac2424e0000.xml#me2b7e2b2-0c57-1000-ba5a-0ac2424e0000"/>
+<RefObject refId="m0000006c-01f4-0000-d3f8-3bdb00000000-m165e8ab2-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/165981a0-0c58-1000-ba5a-0ac2424e0000.xml#m165e8ab2-0c58-1000-ba5a-0ac2424e0000"/>
 <RefObject refId="m0000006c-01f4-0000-d3f8-3bdb00000000-m3b90ca08-0c58-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/3b883e80-0c58-1000-ba5a-0ac2424e0000.xml#m3b90ca08-0c58-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
@@ -1077,13 +1082,13 @@
 </Expr>
 </AttrDefn>
 </LogicalColumn>
-<LogicalColumn mdsid="m80000000-56bd-14f4-8029-0ac242490000" name="Avg Participants Per Conference" isDerived="true" isWriteable="false">
-<Expr mdsid="m0000006e-01f4-0000-9db9-b34f00000000" name="Expr">
+<LogicalColumn mdsid="m80000000-56bd-14f4-8029-0ac242490000" name="Avg Participants Per Meeting" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000006e-01f4-0000-1d0f-d41e00000000" name="Expr">
 <ExprText><![CDATA["%1" / "%2" ]]></ExprText>
-<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Participant Cnt" / "PGI-DW"."Fact-Revenue"."Conference Count" ]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Participant Cnt" / "PGI-DW"."Fact-Revenue"."Meeting Count" ]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000006e-01f4-0000-9db9-b34f00000000-m51501b76-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m51501b76-0c63-1000-9f49-0ac2424e0000"/>
-<RefObject refId="m0000006e-01f4-0000-9db9-b34f00000000-mef5dafd0-0cad-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000"/>
+<RefObject refId="m0000006e-01f4-0000-1d0f-d41e00000000-m51501b76-0c63-1000-9f49-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m51501b76-0c63-1000-9f49-0ac2424e0000"/>
+<RefObject refId="m0000006e-01f4-0000-1d0f-d41e00000000-mef5dafd0-0cad-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
 <AttrDefn mdsid="m80000001-56bd-14f4-8029-0ac242490000" name="AD_3900:723841406229409">
@@ -1096,7 +1101,7 @@
 <LogicalColumn mdsid="m00000000-57c1-14f4-8029-0ac242490000" name="Avg Meetings Per Host" isDerived="true" isWriteable="false">
 <Expr mdsid="m00000070-01f4-0000-bc51-69fb00000000" name="Expr">
 <ExprText><![CDATA["%1" / "%2" ]]></ExprText>
-<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Conference Count" / "PGI-DW"."Fact-Revenue"."Host Count" ]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Meeting Count" / "PGI-DW"."Fact-Revenue"."Host Count" ]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000070-01f4-0000-bc51-69fb00000000-mef5dafd0-0cad-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000"/>
 <RefObject refId="m00000070-01f4-0000-bc51-69fb00000000-mc0000000-02b9-14f4-ac34-0ac242490000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-02b9-14f4-ac34-0ac242490000"/>
@@ -1128,7 +1133,7 @@
 <LogicalColumn mdsid="mc0000000-5adb-14f4-8029-0ac242490000" name="Avg Revenue (MAAP) Per Meeting" isDerived="true" isWriteable="false">
 <Expr mdsid="m00000074-01f4-0000-b1b4-af0200000000" name="Expr">
 <ExprText><![CDATA["%1" /  "%2" ]]></ExprText>
-<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue (MAAP)" /  "PGI-DW"."Fact-Revenue"."Conference Count" ]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Revenue (MAAP)" /  "PGI-DW"."Fact-Revenue"."Meeting Count" ]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000074-01f4-0000-b1b4-af0200000000-md7805599-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805599-0c57-1000-ba5a-0ac2424e0000"/>
 <RefObject refId="m00000074-01f4-0000-b1b4-af0200000000-mef5dafd0-0cad-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000"/>
@@ -1144,7 +1149,7 @@
 <LogicalColumn mdsid="m80000000-5c64-14f4-8029-0ac242490000" name="Avg Meeting Duration" isDerived="true" isWriteable="false">
 <Expr mdsid="m00000076-01f4-0000-cd0f-e33300000000" name="Expr">
 <ExprText><![CDATA["%1" / "%2" ]]></ExprText>
-<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Billed Quantity" / "PGI-DW"."Fact-Revenue"."Conference Count" ]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["PGI-DW"."Fact-Revenue"."Billed Quantity" / "PGI-DW"."Fact-Revenue"."Meeting Count" ]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000076-01f4-0000-cd0f-e33300000000-me17577b5-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17577b5-0c57-1000-ba5a-0ac2424e0000"/>
 <RefObject refId="m00000076-01f4-0000-cd0f-e33300000000-mef5dafd0-0cad-1000-8029-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000"/>
@@ -1328,8 +1333,8 @@
 <RefObject refId="m0000008d-01f4-0000-f5eb-2d5b00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
-<AttrDefn mdsid="mc0000001-a922-14f6-8029-0ac242490000" name="AD_3900:726951406837930">
-<Expr mdsid="m0000008e-01f4-0000-0a18-753200000000" name="Expr">
+<AttrDefn mdsid="mc0000001-a922-14f6-8029-0ac242490000" name="AD_3900:726951406838235">
+<Expr mdsid="m0000008e-01f4-0000-e559-26db00000000" name="Expr">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </Expr>
@@ -1345,8 +1350,8 @@
 <RefObject refId="m0000008f-01f4-0000-657b-530d00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
-<AttrDefn mdsid="m80000000-a930-14f6-8029-0ac242490000" name="AD_3900:726971406837968">
-<Expr mdsid="m00000090-01f4-0000-4395-885900000000" name="Expr">
+<AttrDefn mdsid="m80000000-a930-14f6-8029-0ac242490000" name="AD_3900:726971406838235">
+<Expr mdsid="m00000090-01f4-0000-b98a-d9f400000000" name="Expr">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </Expr>
@@ -1362,8 +1367,8 @@
 <RefObject refId="m00000091-01f4-0000-e236-596400000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
-<AttrDefn mdsid="m80000001-a936-14f6-8029-0ac242490000" name="AD_3900:726991406837992">
-<Expr mdsid="m00000092-01f4-0000-88ca-99d600000000" name="Expr">
+<AttrDefn mdsid="m80000001-a936-14f6-8029-0ac242490000" name="AD_3900:726991406838235">
+<Expr mdsid="m00000092-01f4-0000-c1eb-0ab700000000" name="Expr">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </Expr>
@@ -1379,8 +1384,8 @@
 <RefObject refId="m00000093-01f4-0000-dfe3-32fb00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
-<AttrDefn mdsid="m40000001-a93c-14f6-8029-0ac242490000" name="AD_3900:727011406838012">
-<Expr mdsid="m00000094-01f4-0000-2e5d-8dc600000000" name="Expr">
+<AttrDefn mdsid="m40000001-a93c-14f6-8029-0ac242490000" name="AD_3900:727011406838235">
+<Expr mdsid="m00000094-01f4-0000-fc83-179100000000" name="Expr">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </Expr>
@@ -1396,8 +1401,8 @@
 <RefObject refId="m00000095-01f4-0000-7ef8-2a8a00000000-me183f69d-0c57-1000-ba5a-0ac2424e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me183f69d-0c57-1000-ba5a-0ac2424e0000"/>
 </ObjectRefList>
 </Expr>
-<AttrDefn mdsid="mc0000001-a942-14f6-8029-0ac242490000" name="AD_3900:727031406838042">
-<Expr mdsid="m00000096-01f4-0000-5853-729d00000000" name="Expr">
+<AttrDefn mdsid="mc0000001-a942-14f6-8029-0ac242490000" name="AD_3900:727031406838235">
+<Expr mdsid="m00000096-01f4-0000-5338-bea000000000" name="Expr">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </Expr>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m99825a40-0c6f-1000-886d-0ac2424e0000" name="Quantity Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
-<PresentationColumn mdsid="mc0000001-a789-14f4-8029-0ac242490000" name="wkday_fl" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d50654d0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000002-a72c-14f4-8029-0ac242490000">
-</PresentationColumn>
 <PresentationColumn mdsid="m9991eaa0-0c6f-1000-886d-0ac2424e0000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me17be055-0c57-1000-ba5a-0ac2424e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m9991eaa1-0c6f-1000-886d-0ac2424e0000" name="Unbilled Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#me178fa11-0c57-1000-ba5a-0ac2424e0000">
@@ -12,12 +10,14 @@
 </PresentationColumn>
 <PresentationColumn mdsid="m999211b1-0c6f-1000-886d-0ac2424e0000" name="Participant Cnt" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m51501b76-0c63-1000-9f49-0ac2424e0000">
 </PresentationColumn>
-<PresentationColumn mdsid="mefc0de71-0cad-1000-8029-0ac2424e0000" name="Conference Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000">
+<PresentationColumn mdsid="mefc0de71-0cad-1000-8029-0ac2424e0000" name="Meeting Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mef5dafd0-0cad-1000-8029-0ac2424e0000">
+<Alias name="Conference Count"/>
 </PresentationColumn>
 <PresentationColumn mdsid="m00000001-02cd-14f4-ac34-0ac242490000" name="Host Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mc0000000-02b9-14f4-ac34-0ac242490000">
 <Alias name="Moderator Count"/>
 </PresentationColumn>
-<PresentationColumn mdsid="m00000000-56e1-14f4-8029-0ac242490000" name="Avg Participants Per Conference" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-56bd-14f4-8029-0ac242490000">
+<PresentationColumn mdsid="m00000000-56e1-14f4-8029-0ac242490000" name="Avg Participants Per Meeting" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m80000000-56bd-14f4-8029-0ac242490000">
+<Alias name="Avg Participants Per Conference"/>
 <Alias name="Participants per Conference"/>
 </PresentationColumn>
 <PresentationColumn mdsid="mc0000000-57d5-14f4-8029-0ac242490000" name="Avg Meetings Per Host" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#m00000000-57c1-14f4-8029-0ac242490000">

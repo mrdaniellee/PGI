@@ -2,10 +2,9 @@
 <PresentationTable mdsid="m99716a50-0c6f-1000-886d-0ac2424e0000" name="MAAP Metrics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/d903c130-0c57-1000-ba5a-0ac2424e0000.xml#md903c130-0c57-1000-ba5a-0ac2424e0000">
 <Alias name="Fact-MAAP Amounts"/>
 <PresentationColumn mdsid="m99740261-0c6f-1000-886d-0ac2424e0000" name="Net Revenue (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md787cf90-0c57-1000-ba5a-0ac2424e0000">
+<Alias name="Net Revenue (MAAP) w CCRF"/>
 <Alias name="Net Sales (MAAP)"/>
 <Alias name="Sales (MAAP)"/>
-</PresentationColumn>
-<PresentationColumn mdsid="mce768381-0cb4-1000-8029-0ac2424e0000" name="Net Revenue (MAAP) w CCRF" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#mce7041f0-0cb4-1000-8029-0ac2424e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="mba01d331-0cac-1000-8029-0ac2424e0000" name="Revenue Share (MAAP)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d77531f0-0c57-1000-ba5a-0ac2424e0000.xml#md7805598-0c57-1000-ba5a-0ac2424e0000">
 </PresentationColumn>
